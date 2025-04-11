@@ -290,7 +290,7 @@
                 }
             },
             "background": {
-                "style": "Linear",
+                "style": "RadialGradient",
                 "color0": [
                     0.8,
                     0.8,
