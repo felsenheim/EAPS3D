@@ -134,8 +134,22 @@
             "light": 3
         },
         {
-            "name": "Granite",
+            // Group node containing two child nodes with models
+            "name": "ewer",
+            "children": [
+                7,
+                8
+            ]
+        },
+        {
+            // Node containing a model component
+            "name": "ewer-base",
             "model": 0
+        },
+        {
+            // Node containing a model component
+            "name": "ewer-lid",
+            "model": 1
         }
     ],
     "cameras": [
