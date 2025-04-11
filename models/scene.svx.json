@@ -134,19 +134,8 @@
             "light": 3
         },
         {
-            "name": "granite",
-            "children": [
-                7,
-                8
-            ]
-        },
-        {
-            "name": "ewer-base",
+            "name": "Granite",
             "model": 0
-        },
-        {
-            "name": "ewer-lid",
-            "model": 1
         }
     ],
     "cameras": [
