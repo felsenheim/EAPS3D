@@ -200,6 +200,7 @@
     "models": [
         {
             "units": "cm",
+            "tags": "Cube",
             "boundingBox": {
                 "min": [
                     -1,
@@ -251,7 +252,7 @@
         },
         {
             "units": "cm",
-            "tags": "Sphere, Cube",
+            "tags": "Sphere",
             "boundingBox": {
                 "min": [
                     -0.999999,
