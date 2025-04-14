@@ -289,6 +289,7 @@
                     },
                     "viewId": "ZZNGO5",
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         0.1779066,
                         0.124974,
@@ -347,6 +348,7 @@
                     },
                     "viewId": "YNdNBD",
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         -0.2614755,
                         0.107365,
@@ -404,6 +406,7 @@
                         ]
                     },
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         -0.309576,
                         0.7285805,
@@ -430,6 +433,7 @@
                         ]
                     },
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         -0.3003565,
                         0.728542,
@@ -486,6 +490,7 @@
                             "Text on model"
                         ]
                     },
+                    "style": "Extended",
                     "position": [
                         -0.2367399,
                         0.1704819,
@@ -511,6 +516,7 @@
                             "Text on model"
                         ]
                     },
+                    "style": "Extended",
                     "position": [
                         0.0645907,
                         0.5389206,
@@ -536,6 +542,7 @@
                             "Text on model"
                         ]
                     },
+                    "style": "Extended",
                     "position": [
                         -0.1933321,
                         -0.0898173,
@@ -593,6 +600,7 @@
                         ]
                     },
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         0.177525,
                         0.1223306,
@@ -650,6 +658,7 @@
                         ]
                     },
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         0.1759361,
                         0.1676395,
