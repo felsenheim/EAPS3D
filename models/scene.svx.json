@@ -651,6 +651,12 @@
     ],
     "metas": [
         {
+            "collection": {
+                "title": "Granite",
+                "titles": {
+                    "EN": "Granite"
+                }
+            },
             "articles": [
                 {
                     "id": "Pvu3SlvvyER7",
