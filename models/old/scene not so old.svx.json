@@ -20,15 +20,20 @@
     "nodes": [
         {
             "translation": [
-                -22.88667,
-                22.285586,
-                46.2719601
+                14.3397954,
+                1.7822415,
+                12.3971799
             ],
             "rotation": [
-                -0.1970463,
-                -0.2229406,
-                -0.0460672,
-                0.9535974
+                -0.0178461,
+                0.4113896,
+                0.0080567,
+                0.9112492
+            ],
+            "scale": [
+                1,
+                1,
+                1
             ],
             "name": "Camera",
             "camera": 0
@@ -36,9 +41,9 @@
         {
             "rotation": [
                 0,
-                -0.2276504,
+                0.4114685,
                 0,
-                0.9737429
+                0.911424
             ],
             "name": "Lights",
             "children": [
@@ -50,9 +55,9 @@
         },
         {
             "translation": [
-                -8.783957,
-                9.617225,
-                16.1972554
+                -7.3247758,
+                8.0196222,
+                13.5065852
             ],
             "rotation": [
                 0.4829741,
@@ -61,18 +66,18 @@
                 0.8484633
             ],
             "scale": [
-                3.4641016,
-                3.4641016,
-                3.4641016
+                2.8886489,
+                2.8886489,
+                2.8886489
             ],
             "name": "Key",
             "light": 0
         },
         {
             "translation": [
-                15.8282775,
-                9.3576864,
-                9.6901671
+                13.1989015,
+                7.8031979,
+                8.0804472
             ],
             "rotation": [
                 0.3546969,
@@ -81,18 +86,18 @@
                 0.8356136
             ],
             "scale": [
-                3.4641016,
-                3.4641016,
-                3.4641016
+                2.8886489,
+                2.8886489,
+                2.8886489
             ],
             "name": "Fill #1",
             "light": 1
         },
         {
             "translation": [
-                -12.1286776,
-                -15.8609202,
-                5.7729015
+                -10.1138751,
+                -13.2261216,
+                4.8139135
             ],
             "rotation": [
                 0.9374013,
@@ -101,18 +106,18 @@
                 0.1652891
             ],
             "scale": [
-                3.4641016,
-                3.4641016,
-                3.4641016
+                2.8886489,
+                2.8886489,
+                2.8886489
             ],
             "name": "Fill #2",
             "light": 2
         },
         {
             "translation": [
-                18.0541663,
-                1.0764251,
-                -10.2415033
+                15.0550281,
+                0.8976106,
+                -8.5401961
             ],
             "rotation": [
                 0.373256,
@@ -121,36 +126,25 @@
                 0.3360813
             ],
             "scale": [
-                3.4641016,
-                3.4641016,
-                3.4641016
+                2.8886489,
+                2.8886489,
+                2.8886489
             ],
             "name": "Rim",
             "light": 3
         },
         {
-            "name": "Set",
-            "children": [
-                7,
-                8
-            ]
-        },
-        {
-            "name": "cube",
+            "name": "Granite",
             "model": 0
-        },
-        {
-            "name": "sphere",
-            "model": 1
         }
     ],
     "cameras": [
         {
             "type": "perspective",
             "perspective": {
-                "yfov": 52,
-                "znear": 0.1520921,
-                "zfar": 152.0920719
+                "yfov": 40,
+                "znear": 0.130827,
+                "zfar": 130.8270055
             },
             "autoNearFar": true
         }
@@ -165,7 +159,7 @@
             "intensity": 1,
             "type": "directional",
             "shadowEnabled": true,
-            "shadowSize": 34.6410162
+            "shadowSize": 28.8864888
         },
         {
             "color": [
@@ -176,7 +170,7 @@
             "intensity": 0.7,
             "type": "directional",
             "shadowEnabled": true,
-            "shadowSize": 34.6410162
+            "shadowSize": 28.8864888
         },
         {
             "color": [
@@ -200,79 +194,25 @@
     "models": [
         {
             "units": "cm",
-            "tags": "Cube",
             "boundingBox": {
                 "min": [
-                    -1,
-                    -1,
-                    -1
+                    -0.2938587,
+                    -0.3453934,
+                    -0.3236454
                 ],
                 "max": [
-                    1,
-                    1,
-                    1
+                    0.2008861,
+                    0.8212222,
+                    0.4111266
                 ]
             },
             "derivatives": [
                 {
                     "usage": "Web3D",
-                    "quality": "Medium",
+                    "quality": "Highest",
                     "assets": [
                         {
-                            "uri": "Cube.glb",
-                            "type": "Model",
-                            "mimeType": "model/gltf-binary"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "eO8zeG5ycM4T",
-                    "title": "Cube",
-                    "lead": "That is a cube",
-                    "taglist": {
-                        "EN": [
-                            "Cube"
-                        ]
-                    },
-                    "viewId": "sZ2l9p",
-                    "position": [
-                        -0.9888824,
-                        0.9646606,
-                        1
-                    ],
-                    "direction": [
-                        0.0039215,
-                        0.0039215,
-                        0.9999846
-                    ],
-                    "scale": 0.0866025
-                }
-            ]
-        },
-        {
-            "units": "cm",
-            "tags": "Sphere",
-            "boundingBox": {
-                "min": [
-                    -0.999999,
-                    -1,
-                    1.1454906
-                ],
-                "max": [
-                    1.000001,
-                    1,
-                    3.1454906
-                ]
-            },
-            "derivatives": [
-                {
-                    "usage": "Web3D",
-                    "quality": "Medium",
-                    "assets": [
-                        {
-                            "uri": "Sphere.glb",
+                            "uri": "01.glb",
                             "type": "Model",
                             "mimeType": "model/gltf-binary"
                         }
@@ -304,9 +244,7 @@
                 "shader": "Default",
                 "exposure": 1,
                 "gamma": 2,
-                "activeTags": "Cube",
-                "sortedTags": "Cube, Sphere",
-                "radioTags": true
+                "annotationsVisible": false
             },
             "reader": {
                 "enabled": false,
@@ -354,14 +292,14 @@
             "background": {
                 "style": "RadialGradient",
                 "color0": [
-                    0.2,
-                    0.25,
-                    0.3
+                    0.8,
+                    0.8,
+                    0.8
                 ],
                 "color1": [
-                    0.01,
-                    0.03,
-                    0.05
+                    0.6,
+                    0.6,
+                    0.6
                 ]
             },
             "floor": {
@@ -416,52 +354,6 @@
                 "axis": "X",
                 "inverted": false,
                 "position": 0.5
-            },
-            "snapshots": {
-                "features": [
-                    "reader",
-                    "viewer",
-                    "navigation"
-                ],
-                "targets": [
-                    "scenes/0/setup/reader/enabled",
-                    "scenes/0/setup/reader/position",
-                    "scenes/0/setup/reader/articleId",
-                    "scenes/0/setup/viewer/annotationsVisible",
-                    "scenes/0/setup/viewer/activeAnnotation",
-                    "scenes/0/setup/viewer/activeTags",
-                    "scenes/0/setup/viewer/shader",
-                    "scenes/0/setup/viewer/exposure",
-                    "scenes/0/setup/navigation/orbit",
-                    "scenes/0/setup/navigation/offset"
-                ],
-                "states": [
-                    {
-                        "id": "sZ2l9p",
-                        "values": [
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            [
-                                -24,
-                                -26,
-                                0
-                            ],
-                            [
-                                0,
-                                0,
-                                56.2275848
-                            ]
-                        ],
-                        "curve": "EaseOutQuad",
-                        "duration": 1
-                    }
-                ]
             }
         }
     ]
