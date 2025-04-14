@@ -1,0 +1,1253 @@
+{
+    "asset": {
+        "type": "application/si-dpo-3d.document+json",
+        "version": "1.0",
+        "generator": "Voyager"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "units": "mm",
+            "nodes": [
+                0,
+                1,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "meta": 1,
+            "setup": 0
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                -14.4225083,
+                8.8105405,
+                -21.2784432
+            ],
+            "rotation": [
+                0.0339771,
+                0.9527904,
+                0.1162755,
+                -0.2784168
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "name": "Camera",
+            "camera": 0
+        },
+        {
+            "rotation": [
+                0,
+                0.9598592,
+                0,
+                -0.2804824
+            ],
+            "name": "Lights",
+            "children": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "translation": [
+                -7.3247759,
+                8.0196223,
+                13.5065854
+            ],
+            "rotation": [
+                0.4829741,
+                -0.1070728,
+                0.1880998,
+                0.8484633
+            ],
+            "scale": [
+                2.8886489,
+                2.8886489,
+                2.8886489
+            ],
+            "name": "Key",
+            "light": 0
+        },
+        {
+            "translation": [
+                13.1989017,
+                7.803198,
+                8.0804473
+            ],
+            "rotation": [
+                0.3546969,
+                0.163893,
+                -0.3861077,
+                0.8356136
+            ],
+            "scale": [
+                2.8886489,
+                2.8886489,
+                2.8886489
+            ],
+            "name": "Fill #1",
+            "light": 1
+        },
+        {
+            "translation": [
+                -10.1138752,
+                -13.2261218,
+                4.8139135
+            ],
+            "rotation": [
+                0.9374013,
+                -0.3018693,
+                0.0532277,
+                0.1652891
+            ],
+            "scale": [
+                2.8886489,
+                2.8886489,
+                2.8886489
+            ],
+            "name": "Fill #2",
+            "light": 2
+        },
+        {
+            "translation": [
+                15.0550283,
+                0.8976106,
+                -8.5401962
+            ],
+            "rotation": [
+                0.373256,
+                0.6426073,
+                -0.5786063,
+                0.3360813
+            ],
+            "scale": [
+                2.8886489,
+                2.8886489,
+                2.8886489
+            ],
+            "name": "Rim",
+            "light": 3
+        },
+        {
+            "name": "Original_4K",
+            "model": 0
+        },
+        {
+            "name": "Ambient_Occlusion",
+            "model": 1
+        },
+        {
+            "name": "Planes",
+            "model": 2
+        },
+        {
+            "name": "Text_on_model",
+            "model": 3,
+            "meta": 0
+        },
+        {
+            "name": "Whtite_transparent",
+            "model": 4
+        },
+        {
+            "name": "Stylized",
+            "model": 5
+        },
+        {
+            "name": "less color",
+            "model": 6
+        }
+    ],
+    "cameras": [
+        {
+            "type": "perspective",
+            "perspective": {
+                "yfov": 30,
+                "znear": 0.057773,
+                "zfar": 57.7729784
+            },
+            "autoNearFar": true
+        }
+    ],
+    "lights": [
+        {
+            "color": [
+                1,
+                0.95,
+                0.9
+            ],
+            "intensity": 1,
+            "type": "directional",
+            "shadowEnabled": true,
+            "shadowSize": 28.8864892
+        },
+        {
+            "color": [
+                0.9,
+                0.95,
+                1
+            ],
+            "intensity": 0.7,
+            "type": "directional",
+            "shadowEnabled": true,
+            "shadowSize": 28.8864892
+        },
+        {
+            "color": [
+                0.8,
+                0.85,
+                1
+            ],
+            "intensity": 0.5,
+            "type": "directional"
+        },
+        {
+            "color": [
+                0.85,
+                0.9078313,
+                1
+            ],
+            "intensity": 0.6,
+            "type": "directional"
+        }
+    ],
+    "models": [
+        {
+            "units": "cm",
+            "tags": "Original_4K",
+            "boundingBox": {
+                "min": [
+                    -0.2938587,
+                    -0.3453934,
+                    -0.3236454
+                ],
+                "max": [
+                    0.2008861,
+                    0.8212222,
+                    0.4111266
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "High",
+                    "assets": [
+                        {
+                            "uri": "02_01 Basic model.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "Q7DGGmuX1yxh",
+                    "titles": {
+                        "EN": "Granite"
+                    },
+                    "leads": {
+                        "EN": "A durable, coarse-grained igneous rock formed from slowly cooling magma."
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Original_4K"
+                        ]
+                    },
+                    "viewId": "PUdSqX",
+                    "visible": false,
+                    "position": [
+                        -0.2740725,
+                        0.1288598,
+                        0.0280641
+                    ],
+                    "direction": [
+                        -0.8238836,
+                        -0.5200852,
+                        -0.2252268
+                    ],
+                    "scale": 0.0722162
+                },
+                {
+                    "id": "bGFZiQaiInsR",
+                    "titles": {
+                        "EN": "Cut surface"
+                    },
+                    "leads": {
+                        "EN": "If you look closer, you can analyze the fine structure of granite."
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Original_4K"
+                        ]
+                    },
+                    "viewId": "ZZNGO5",
+                    "visible": false,
+                    "position": [
+                        0.1779066,
+                        0.124974,
+                        -0.0148106
+                    ],
+                    "direction": [
+                        0.9984591,
+                        0.0540112,
+                        -0.0127319
+                    ],
+                    "scale": 0.0722162
+                }
+            ]
+        },
+        {
+            "units": "cm",
+            "tags": "AO",
+            "boundingBox": {
+                "min": [
+                    -0.2938587,
+                    -0.3453934,
+                    -0.3236454
+                ],
+                "max": [
+                    0.2008861,
+                    0.8212222,
+                    0.4111266
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "High",
+                    "assets": [
+                        {
+                            "uri": "02_02 AO.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "jhgKXuWXi8LQ",
+                    "titles": {
+                        "EN": "Structure"
+                    },
+                    "leads": {
+                        "EN": "This view allows you to analyze the surface texture without distracting color."
+                    },
+                    "taglist": {
+                        "EN": [
+                            "AO"
+                        ]
+                    },
+                    "viewId": "YNdNBD",
+                    "visible": false,
+                    "position": [
+                        -0.2614755,
+                        0.107365,
+                        0.0238319
+                    ],
+                    "direction": [
+                        -0.8535811,
+                        -0.1601771,
+                        -0.4957244
+                    ],
+                    "scale": 0.0722162
+                }
+            ]
+        },
+        {
+            "units": "cm",
+            "tags": "Planes",
+            "boundingBox": {
+                "min": [
+                    -0.3393615,
+                    -0.4437711,
+                    -0.3624512
+                ],
+                "max": [
+                    0.2512839,
+                    0.8367064,
+                    0.3655603
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "High",
+                    "assets": [
+                        {
+                            "uri": "02_03 Planes.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "VyayLzTCbDa9",
+                    "titles": {
+                        "EN": "Red plane"
+                    },
+                    "leads": {
+                        "EN": "Section one of the object."
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Planes"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        -0.309576,
+                        0.7285805,
+                        -0.3333807
+                    ],
+                    "direction": [
+                        -0.0902725,
+                        0.4121134,
+                        0.9066495
+                    ],
+                    "scale": 0.0722162
+                },
+                {
+                    "id": "46d2p5lZABYG",
+                    "titles": {
+                        "EN": "Blue plane"
+                    },
+                    "leads": {
+                        "EN": "Section two of the object."
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Planes"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        -0.3003565,
+                        0.728542,
+                        -0.1878468
+                    ],
+                    "direction": [
+                        -0.0663723,
+                        0.4099468,
+                        0.9096914
+                    ],
+                    "scale": 0.0722162
+                }
+            ]
+        },
+        {
+            "units": "cm",
+            "tags": "Text on model",
+            "boundingBox": {
+                "min": [
+                    -0.2938587,
+                    -0.3453934,
+                    -0.3236454
+                ],
+                "max": [
+                    0.2008861,
+                    0.8212222,
+                    0.4111266
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "High",
+                    "assets": [
+                        {
+                            "uri": "FONT.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "t5QxvPmmV5yn",
+                    "titles": {
+                        "EN": "Text on model"
+                    },
+                    "leads": {
+                        "EN": "Notes or markers can be mapped on the model. "
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Text on model"
+                        ]
+                    },
+                    "position": [
+                        -0.2367399,
+                        0.1704819,
+                        -0.1405594
+                    ],
+                    "direction": [
+                        -0.7995886,
+                        0.1799501,
+                        0.5729537
+                    ],
+                    "scale": 0.0722162
+                }
+            ]
+        },
+        {
+            "units": "cm",
+            "tags": "Transparent",
+            "boundingBox": {
+                "min": [
+                    -0.2938587,
+                    -0.3453934,
+                    -0.3236454
+                ],
+                "max": [
+                    0.2008861,
+                    0.8212222,
+                    0.4111266
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "High",
+                    "assets": [
+                        {
+                            "uri": "white transparent.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "fZjqSVD24KTV",
+                    "titles": {
+                        "EN": "80% of the granite"
+                    },
+                    "leads": {
+                        "EN": "Granite main materials are quartz, mica and feldspar."
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Transparent"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.177525,
+                        0.1223306,
+                        -0.0496797
+                    ],
+                    "direction": [
+                        0.9989407,
+                        0.0449038,
+                        -0.010053
+                    ],
+                    "scale": 0.0722162
+                }
+            ]
+        },
+        {
+            "units": "cm",
+            "tags": "Stylized",
+            "boundingBox": {
+                "min": [
+                    -0.2938587,
+                    -0.3453934,
+                    -0.3236454
+                ],
+                "max": [
+                    0.2008861,
+                    0.8212222,
+                    0.4111266
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "High",
+                    "assets": [
+                        {
+                            "uri": "stylize color.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "nrbOT1VkXLAB",
+                    "titles": {
+                        "EN": "Stylized"
+                    },
+                    "leads": {
+                        "EN": "This view is stylized. Only four colors represent the color texture. "
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Stylized"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.1759361,
+                        0.1676395,
+                        -0.0218949
+                    ],
+                    "direction": [
+                        0.9989407,
+                        0.0449038,
+                        -0.010053
+                    ],
+                    "scale": 0.0722162
+                }
+            ]
+        },
+        {
+            "units": "cm",
+            "tags": "Planes",
+            "boundingBox": {
+                "min": [
+                    -0.2938587,
+                    -0.3453934,
+                    -0.3236454
+                ],
+                "max": [
+                    0.2008861,
+                    0.8212222,
+                    0.4111266
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "High",
+                    "assets": [
+                        {
+                            "uri": "02_01 Basic less colour 2k.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "metas": [
+        {
+            "collection": {
+                "title": "Granite",
+                "titles": {
+                    "EN": "Granite"
+                }
+            },
+            "articles": [
+                {
+                    "id": "Pvu3SlvvyER7",
+                    "uris": {
+                        "EN": "articles/new-article-Pvu3SlvvyER7-EN.html"
+                    },
+                    "titles": {
+                        "EN": "New Article"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                }
+            ]
+        },
+        {
+            "collection": {
+                "titles": {},
+                "intros": {
+                    "EN": ""
+                }
+            }
+        }
+    ],
+    "setups": [
+        {
+            "units": "cm",
+            "interface": {
+                "visible": true,
+                "logo": true,
+                "menu": true,
+                "tools": true
+            },
+            "viewer": {
+                "shader": "Default",
+                "exposure": 1,
+                "gamma": 2,
+                "activeTags": "Original_4K",
+                "annotationsVisible": false
+            },
+            "reader": {
+                "enabled": false,
+                "position": "Overlay"
+            },
+            "navigation": {
+                "type": "Orbit",
+                "enabled": true,
+                "autoZoom": true,
+                "lightsFollowCamera": true,
+                "autoRotation": false,
+                "orbit": {
+                    "orbit": [
+                        -24,
+                        -26,
+                        0
+                    ],
+                    "offset": [
+                        0,
+                        0,
+                        150
+                    ],
+                    "minOrbit": [
+                        -90,
+                        null,
+                        null
+                    ],
+                    "maxOrbit": [
+                        90,
+                        null,
+                        null
+                    ],
+                    "minOffset": [
+                        null,
+                        null,
+                        0.1
+                    ],
+                    "maxOffset": [
+                        null,
+                        null,
+                        10000
+                    ]
+                }
+            },
+            "background": {
+                "style": "RadialGradient",
+                "color0": [
+                    0.2,
+                    0.25,
+                    0.3
+                ],
+                "color1": [
+                    0.01,
+                    0.03,
+                    0.05
+                ]
+            },
+            "floor": {
+                "visible": false,
+                "position": [
+                    0,
+                    -25,
+                    0
+                ],
+                "size": 50,
+                "color": [
+                    0.6,
+                    0.75,
+                    0.8
+                ],
+                "opacity": 0.5,
+                "receiveShadow": false
+            },
+            "grid": {
+                "visible": false,
+                "color": [
+                    0.5,
+                    0.7,
+                    0.8
+                ]
+            },
+            "tape": {
+                "enabled": false,
+                "startPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "startDirection": [
+                    0,
+                    0,
+                    0
+                ],
+                "endPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "endDirection": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "slicer": {
+                "enabled": false,
+                "axis": "X",
+                "inverted": false,
+                "position": 0.5
+            },
+            "snapshots": {
+                "features": [
+                    "reader",
+                    "viewer",
+                    "navigation"
+                ],
+                "targets": [
+                    "scenes/0/setup/reader/enabled",
+                    "scenes/0/setup/reader/position",
+                    "scenes/0/setup/reader/articleId",
+                    "scenes/0/setup/viewer/annotationsVisible",
+                    "scenes/0/setup/viewer/activeAnnotation",
+                    "scenes/0/setup/viewer/activeTags",
+                    "scenes/0/setup/viewer/shader",
+                    "scenes/0/setup/viewer/exposure",
+                    "scenes/0/setup/navigation/orbit",
+                    "scenes/0/setup/navigation/offset"
+                ],
+                "states": [
+                    {
+                        "id": "PUdSqX",
+                        "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            "Q7DGGmuX1yxh",
+                            null,
+                            null,
+                            null,
+                            [
+                                -3.1171283,
+                                295.605267,
+                                0
+                            ],
+                            [
+                                -0.4077799,
+                                2.0854463,
+                                21.359347
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 0.3
+                    },
+                    {
+                        "id": "Aco9Qw",
+                        "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            [
+                                -2.4956122,
+                                122.0423933,
+                                0
+                            ],
+                            [
+                                -0.4077799,
+                                2.0854463,
+                                21.359347
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1
+                    },
+                    {
+                        "id": "ZZNGO5",
+                        "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            [
+                                -2.4956122,
+                                122.0423933,
+                                0
+                            ],
+                            [
+                                -0.4077799,
+                                2.0854463,
+                                21.359347
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1
+                    },
+                    {
+                        "id": "YNdNBD",
+                        "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            [
+                                -2.9462019,
+                                299.6366214,
+                                0
+                            ],
+                            [
+                                -0.2897435,
+                                2.043352,
+                                22.5684459
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1
+                    },
+                    {
+                        "id": "8dGNgk",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            false,
+                            "",
+                            "Original_4K",
+                            0,
+                            1,
+                            [
+                                -3.6591349,
+                                -56.592458,
+                                0
+                            ],
+                            [
+                                -0.2369892,
+                                1.6801656,
+                                20.9882898
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "OcHQfX",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            false,
+                            "",
+                            "Original_4K",
+                            0,
+                            1,
+                            [
+                                -5.4125578,
+                                -90.2183899,
+                                0
+                            ],
+                            [
+                                -0.1149017,
+                                0.6461101,
+                                6.2178255
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "zZLzVh",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            false,
+                            "",
+                            "Original_4K",
+                            0,
+                            1,
+                            [
+                                -7.4609226,
+                                118.7970109,
+                                0
+                            ],
+                            [
+                                -0.290972,
+                                1.6176636,
+                                8.614739
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "y8OHJu",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "AO",
+                            0,
+                            1,
+                            [
+                                -10.7134933,
+                                52.655109,
+                                0
+                            ],
+                            [
+                                0.3630484,
+                                1.0988729,
+                                9.672061
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "TSIhfD",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Transparent",
+                            0,
+                            1,
+                            [
+                                -10.8227293,
+                                52.5458862,
+                                0
+                            ],
+                            [
+                                0.3630484,
+                                1.0988729,
+                                9.672061
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "4ZwGNH",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Transparent",
+                            0,
+                            1,
+                            [
+                                -6.0724322,
+                                218.4235522,
+                                0
+                            ],
+                            [
+                                0.6419044,
+                                2.1368234,
+                                21.8879437
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "OCh2xR",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            false,
+                            "",
+                            "Transparent",
+                            2,
+                            1,
+                            [
+                                -6.0724322,
+                                218.4235522,
+                                0
+                            ],
+                            [
+                                0.6419044,
+                                2.1368234,
+                                21.8879437
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "J7gnCM",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Text on model",
+                            0,
+                            1,
+                            [
+                                -6.0705517,
+                                217.9037638,
+                                0
+                            ],
+                            [
+                                0.6419044,
+                                2.1368234,
+                                24.1445889
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "5JmBL7",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Text on model, Stylized",
+                            0,
+                            1,
+                            [
+                                -2.4574206,
+                                110.1460446,
+                                0
+                            ],
+                            [
+                                -0.7438332,
+                                1.2250729,
+                                9.3327249
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    }
+                ]
+            },
+            "tours": [
+                {
+                    "steps": [
+                        {
+                            "id": "8dGNgk",
+                            "titles": {
+                                "EN": "Granite Digital twin"
+                            },
+                            "altTexts": {
+                                "EN": "undefined"
+                            }
+                        },
+                        {
+                            "id": "OcHQfX",
+                            "titles": {
+                                "EN": "High resolution"
+                            },
+                            "altTexts": {
+                                "EN": "undefined"
+                            }
+                        },
+                        {
+                            "id": "zZLzVh",
+                            "titles": {
+                                "EN": "Cut surface"
+                            },
+                            "altTexts": {
+                                "EN": "undefined"
+                            }
+                        },
+                        {
+                            "id": "y8OHJu",
+                            "titles": {
+                                "EN": "Cut surface in AO"
+                            },
+                            "altTexts": {
+                                "EN": "undefined"
+                            }
+                        },
+                        {
+                            "id": "TSIhfD",
+                            "titles": {
+                                "EN": "An transparent view"
+                            },
+                            "altTexts": {
+                                "EN": "undefined"
+                            }
+                        },
+                        {
+                            "id": "4ZwGNH",
+                            "titles": {
+                                "EN": "An Transparent view 02"
+                            },
+                            "altTexts": {
+                                "EN": "undefined"
+                            }
+                        },
+                        {
+                            "id": "OCh2xR",
+                            "titles": {
+                                "EN": "X Ray view"
+                            },
+                            "altTexts": {
+                                "EN": "undefined"
+                            }
+                        },
+                        {
+                            "id": "J7gnCM",
+                            "titles": {
+                                "EN": "Text on the model"
+                            },
+                            "altTexts": {
+                                "EN": "undefined"
+                            }
+                        },
+                        {
+                            "id": "5JmBL7",
+                            "titles": {
+                                "EN": "Stylised four clors"
+                            },
+                            "altTexts": {
+                                "EN": "undefined"
+                            }
+                        }
+                    ],
+                    "titles": {
+                        "EN": "Granite"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": []
+                    }
+                }
+            ]
+        }
+    ]
+}
