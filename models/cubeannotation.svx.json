@@ -229,8 +229,10 @@
             "annotations": [
                 {
                     "id": "eO8zeG5ycM4T",
-                    "titles": {
-                        "EN": "Cube"
+                    "taglist": {
+                        "EN": [
+                            "Cube"
+                        ]
                     },
                     "leads": {
                         "EN": ""
