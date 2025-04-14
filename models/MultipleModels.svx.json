@@ -285,6 +285,8 @@
                 "shader": "Default",
                 "exposure": 1,
                 "gamma": 2,
+                "activeTags": "Cube",
+                "sortedTags": "Cube, Sphere",
                 "annotationsVisible": false
             },
             "reader": {
