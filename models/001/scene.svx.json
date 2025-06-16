@@ -224,7 +224,9 @@
     "metas": [
         {
             "collection": {
-                "titles": {},
+                "titles": {
+                        "EN": "001"
+                    },
                 "intros": {
                     "EN": ""
                 }
