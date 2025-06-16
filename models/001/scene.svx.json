@@ -212,7 +212,7 @@
                     "quality": "High",
                     "assets": [
                         {
-                            "uri": "001.glb",
+                            "uri": "001AO.glb",
                             "type": "Model",
                             "mimeType": "model/gltf-binary"
                         }
@@ -225,8 +225,8 @@
         {
             "collection": {
                 "titles": {
-                        "EN": "001"
-                    },
+                    "EN": "001"
+                },
                 "intros": {
                     "EN": ""
                 }
