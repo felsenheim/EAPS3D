@@ -247,7 +247,7 @@
                 "exposure": 1.0,
                 "toneMapping": true,
                 "gamma": 2,
-                "annotationsVisible": false,        
+                "annotationsVisible": false     
             },
             "reader": {
                 "enabled": false,
