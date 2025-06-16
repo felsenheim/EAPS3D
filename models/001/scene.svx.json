@@ -245,14 +245,9 @@
             "viewer": {
                 "shader": "Default",
                 "exposure": 1.0,
-                "gamma": 2.2,
-                "annotationsVisible": false,
-                "toneMapping": {
-                "enabled": true,
-                "algorithm": "aces",
-                "exposure": 1.2,
-                "whitePoint": 1.0
-                }
+                "toneMapping": true,
+                "gamma": 2,
+                "annotationsVisible": false,        
             },
             "reader": {
                 "enabled": false,
