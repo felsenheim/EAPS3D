@@ -1,1 +1,371 @@
-{"asset":{"type":"application/si-dpo-3d.document+json","version":"1.0","generator":"Voyager"},"scene":0,"scenes":[{"units":"mm","nodes":[0,1,6],"meta":0,"setup":0}],"nodes":[{"translation":[-21.9414698,8.8129977,26.5368056],"rotation":[-0.1175744,-0.3359609,-0.042312,0.9335503],"scale":[1,1,1],"name":"Camera","camera":0},{"rotation":[0,-0.3386149,0,0.940925],"name":"Lights","children":[2,3,4,5]},{"translation":[-0.0770663,0.084377,0.1421071],"rotation":[0.4829741,-0.1070728,0.1880998,0.8484633],"scale":[0.0303924,0.0303924,0.0303924],"name":"Key","light":0},{"translation":[0.1388699,0.0821,0.085017],"rotation":[0.3546969,0.163893,-0.3861077,0.8356136],"scale":[0.0303924,0.0303924,0.0303924],"name":"Fill #1","light":1},{"translation":[-0.1064113,-0.1391563,0.0506487],"rotation":[0.9374013,-0.3018693,0.0532277,0.1652891],"scale":[0.0303924,0.0303924,0.0303924],"name":"Fill #2","light":2},{"translation":[0.1583988,0.0094441,-0.0898542],"rotation":[0.373256,0.6426073,-0.5786063,0.3360813],"scale":[0.0303924,0.0303924,0.0303924],"name":"Rim","light":3},{"rotation":[0.5,0.5,0.5,0.5],"scale":[100,100,100],"name":"Model0","model":0}],"cameras":[{"type":"perspective","perspective":{"yfov":30,"znear":0.0015196,"zfar":152.0920719},"autoNearFar":true}],"lights":[{"color":[1,0.95,0.9],"intensity":0.5,"type":"directional","shadowEnabled":true,"shadowSize":0.3039241},{"color":[0.9,0.95,1],"intensity":0.7,"type":"directional","shadowEnabled":true,"shadowSize":0.3039241},{"color":[0.8,0.85,1],"intensity":0.5,"type":"directional"},{"color":[0.85,0.9078313,1],"intensity":0.6,"type":"directional"}],"models":[{"units":"mm","boundingBox":{"min":[-0.0224928,-0.0458125,-0.1026295],"max":[0.0533896,0.0687929,0.1070396]},"derivatives":[{"usage":"Web3D","quality":"Medium","assets":[{"uri":"002AO.glb","type":"Model","mimeType":"model/gltf-binary"}]}]}],"metas":[{"collection":{"titles":{},"intros":{"EN":""}}}],"setups":[{"units":"cm","interface":{"visible":true,"logo":true,"menu":true,"tools":true},"viewer":{"shader":"Default","exposure":1,"gamma":2,"annotationsVisible":false},"reader":{"enabled":false,"position":"Overlay"},"navigation":{"type":"Orbit","enabled":true,"autoZoom":true,"lightsFollowCamera":true,"autoRotation":false,"orbit":{"orbit":[-24,-26,0],"offset":[0,0,150],"minOrbit":[-90,null,null],"maxOrbit":[90,null,null],"minOffset":[null,null,0.1],"maxOffset":[null,null,10000]}},"background":{"style":"RadialGradient","color0":[0.2,0.25,0.3],"color1":[0.01,0.03,0.05]},"floor":{"visible":false,"position":[0,-25,0],"size":50,"color":[0.6,0.75,0.8],"opacity":0.5,"receiveShadow":false},"grid":{"visible":false,"color":[0.5,0.7,0.8]},"tape":{"enabled":false,"startPosition":[0,0,0],"startDirection":[0,0,0],"endPosition":[0,0,0],"endDirection":[0,0,0]},"slicer":{"enabled":false,"axis":"X","inverted":false,"position":0.5}}]}
+{
+    "asset": {
+        "type": "application/si-dpo-3d.document+json",
+        "version": "1.0",
+        "generator": "Voyager"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "units": "mm",
+            "nodes": [
+                0,
+                1,
+                6
+            ],
+            "meta": 0,
+            "setup": 0
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                -21.9414698,
+                8.8129977,
+                26.5368056
+            ],
+            "rotation": [
+                -0.1175744,
+                -0.3359609,
+                -0.042312,
+                0.9335503
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "name": "Camera",
+            "camera": 0
+        },
+        {
+            "rotation": [
+                0,
+                -0.3386149,
+                0,
+                0.940925
+            ],
+            "name": "Lights",
+            "children": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "translation": [
+                -0.0770663,
+                0.084377,
+                0.1421071
+            ],
+            "rotation": [
+                0.4829741,
+                -0.1070728,
+                0.1880998,
+                0.8484633
+            ],
+            "scale": [
+                0.0303924,
+                0.0303924,
+                0.0303924
+            ],
+            "name": "Key",
+            "light": 0
+        },
+        {
+            "translation": [
+                0.1388699,
+                0.0821,
+                0.085017
+            ],
+            "rotation": [
+                0.3546969,
+                0.163893,
+                -0.3861077,
+                0.8356136
+            ],
+            "scale": [
+                0.0303924,
+                0.0303924,
+                0.0303924
+            ],
+            "name": "Fill #1",
+            "light": 1
+        },
+        {
+            "translation": [
+                -0.1064113,
+                -0.1391563,
+                0.0506487
+            ],
+            "rotation": [
+                0.9374013,
+                -0.3018693,
+                0.0532277,
+                0.1652891
+            ],
+            "scale": [
+                0.0303924,
+                0.0303924,
+                0.0303924
+            ],
+            "name": "Fill #2",
+            "light": 2
+        },
+        {
+            "translation": [
+                0.1583988,
+                0.0094441,
+                -0.0898542
+            ],
+            "rotation": [
+                0.373256,
+                0.6426073,
+                -0.5786063,
+                0.3360813
+            ],
+            "scale": [
+                0.0303924,
+                0.0303924,
+                0.0303924
+            ],
+            "name": "Rim",
+            "light": 3
+        },
+        {
+            "rotation": [
+                0.5,
+                0.5,
+                0.5,
+                0.5
+            ],
+            "scale": [
+                100,
+                100,
+                100
+            ],
+            "name": "Model0",
+            "model": 0
+        }
+    ],
+    "cameras": [
+        {
+            "type": "perspective",
+            "perspective": {
+                "yfov": 30,
+                "znear": 0.0015196,
+                "zfar": 152.0920719
+            },
+            "autoNearFar": true
+        }
+    ],
+    "lights": [
+        {
+            "color": [
+                1,
+                0.95,
+                0.9
+            ],
+            "intensity": 0.5,
+            "type": "directional",
+            "shadowEnabled": true,
+            "shadowSize": 0.3039241
+        },
+        {
+            "color": [
+                0.9,
+                0.95,
+                1
+            ],
+            "intensity": 0.7,
+            "type": "directional",
+            "shadowEnabled": true,
+            "shadowSize": 0.3039241
+        },
+        {
+            "color": [
+                0.8,
+                0.85,
+                1
+            ],
+            "intensity": 0.5,
+            "type": "directional"
+        },
+        {
+            "color": [
+                0.85,
+                0.9078313,
+                1
+            ],
+            "intensity": 0.6,
+            "type": "directional"
+        }
+    ],
+    "models": [
+        {
+            "units": "mm",
+            "boundingBox": {
+                "min": [
+                    -0.0224928,
+                    -0.0458125,
+                    -0.1026295
+                ],
+                "max": [
+                    0.0533896,
+                    0.0687929,
+                    0.1070396
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "Medium",
+                    "assets": [
+                        {
+                            "uri": "002AO.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "metas": [
+        {
+            "collection": {
+                "titles": {},
+                "intros": {
+                    "EN": ""
+                }
+            }
+        }
+    ],
+    "setups": [
+        {
+            "units": "cm",
+            "interface": {
+                "visible": true,
+                "logo": true,
+                "menu": true,
+                "tools": true
+            },
+            "viewer": {
+                "shader": "Default",
+                "exposure": 1,
+                "gamma": 2,
+                "annotationsVisible": false
+            },
+            "reader": {
+                "enabled": false,
+                "position": "Overlay"
+            },
+            "navigation": {
+                "type": "Orbit",
+                "enabled": true,
+                "autoZoom": true,
+                "lightsFollowCamera": true,
+                "autoRotation": false,
+                "orbit": {
+                    "orbit": [
+                        -24,
+                        -26,
+                        0
+                    ],
+                    "offset": [
+                        0,
+                        0,
+                        150
+                    ],
+                    "minOrbit": [
+                        null,
+                        null,
+                        null
+                    ],
+                    "maxOrbit": [
+                        90,
+                        null,
+                        null
+                    ],
+                    "minOffset": [
+                        null,
+                        null,
+                        0.1
+                    ],
+                    "maxOffset": [
+                        null,
+                        null,
+                        10000
+                    ]
+                }
+            },
+            "background": {
+                "style": "RadialGradient",
+                "color0": [
+                    0.2,
+                    0.25,
+                    0.3
+                ],
+                "color1": [
+                    0.01,
+                    0.03,
+                    0.05
+                ]
+            },
+            "floor": {
+                "visible": false,
+                "position": [
+                    0,
+                    -25,
+                    0
+                ],
+                "size": 50,
+                "color": [
+                    0.6,
+                    0.75,
+                    0.8
+                ],
+                "opacity": 0.5,
+                "receiveShadow": false
+            },
+            "grid": {
+                "visible": false,
+                "color": [
+                    0.5,
+                    0.7,
+                    0.8
+                ]
+            },
+            "tape": {
+                "enabled": false,
+                "startPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "startDirection": [
+                    0,
+                    0,
+                    0
+                ],
+                "endPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "endDirection": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "slicer": {
+                "enabled": false,
+                "axis": "X",
+                "inverted": false,
+                "position": 0.5
+            }
+        }
+    ]
+}
