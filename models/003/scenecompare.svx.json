@@ -28,15 +28,20 @@
     "nodes": [
         {
             "translation": [
-                -7.66834985,
-                1.11431690,
-                8.48024530
+                -5939.3558963,
+                1576.646104,
+                7889.1215799
             ],
             "rotation": [
-                -0.0614136,
-                -0.336157,
-                -0.021973,
-                0.9395446
+                -0.0749799,
+                -0.3160657,
+                -0.0250662,
+                0.9454376
+            ],
+            "scale": [
+                1,
+                1,
+                1
             ],
             "name": "Camera",
             "camera": 0
@@ -277,8 +282,8 @@
             "type": "orthographic",
             "orthographic": {
                 "ymag": 20,
-                "znear": 0.0424838,
-                "zfar": 74.4578623
+                "znear": 0.0620725,
+                "zfar": 62.0725337
             },
             "autoNearFar": true
         }
@@ -365,7 +370,7 @@
                     },
                     "taglist": {
                         "EN": [
-                            "POI Bottom"
+                            "POI Back"
                         ]
                     },
                     "visible": false,
@@ -391,7 +396,7 @@
                     },
                     "taglist": {
                         "EN": [
-                            "POI Bottom"
+                            "POI Back"
                         ]
                     },
                     "visible": false,
@@ -417,7 +422,7 @@
                     },
                     "taglist": {
                         "EN": [
-                            "POI Bottom"
+                            "POI Back"
                         ]
                     },
                     "visible": false,
@@ -482,6 +487,26 @@
                         -0.0233931,
                         -0.9990972,
                         -0.0354617
+                    ],
+                    "scale": 0.0775907
+                },
+                {
+                    "id": "nU2fpLZ84zb3",
+                    "titles": {
+                        "EN": "New Annotation"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "position": [
+                        0.0234651,
+                        0.0102736,
+                        -0.0069773
+                    ],
+                    "direction": [
+                        0.9997386,
+                        -0.0203713,
+                        0.0103799
                     ],
                     "scale": 0.0775907
                 }
@@ -724,10 +749,10 @@
         {
             "collection": {
                 "titles": {
-                    "EN": "Granite"
+                    "EN": ""
                 },
                 "intros": {
-                    "EN": ""
+                    "EN": "Granite"
                 }
             }
         }
@@ -737,7 +762,7 @@
             "units": "cm",
             "interface": {
                 "visible": true,
-                "logo": false,
+                "logo": true,
                 "menu": true,
                 "tools": true
             },
@@ -745,8 +770,7 @@
                 "shader": "Default",
                 "exposure": 1,
                 "gamma": 2,
-                "annotationsVisible": false,
-                "activeTags": "Granite"
+                "annotationsVisible": true
             },
             "reader": {
                 "enabled": false,
@@ -767,7 +791,7 @@
                     "offset": [
                         0,
                         0,
-                        75
+                        150
                     ],
                     "minOrbit": [
                         -90,
@@ -863,7 +887,7 @@
                         {
                             "id": "NUUOAy",
                             "titles": {
-                                "EN": "Start"
+                                "EN": "STEP 1"
                             },
                             "altTexts": {
                                 "EN": "undefined"
@@ -890,7 +914,7 @@
                         {
                             "id": "UPwHr6",
                             "titles": {
-                                "EN": "Domain 1 and 2"
+                                "EN": "Domain"
                             },
                             "altTexts": {
                                 "EN": "undefined"
@@ -1086,7 +1110,7 @@
                             "",
                             true,
                             "",
-                            "Granite, Domain 1 2, Arrows",
+                            "Granite, Arrows",
                             0,
                             0,
                             1,
@@ -1112,7 +1136,7 @@
                             "",
                             true,
                             "",
-                            "Granite BW,Domain 1 2, Domain insight",
+                            "Granite BW, Domain insight",
                             0,
                             0,
                             1,
@@ -1138,7 +1162,7 @@
                             "",
                             true,
                             "",
-                            "Granite, Bottom, POI Bottom",
+                            "Granite, Bottom",
                             0,
                             0,
                             1,
@@ -1164,7 +1188,7 @@
                             "",
                             true,
                             "",
-                            "Granite, Top, POI Top",
+                            "Granite, Top",
                             0,
                             0,
                             1,
@@ -1181,6 +1205,33 @@
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
+                    },
+                    {
+                        "id": "scene-default",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            false,
+                            "",
+                            "Granite, POI Back",
+                            0,
+                            0,
+                            1,
+                            [
+                                -1.9349402,
+                                -44.9903391,
+                                0
+                            ],
+                            [
+                                -0.0052342,
+                                0.5601272,
+                                8.9914455
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1,
+                        "threshold": 0
                     }
                 ]
             }
