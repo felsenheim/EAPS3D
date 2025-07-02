@@ -28,15 +28,15 @@
     "nodes": [
         {
             "translation": [
-                -2.425441,
-                -0.908274,
-                36.1507183
+                -12.2693598,
+                1.7829070,
+                13.5683925
             ],
             "rotation": [
-                0.0045263,
-                -0.0407303,
-                0.0001845,
-                0.9991599
+                -0.0614136,
+                -0.336157,
+                -0.021973,
+                0.9395446
             ],
             "name": "Camera",
             "camera": 0
@@ -44,9 +44,9 @@
         {
             "rotation": [
                 0,
-                -0.0407307,
+                -0.3170581,
                 0,
-                0.9991702
+                0.9484061
             ],
             "name": "Lights",
             "children": [
@@ -274,11 +274,11 @@
     ],
     "cameras": [
         {
-            "type": "perspective",
-            "perspective": {
-                "yfov": 30,
-                "znear": 0.0912226,
-                "zfar": 91.222554
+            "type": "orthographic",
+            "orthographic": {
+                "ymag": 20,
+                "znear": 0.0424838,
+                "zfar": 74.4578623
             },
             "autoNearFar": true
         }
@@ -379,12 +379,7 @@
                         0.8004714,
                         0.5982626
                     ],
-                    "scale": 0.02,
-                    "color": [
-                        0.87,
-                        0,
-                        0
-                    ]
+                    "scale": 0.0775907
                 },
                 {
                     "id": "io8rrJSTOXrW",
@@ -410,12 +405,7 @@
                         0.9641736,
                         0.1826152
                     ],
-                    "scale": 0.02,
-                    "color": [
-                        0.87,
-                        0,
-                        0
-                    ]
+                    "scale": 0.0775907
                 },
                 {
                     "id": "j3hXRGSa2NRr",
@@ -441,12 +431,33 @@
                         0.9508171,
                         -0.2075792
                     ],
-                    "scale": 0.02,
-                    "color": [
-                        0.87,
-                        0,
-                        0
-                    ]
+                    "scale": 0.0775907
+                },
+                {
+                    "id": "hbwdMHDSCZe3",
+                    "titles": {
+                        "EN": "Point of interest"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "POI Top"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.0102027,
+                        -0.0224213,
+                        0.0549249
+                    ],
+                    "direction": [
+                        -0.2413036,
+                        -0.9629437,
+                        -0.120466
+                    ],
+                    "scale": 0.0775907
                 },
                 {
                     "id": "c2OJUJmIsbuu",
@@ -472,163 +483,7 @@
                         -0.9990972,
                         -0.0354617
                     ],
-                    "scale": 0.02,
-                    "color": [
-                        0.87,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    "id": "Vxtr3PcOXIGu",
-                    "titles": {
-                        "EN": "white"
-                    },
-                    "leads": {
-                        "EN": ""
-                    },
-                    "taglist": {
-                        "EN": [
-                            "POI Domain"
-                        ]
-                    },
-                    "position": [
-                        0.0236103,
-                        0.0303108,
-                        -0.0290015
-                    ],
-                    "direction": [
-                        0.9999706,
-                        -0.003241,
-                        0.0069471
-                    ],
-                    "scale": 0.02,
-                    "color": [
-                        0,
-                        0.0235294,
-                        0.8666667
-                    ]
-                },
-                {
-                    "id": "bG37EdnUkeTr",
-                    "titles": {
-                        "EN": "black"
-                    },
-                    "leads": {
-                        "EN": ""
-                    },
-                    "taglist": {
-                        "EN": [
-                            "POI Domain"
-                        ]
-                    },
-                    "position": [
-                        0.0235752,
-                        0.0146952,
-                        -0.0463891
-                    ],
-                    "direction": [
-                        0.9994876,
-                        -0.0213099,
-                        0.0238813
-                    ],
-                    "scale": 0.02,
-                    "color": [
-                        0,
-                        0.0270276,
-                        0.87
-                    ]
-                },
-                {
-                    "id": "QX5VLFBFJdXO",
-                    "titles": {
-                        "EN": "black"
-                    },
-                    "leads": {
-                        "EN": ""
-                    },
-                    "taglist": {
-                        "EN": [
-                            "POI Domain"
-                        ]
-                    },
-                    "position": [
-                        0.0231752,
-                        -0.0183481,
-                        0.054922
-                    ],
-                    "direction": [
-                        0.9996684,
-                        -0.0252057,
-                        0.0052675
-                    ],
-                    "scale": 0.02,
-                    "color": [
-                        0.5803922,
-                        0,
-                        0.8666667
-                    ]
-                },
-                {
-                    "id": "zaPyKoGDy5ll",
-                    "titles": {
-                        "EN": "white"
-                    },
-                    "leads": {
-                        "EN": ""
-                    },
-                    "taglist": {
-                        "EN": [
-                            "POI Domain"
-                        ]
-                    },
-                    "position": [
-                        0.0231787,
-                        -0.0192299,
-                        0.0500721
-                    ],
-                    "direction": [
-                        0.9996684,
-                        -0.0252057,
-                        0.0052675
-                    ],
-                    "scale": 0.02,
-                    "color": [
-                        0.5813756,
-                        0,
-                        0.8666667
-                    ]
-                },
-                {
-                    "id": "Nju3d9sQ2JX9",
-                    "titles": {
-                        "EN": "Point of interest"
-                    },
-                    "leads": {
-                        "EN": ""
-                    },
-                    "taglist": {
-                        "EN": [
-                            "POI Top"
-                        ]
-                    },
-                    "visible": false,
-                    "position": [
-                        0.0110087,
-                        -0.0226425,
-                        0.0565662
-                    ],
-                    "direction": [
-                        -0.2633714,
-                        -0.9646444,
-                        -0.0098277
-                    ],
-                    "scale": 0.02,
-                    "color": [
-                        0.87,
-                        0,
-                        0
-                    ]
+                    "scale": 0.0775907
                 }
             ]
         },
@@ -724,7 +579,7 @@
             "tags": "Arrows",
             "boundingBox": {
                 "min": [
-                    0.0228613,
+                    -0.0205132,
                     -0.0283591,
                     -0.0550468
                 ],
@@ -753,13 +608,13 @@
             "tags": " Domain insight",
             "boundingBox": {
                 "min": [
-                    0.0212121,
-                    -0.0223297,
-                    -0.0587464
+                    0.021376,
+                    -0.0222766,
+                    -0.0587462
                 ],
                 "max": [
-                    0.0238157,
-                    0.030037,
+                    0.0245756,
+                    0.0298339,
                     0.061915
                 ]
             },
@@ -1015,63 +870,63 @@
                             }
                         },
                         {
-                            "id": "o0dYwG",
+                            "id": "nO4BTS",
                             "titles": {
-                                "EN": "Frame 2"
+                                "EN": "Frame"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "w8ceeq",
+                            "id": "OKBbC4",
                             "titles": {
-                                "EN": "Frame Zoom 2"
+                                "EN": "Fame Zoom"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "ubPRFB",
+                            "id": "UPwHr6",
                             "titles": {
-                                "EN": "Domain 1 and 2 2"
+                                "EN": "Domain 1 and 2"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "Y4ozWC",
+                            "id": "D28g5K",
                             "titles": {
-                                "EN": "Arrows 2"
+                                "EN": "Arrows"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "NNckF8",
+                            "id": "m8XboX",
                             "titles": {
-                                "EN": "domain insight 02"
+                                "EN": "Domain insight"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "Bdv9ws",
+                            "id": "20Lazb",
                             "titles": {
-                                "EN": "Bottom 2"
+                                "EN": "Bottom"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "85yryW",
+                            "id": "ulVZKG",
                             "titles": {
-                                "EN": "Top 2"
+                                "EN": "Top"
                             },
                             "altTexts": {
                                 "EN": "undefined"
@@ -1137,16 +992,16 @@
                                 0
                             ],
                             [
-                                0.0742563,
-                                0.3798548,
-                                18.6135131
+                                -0.7227691,
+                                0.4243854,
+                                11.6486388
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "o0dYwG",
+                        "id": "nO4BTS",
                         "values": [
                             false,
                             0,
@@ -1158,47 +1013,47 @@
                             0,
                             1,
                             [
-                                -0.0141141,
-                                -0.0184714,
+                                0.1441147,
+                                -0.0034718,
                                 0
                             ],
                             [
-                                0.0742563,
-                                0.3798548,
-                                18.6135131
+                                -0.7227691,
+                                0.4243854,
+                                11.7059982
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "w8ceeq",
+                        "id": "OKBbC4",
                         "values": [
                             false,
                             0,
                             "",
                             true,
                             "",
-                            "Frame, Granite",
+                            "Granite, Frame",
                             0,
                             0,
                             1,
                             [
-                                -0.0141141,
-                                -0.0184714,
+                                -0.2323681,
+                                0.0388096,
                                 0
                             ],
                             [
-                                0.3756688,
-                                -1.6525459,
-                                8.7469812
+                                0.3009158,
+                                -1.549549,
+                                3.6296862
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "ubPRFB",
+                        "id": "UPwHr6",
                         "values": [
                             false,
                             0,
@@ -1210,21 +1065,73 @@
                             0,
                             1,
                             [
-                                -0.0141141,
-                                -0.0184714,
+                                0.0718341,
+                                0.1370931,
                                 0
                             ],
                             [
-                                0.0742563,
-                                0.3798548,
-                                22.8023539
+                                -0.7227691,
+                                0.4243854,
+                                11.7059982
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "scene-default",
+                        "id": "D28g5K",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Granite, Domain 1 2, Arrows",
+                            0,
+                            0,
+                            1,
+                            [
+                                -0.1682666,
+                                -0.0184448,
+                                0
+                            ],
+                            [
+                                -0.7227691,
+                                0.4243854,
+                                11.7059982
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "m8XboX",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Granite BW,Domain 1 2, Domain insight",
+                            0,
+                            0,
+                            1,
+                            [
+                                -9.0689362,
+                                -36.970211,
+                                0
+                            ],
+                            [
+                                -0.7227691,
+                                0.4243854,
+                                11.7059982
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "20Lazb",
                         "values": [
                             false,
                             0,
@@ -1236,100 +1143,21 @@
                             0,
                             1,
                             [
-                                91.5681476,
-                                177.8418767,
+                                -90,
+                                90.2325303,
                                 0
                             ],
                             [
-                                0.5096437,
-                                0.2577201,
-                                18.7886531
-                            ]
-                        ],
-                        "curve": "EaseOutQuad",
-                        "duration": 1,
-                        "threshold": 0
-                    },
-                    {
-                        "id": "Y4ozWC",
-                        "values": [
-                            false,
-                            0,
-                            "",
-                            true,
-                            "",
-                            "Granite, Domain 1 2, POI Domain",
-                            0,
-                            0,
-                            1,
-                            [
-                                -0.0141141,
-                                -0.0184714,
-                                0
-                            ],
-                            [
-                                0.0742563,
-                                0.3798548,
-                                22.8023539
+                                0.4438837,
+                                0.5653287,
+                                13.7241584
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "NNckF8",
-                        "values": [
-                            false,
-                            0,
-                            "",
-                            true,
-                            "",
-                            "Domain 1 2, Granite BW, Domain insight",
-                            0,
-                            0,
-                            1,
-                            [
-                                -1.1896468,
-                                -28.7548072,
-                                0
-                            ],
-                            [
-                                -0.2781853,
-                                0.0762248,
-                                19.6251193
-                            ]
-                        ],
-                        "curve": "EaseOutQuad",
-                        "duration": 1.5
-                    },
-                    {
-                        "id": "Bdv9ws",
-                        "values": [
-                            false,
-                            0,
-                            "",
-                            true,
-                            "",
-                            "Granite, Bottom, POI Bottom",
-                            0,
-                            0,
-                            1,
-                            [
-                                -88.035704,
-                                178.958374,
-                                0
-                            ],
-                            [
-                                0.5096437,
-                                0.2577201,
-                                18.7886531
-                            ]
-                        ],
-                        "curve": "EaseOutQuad",
-                        "duration": 1.5
-                    },
-                    {
-                        "id": "85yryW",
+                        "id": "ulVZKG",
                         "values": [
                             false,
                             0,
@@ -1341,14 +1169,14 @@
                             0,
                             1,
                             [
-                                88.6168143,
-                                179.9539874,
+                                90,
+                                -90.161968,
                                 0
                             ],
                             [
-                                0.3884007,
-                                0.0530771,
-                                18.6901932
+                                0.2210413,
+                                0.2004636,
+                                13.7570909
                             ]
                         ],
                         "curve": "EaseOutQuad",
