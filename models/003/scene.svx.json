@@ -900,7 +900,7 @@
             "navigation": {
                 "type": "Orbit",
                 "enabled": true,
-                "autoZoom": true,
+                "autoZoom": false,
                 "lightsFollowCamera": true,
                 "autoRotation": false,
                 "orbit": {
@@ -912,7 +912,7 @@
                     "offset": [
                         0,
                         0,
-                        150
+                        30
                     ],
                     "minOrbit": [
                         -90,

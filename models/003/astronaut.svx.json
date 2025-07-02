@@ -1,0 +1,5567 @@
+{
+  "asset": {
+    "type": "application/si-dpo-3d.document+json",
+    "version": "1.0",
+    "generator": "Voyager",
+    "copyright": "(c) Smithsonian Institution. All rights reserved."
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "units": "cm",
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        6
+      ],
+      "meta": 0,
+      "setup": 0
+    }
+  ],
+  "nodes": [
+    {
+      "translation": [
+        136.1066123,
+        43.5707912,
+        181.3561139
+      ],
+      "rotation": [
+        -0.0661919,
+        0.3152665,
+        0.0220491,
+        0.9464352
+      ],
+      "name": "Camera",
+      "camera": 0
+    },
+    {
+      "rotation": [
+        0,
+        0.3160366,
+        0,
+        0.948747
+      ],
+      "scale": [
+        5.1341117,
+        5.1341117,
+        5.1341117
+      ],
+      "name": "Lights",
+      "children": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "translation": [
+        -48.4,
+        16.1,
+        24.3
+      ],
+      "rotation": [
+        0.3142245,
+        -0.200955,
+        0.4998911,
+        0.7816578
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "name": "Key",
+      "light": 0
+    },
+    {
+      "translation": [
+        21.5,
+        37.4,
+        0
+      ],
+      "rotation": [
+        0.2612429,
+        0.1092803,
+        -0.3701099,
+        0.884776
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "name": "Fill #1",
+      "light": 1
+    },
+    {
+      "translation": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0.9374013,
+        -0.3018693,
+        0.0532277,
+        0.1652891
+      ],
+      "name": "Fill #2",
+      "light": 2
+    },
+    {
+      "translation": [
+        1,
+        0,
+        -1
+      ],
+      "rotation": [
+        0.4250136,
+        0.7317146,
+        -0.4607853,
+        0.2676454
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "name": "Rim",
+      "light": 3
+    },
+    {
+      "translation": [
+        0,
+        -80,
+        0
+      ],
+      "name": "Space Suit",
+      "children": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "suit-p1",
+      "model": 0
+    },
+    {
+      "name": "suit-p2",
+      "model": 1
+    },
+    {
+      "name": "suit-p3",
+      "model": 2
+    },
+    {
+      "name": "suit-ext",
+      "model": 3
+    },
+    {
+      "name": "suit-int",
+      "model": 4
+    }
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "yfov": 52,
+        "znear": 0.9235883,
+        "zfar": 923.5883394
+      }
+    }
+  ],
+  "lights": [
+    {
+      "color": [
+        1,
+        0.913253,
+        0.775
+      ],
+      "intensity": 1.1,
+      "type": "directional",
+      "shadowEnabled": true,
+      "shadowSize": 194.9
+    },
+    {
+      "color": [
+        0.66875,
+        0.834375,
+        1
+      ],
+      "intensity": 1.2,
+      "type": "directional",
+      "shadowEnabled": true,
+      "shadowSize": 400
+    },
+    {
+      "color": [
+        0.8,
+        0.85,
+        1
+      ],
+      "intensity": 0.4,
+      "type": "directional"
+    },
+    {
+      "color": [
+        0.19375,
+        0.4463102,
+        1
+      ],
+      "intensity": 1,
+      "type": "directional"
+    }
+  ],
+  "models": [
+    {
+      "units": "mm",
+      "tags": "Exterior, EV Visor, EV Gloves, Patches, Life Support, Seals and Connections 1, Pockets and Stowage, Gauges, Hidden Features 1",
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "material": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "opacity": 1,
+        "hiddenOpacity": 0.15,
+        "roughness": 0.85,
+        "metalness": 0.1,
+        "occlusion": 0.66,
+        "doubleSided": false
+      },
+      "boundingBox": {
+        "min": [
+          -212.7917023,
+          6.9431,
+          -4.8952999
+        ],
+        "max": [
+          124.6356354,
+          391.940979,
+          1508.4012451
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Thumb",
+          "assets": [
+            {
+              "uri": "suit-p1-web-thumb.glb",
+              "type": "Model",
+              "byteSize": 497572
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Low",
+          "assets": [
+            {
+              "uri": "suit-p1-web-low.glb",
+              "type": "Model",
+              "byteSize": 930316
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Medium",
+          "assets": [
+            {
+              "uri": "suit-p1-web-medium.glb",
+              "type": "Model",
+              "byteSize": 2265372
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "suit-p1-web-medium.glb",
+              "type": "Model",
+              "byteSize": 6554180
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "Z6I0rtWYfRnM",
+          "title": "American Flag",
+          "lead": "This is the American flag on the upper left shoulder of the suit. The flag is silk screened onto fabric and shows signs of fading.",
+          "taglist": {
+            "EN": [
+              "Patches"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            285.6671509,
+            1448.0824962,
+            35.0722713
+          ],
+          "direction": [
+            0.3169023,
+            0.6220674,
+            0.7159644
+          ],
+          "scale": 10,
+          "color": [
+            0,
+            0.5,
+            1
+          ]
+        },
+        {
+          "id": "KBidri6lKMh3",
+          "title": "Gauntlet",
+          "lead": "The cloth gauntlet is an extension to the gloves. They protect the metal parts of the connection between the glove and suit from direct sunlight and the resultant overheating. They are also a convenient location for checklists. A lunar surface EVA checklist is printed on the left glove gauntlet as a crew/mission requirement.",
+          "taglist": {
+            "EN": [
+              "EV Gloves"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            325.820164,
+            1003.6822895,
+            65.185537
+          ],
+          "direction": [
+            0.6415782,
+            0.1062737,
+            0.75966
+          ],
+          "scale": 10,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "u4fEA92I2Xqe",
+          "title": "Chromel R",
+          "lead": "The palms and back of each hand  is wrapped in Chromel R, a high chromium content stainless steel fabric. This fabric protects the hands against abrasion from lunar rocks and tools, and to offer fire and heat resistance.",
+          "taglist": {
+            "EN": [
+              "EV Gloves"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            307.0923717,
+            851.2370203,
+            86.5661505
+          ],
+          "direction": [
+            0.6221436,
+            0.1369499,
+            0.770832
+          ],
+          "scale": 10,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "Ow2wrXN6uH15",
+          "title": "Flap",
+          "lead": "A flap is sewn onto the back of the glove shell and provides access to the palm restraint strap. Here the astronaut can adjust the tightness of the glove.",
+          "taglist": {
+            "EN": [
+              "EV Gloves"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            296.4385074,
+            823.1442065,
+            102.8858217
+          ],
+          "direction": [
+            0.646691,
+            0.0979835,
+            0.7564324
+          ],
+          "scale": 10,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "akGdj5G3K3gt",
+          "title": "Penlight Pocket",
+          "lead": "Just beneath the American flag on the left shoulder is a penlight pocket for astronauts to store pens and flashlights conveniently and quickly during the course of their flight.",
+          "taglist": {
+            "EN": [
+              "Pockets and Stowage"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            331.2322779,
+            1335.0531449,
+            68.6312657
+          ],
+          "direction": [
+            0.5999539,
+            -0.1372443,
+            0.7881747
+          ],
+          "scale": 5,
+          "color": [
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "id": "Wkif0HxjlfBq",
+          "title": "Utility Pocket",
+          "lead": "Utility pocket where astronauts stored their checklists.",
+          "taglist": {
+            "EN": [
+              "Pockets and Stowage"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            213.1690891,
+            663.3005944,
+            64.5910797
+          ],
+          "direction": [
+            0.1373796,
+            -0.1609304,
+            0.9773578
+          ],
+          "scale": 5,
+          "color": [
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "id": "QDlf8W7Mp3Mc",
+          "title": "Contrast Stitching",
+          "lead": "Assist straps with zig zag high contrast stitching.",
+          "taglist": {
+            "EN": [
+              "Pockets and Stowage"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            249.3556679,
+            488.0233521,
+            -0.2552524
+          ],
+          "direction": [
+            0.7029019,
+            -0.0274878,
+            0.7107555
+          ],
+          "scale": 5,
+          "color": [
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "id": "Xg7SPYlYb4nA",
+          "title": "Pressure Relief Valve",
+          "lead": "On the left is the pressure relief valve.  Layers of insulated thermal micrometeoroid garment cover it in addition to the gauntlet of the EVA glove to avoid accidental venting of precious gas.",
+          "taglist": {
+            "EN": [
+              "Gauges"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            295.5301242,
+            1045.0407435,
+            72.8947981
+          ],
+          "direction": [
+            -0.1763919,
+            0.3253451,
+            0.9289975
+          ],
+          "scale": 10,
+          "color": [
+            0.5,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "M01hMk3Fcc1E",
+          "title": "Belt Loops",
+          "lead": "5 per leg. These can be used to thread the detachable Data List Pocket and the detachable Checklist Pocket.",
+          "taglist": {
+            "EN": [
+              "Pockets and Stowage"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            246.4340636,
+            303.6205588,
+            -58.9638933
+          ],
+          "direction": [
+            0.6765922,
+            -0.1368828,
+            0.7235234
+          ],
+          "scale": 5,
+          "color": [
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "id": "saooCZPm7zj3",
+          "title": "Cuff, Left",
+          "lead": "At the cuff of the suit, one can see how the boots are integrated in the suit.  The boots are built separately from the suit and attach to the pressure layer via a compression zipper.  The thermal layer of the boot is sewn to the interior and is, in turn, tucked and sewn to the suit’s external layer. ",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            205.4093147,
+            232.1215815,
+            -167.0717341
+          ],
+          "direction": [
+            0.7993179,
+            -0.2480642,
+            -0.5473162
+          ],
+          "scale": 3,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "units": "mm",
+      "tags": "Exterior, EV Visor, EV Gloves, Patches, Life Support, Seals and Connections 1, Pockets and Stowage, Gauges, Hidden Features 1",
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "material": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "opacity": 1,
+        "hiddenOpacity": 0.15,
+        "roughness": 0.85,
+        "metalness": 0.1,
+        "occlusion": 0.66,
+        "doubleSided": false
+      },
+      "boundingBox": {
+        "min": [
+          -220.6351013,
+          -362.6961975,
+          -3.8870001
+        ],
+        "max": [
+          126.4309998,
+          273.6540833,
+          1530.3774414
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Thumb",
+          "assets": [
+            {
+              "uri": "suit-p2-web-thumb.glb",
+              "type": "Model",
+              "byteSize": 436880
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Low",
+          "assets": [
+            {
+              "uri": "suit-p2-web-low.glb",
+              "type": "Model",
+              "byteSize": 856628
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Medium",
+          "assets": [
+            {
+              "uri": "suit-p2-web-medium.glb",
+              "type": "Model",
+              "byteSize": 2171832
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "suit-p2-web-medium.glb",
+              "type": "Model",
+              "byteSize": 6312376
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "PWJEeUg1twj4",
+          "title": "Signs of Repair",
+          "lead": "The dark marks on the right gauntlet are signs of repairs made to snags prior to flight. Technicians deemed the snags to be purely cosmetic and smoothed them out with a liquid Teflon coating.",
+          "taglist": {
+            "EN": [
+              "EV Gloves"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -246.1577388,
+            1016.8847873,
+            81.5279611
+          ],
+          "direction": [
+            0.4831486,
+            0.1139131,
+            0.8680963
+          ],
+          "scale": 10,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "JyGqme6nHjTS",
+          "title": "Fingertips",
+          "lead": "The blue silicone rubber tips on the fingers of the gloves serve to provide the astronaut with increased friction when grabbing and handling tools, rocks, instruments and controls.",
+          "taglist": {
+            "EN": [
+              "EV Gloves"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -254.0103067,
+            801.9385548,
+            98.9767784
+          ],
+          "direction": [
+            -0.4195756,
+            -0.058819,
+            0.9058127
+          ],
+          "scale": 10,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "iUIU4cqZkA2i",
+          "title": "Belt Loops",
+          "lead": "5 per leg. These can be used to thread the detachable Data List Pocket and the detachable Checklist Pocket.",
+          "taglist": {
+            "EN": [
+              "Pockets and Stowage"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -245.2727409,
+            305.837862,
+            -52.8897528
+          ],
+          "direction": [
+            -0.7317932,
+            -0.12914,
+            0.6691798
+          ],
+          "scale": 5,
+          "color": [
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "id": "eYhmw0E9DKPS",
+          "title": "Contrast Stitching",
+          "lead": "Assist straps with zig zag high contrast stitching.",
+          "taglist": {
+            "EN": [
+              "Pockets and Stowage"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -227.2376951,
+            490.7017616,
+            20.7012454
+          ],
+          "direction": [
+            -0.4197563,
+            -0.0509984,
+            0.9062029
+          ],
+          "scale": 5,
+          "color": [
+            0,
+            1,
+            0.5
+          ]
+        },
+        {
+          "id": "DrCHnrFQotxh",
+          "title": "Pressure Gauge",
+          "lead": "On the right is the pressure gauge that gives a constant reading of the pressure inside the spacesuit.  The operating pressure of an Apollo spacesuit is 4.3 pounds per square inch.  The normal pressure on Earth is 14.7 psi, but the Apollo suit’s atmosphere is pure oxygen.",
+          "taglist": {
+            "EN": [
+              "Gauges"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -322.4146449,
+            1046.0489691,
+            -50.9787833
+          ],
+          "direction": [
+            -0.8107554,
+            -0.1057507,
+            -0.5757538
+          ],
+          "scale": 10,
+          "color": [
+            0.5,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "y1caILfpoKVa",
+          "title": "Teflon Disk",
+          "lead": "One can see many places on the suit where technicians have patched or reinforced the suit with Teflon disks.  This is one such location.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 1"
+            ]
+          },
+          "visible": false,
+          "position": [
+            210.9458496,
+            944.9348703,
+            -150.8651008
+          ],
+          "direction": [
+            0.6151851,
+            0.0352654,
+            -0.7875936
+          ],
+          "scale": 7,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "zWXpxwgvzkxe",
+          "title": "Boot Cover Layer",
+          "lead": "The Intravehicular Coverlayer (IVCL) boot cover fits over the Torso Limb Suit Assembly (TLSA) boot. The IVCL is secured by loop tape located around the top and the bottom of the boot.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 1"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -181.709625,
+            68.2386653,
+            -26.3474545
+          ],
+          "direction": [
+            -0.4602342,
+            0.7591897,
+            0.4602342
+          ],
+          "scale": 7,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "hqChXmSR03Tc",
+          "title": "Heel Plate",
+          "lead": "Couch restraint heal plate. The metal plate allows the astronaut to lock his feet into the couch in the Command Module. ",
+          "taglist": {
+            "EN": [
+              "Hidden Features 1"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -148.9052574,
+            9.0819867,
+            -88.4560039
+          ],
+          "direction": [
+            0.0039074,
+            -0.9651162,
+            -0.2617927
+          ],
+          "scale": 7,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "ETJglLbqrVXG",
+          "title": "Boot Sole",
+          "lead": "Phenolic resin sole. These molded soles on the spacesuit boots were designed to have a high melting point and to resist deforming  when the suit is under pressure. The soles were extremely durable to withstand punctures that might breach the lunar overshoes.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 1"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -115.5961818,
+            9.0246867,
+            77.9700679
+          ],
+          "direction": [
+            0.0746097,
+            -0.969926,
+            0.2316827
+          ],
+          "scale": 7,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "qyQs7gDYOu6E",
+          "title": "Access Flap",
+          "lead": "Access flap covers the urine collection device, dosimeter pocket, and medical injection patch.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 1"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -218.654521,
+            735.6319273,
+            68.0003997
+          ],
+          "direction": [
+            -0.4827912,
+            -0.0274759,
+            0.8753044
+          ],
+          "scale": 7,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "hq44xbX5jRBu",
+          "title": "Teflon Disk",
+          "lead": "One can see many places on the suit where technicians have patched or reinforced the suit with Teflon disks.  This is one such location.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 1"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -308.2268714,
+            1346.107231,
+            -98.5968963
+          ],
+          "direction": [
+            -0.871979,
+            -0.0273715,
+            -0.4887775
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "WrLOsQ4f5IBE",
+          "title": "Signs of Repair",
+          "lead": "Throughout the suit, one can see small dark patches on the white, thermal layer. These are places where a liquid sealant was painted across snags on the outer layer of the suit. These spots appear dark grey where lunar dust is embedded in the sealant.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 1"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -194.4948585,
+            304.3597442,
+            -184.8705471
+          ],
+          "direction": [
+            -0.3338832,
+            0.2553224,
+            -0.9073767
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "P86EmQEftaTa",
+          "title": "Cuff, Right",
+          "lead": "At the cuff of the suit, one can see how the boots are integrated in the suit.  The boots are built separately from the suit and attach to the pressure layer via a compression zipper.  The thermal layer of the boot is sewn to the interior and is, in turn, tucked and sewn to the suit’s external layer. ",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -177.8587639,
+            261.0557662,
+            -190.1430227
+          ],
+          "direction": [
+            -0.1922959,
+            -0.0902613,
+            -0.9771771
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "units": "mm",
+      "tags": "Exterior, EV Visor, EV Gloves, Patches, Life Support, Seals and Connections 1, Pockets and Stowage, Gauges, Hidden Features 1",
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "material": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "opacity": 1,
+        "hiddenOpacity": 0.15,
+        "roughness": 0.8505903,
+        "metalness": 0.6542244,
+        "occlusion": 0.66,
+        "doubleSided": false
+      },
+      "boundingBox": {
+        "min": [
+          -219.5084076,
+          -261.4201965,
+          736.2045288
+        ],
+        "max": [
+          254.2245941,
+          241.0792847,
+          1845.1013184
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Thumb",
+          "assets": [
+            {
+              "uri": "suit-p3-web-thumb.glb",
+              "type": "Model",
+              "byteSize": 406240
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Low",
+          "assets": [
+            {
+              "uri": "suit-p3-web-low.glb",
+              "type": "Model",
+              "byteSize": 945624
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Medium",
+          "assets": [
+            {
+              "uri": "suit-p3-web-medium.glb",
+              "type": "Model",
+              "byteSize": 2521492
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "suit-p3-web-medium.glb",
+              "type": "Model",
+              "byteSize": 6421560
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "IK9cl93R5CyW",
+          "title": "Protective Visor",
+          "lead": "This is the Lunar Extravehicular Visor Assembly, also known as the LEVA.   It sits on top of the pressure bubble helmet and fastens to the neck ring of the spacesuit.  The LEVA provides visual protection for the astronaut and allows him to control his exposure to light.",
+          "taglist": {
+            "EN": [
+              "EV Visor"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -48.2748778,
+            1790.8206737,
+            180.831008
+          ],
+          "direction": [
+            -0.4185471,
+            0.8018894,
+            0.4263704
+          ],
+          "scale": 10,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "MyfE7usvlIGl",
+          "title": "Side Eye Shade",
+          "lead": "Each side of the visor has an opaque, metallic shade that Armstrong could raise or lower to avoid direct sunlight. The museum keeps these shades raised to avoid damage to the coating on the visor.",
+          "taglist": {
+            "EN": [
+              "EV Visor"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            177.8125787,
+            1703.265822,
+            173.7151651
+          ],
+          "direction": [
+            0.5561232,
+            0.3510281,
+            0.7533301
+          ],
+          "scale": 10,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "jfBgFNzOUt9V",
+          "title": "Cover",
+          "lead": "The visor has a thermal micrometeoroid collar around its base to prevent the metal portions of the locking mechanism from heating in direct, unfiltered sunlight.",
+          "taglist": {
+            "EN": [
+              "EV Visor"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            127.3111475,
+            1452.0844164,
+            93.1221248
+          ],
+          "direction": [
+            0.5040793,
+            -0.0117228,
+            0.8635778
+          ],
+          "scale": 10,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "tasbfQTkwudA",
+          "title": "Sun Visor",
+          "lead": "The coating on the plastic part of the visor is a monomolecular layer of gold. These gold molecules were an effective filter for direct sunlight while allowing the astronaut to have a clear vision of his environment.",
+          "taglist": {
+            "EN": [
+              "EV Visor"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -84.6372124,
+            1670.0132948,
+            204.0289432
+          ],
+          "direction": [
+            -0.7414388,
+            0.1451494,
+            0.6551337
+          ],
+          "scale": 10,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "F17aIqJWTWRV",
+          "title": "Latch and Catch Assembly",
+          "lead": "Not seen here, this attaches the EV visor to the bubble helmet.",
+          "taglist": {
+            "EN": [
+              "EV Visor"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -146.0705174,
+            1495.2996348,
+            45.8097195
+          ],
+          "direction": [
+            -0.861464,
+            0.1770131,
+            0.4759687
+          ],
+          "scale": 10,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "N5j0XMOgwNVu",
+          "title": "NASA Logo",
+          "lead": "The NASA emblem, also known as the “meatball” identified the Apollo program as part of the United States’ civilian space program.",
+          "taglist": {
+            "EN": [
+              "Patches"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -94.4475221,
+            1393.5377102,
+            112.586351
+          ],
+          "direction": [
+            -0.1846634,
+            0.2632435,
+            0.9468909
+          ],
+          "scale": 10,
+          "color": [
+            0,
+            0.5,
+            1
+          ]
+        },
+        {
+          "id": "Vv8kZ7XKcfPl",
+          "title": "Name Tag",
+          "lead": "Each astronaut had a name tag in the center of the suit, just below the neck ring. The name tags not only identified the suit owner, but showed mission control who was who during broadcasts from within the spacecraft.",
+          "taglist": {
+            "EN": [
+              "Patches"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            60.9648178,
+            1375.9496594,
+            113.8537547
+          ],
+          "direction": [
+            -0.0117681,
+            -0.3020491,
+            0.9532197
+          ],
+          "scale": 10,
+          "color": [
+            0,
+            0.5,
+            1
+          ]
+        },
+        {
+          "id": "L0wghfvSlEEj",
+          "title": "Apollo 11 Mission Patch",
+          "lead": "ILC Industries supplied NASA with a set of Apollo 11 mission patches. NASA sewed these on the left side just below the neck ring. This patch illustrates a bald eagle landing on the surface of the Moon with the Earth in the background. The Lunar Module’s name was “Eagle.”",
+          "taglist": {
+            "EN": [
+              "Patches"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            155.0336543,
+            1368.265739,
+            117.8599196
+          ],
+          "direction": [
+            0.3417393,
+            0.0432084,
+            0.938801
+          ],
+          "scale": 10,
+          "color": [
+            0,
+            0.5,
+            1
+          ]
+        },
+        {
+          "id": "7rhen6XE6s2e",
+          "title": "PLSS Abrasion Layer",
+          "lead": "This block of the fabric was placed to avoid damage from friction with the Personal Life Support System (PLSS). The fabric was very expensive and they had to be very judicious in its use. Engineers used patches of a high-Chromium stainless steel fabric, Chromel-R, placed on the suit where they anticipated abrasion or contact with sharp instruments.",
+          "taglist": {
+            "EN": [
+              "Life Support"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            51.0520746,
+            1448.1706437,
+            -160.0447393
+          ],
+          "direction": [
+            0.0508858,
+            0.1291716,
+            -0.9903158
+          ],
+          "scale": 10,
+          "color": [
+            0.7,
+            0.5,
+            1
+          ]
+        },
+        {
+          "id": "EWwouCiWeAUY",
+          "title": "Velcro",
+          "lead": "Eight pieces of Velcro form a circle that could attached a Beta cloth cover to shield the connections. Armstrong and Aldrin chose not to wear this cover.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            169.4576329,
+            1106.0263427,
+            59.1684117
+          ],
+          "direction": [
+            -0.1446781,
+            -0.0195511,
+            0.9892856
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "XOhARHavE00c",
+          "title": "Teflon Disk",
+          "lead": "One can see many places on the suit where technicians have patched or reinforced the suit with Teflon disks.  This is one such location.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 1"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -197.4088482,
+            947.8285508,
+            -140.6694374
+          ],
+          "direction": [
+            -0.5293385,
+            -0.2470246,
+            -0.8116524
+          ],
+          "scale": 6,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "av7rrTdYfsQl",
+          "title": "Flap",
+          "lead": "Flap (Beavertail) - This is the end of the zipper flap that wraps around and covers the zipper lock assembly in the front.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 1"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            27.5879542,
+            897.7404191,
+            82.2265188
+          ],
+          "direction": [
+            0.0743033,
+            0.0039107,
+            0.997228
+          ],
+          "scale": 8,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "1LHxiSGEoOzs",
+          "title": "Strap Channel",
+          "lead": "Helmet Tie Down Strap Channel. Beta cloth cover for the torso adjusting strap.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 1"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            14.7722409,
+            1080.6703975,
+            113.6836288
+          ],
+          "direction": [
+            0.2160287,
+            -0.2945846,
+            0.9308875
+          ],
+          "scale": 7,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "9OcXtE8d81LL",
+          "title": "Zipper Flap",
+          "lead": "The flap that covers the zipper continues from the base of the neck ring, down through the crotch of the suit, ending just below the waist. The Velcro continuous along the inside of the flap and have snap reinforcements that are mounted on Teflon disks. There are also places where additional layers of Beta cloth fabric are added for abrasion resistance.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            22.9735965,
+            956.482834,
+            -215.5589603
+          ],
+          "direction": [
+            0.0981646,
+            0.0588988,
+            -0.9934257
+          ],
+          "scale": 9,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "units": "mm",
+      "tags": "Exterior, EV Visor, EV Gloves, Patches, Life Support, Seals and Connections 1, Pockets and Stowage, Gauges, Hidden Features 1",
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "material": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "opacity": 1,
+        "hiddenOpacity": 0,
+        "roughness": 0.4165803,
+        "metalness": 0.6025907,
+        "occlusion": 0.2481865,
+        "doubleSided": false
+      },
+      "boundingBox": {
+        "min": [
+          -198.8191986,
+          -253.3152008,
+          609.4537964
+        ],
+        "max": [
+          128.0690765,
+          242.3255157,
+          1310.7910156
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "suit-exterior-web.glb",
+              "type": "Model",
+              "byteSize": 62664
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "FropbxXEB0Q2",
+          "title": "Snaps",
+          "lead": "Eight snaps are mounted on heavy Teflon buttons for reinforcement.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            158.664914,
+            1211.7169154,
+            78.2935543
+          ],
+          "direction": [
+            0.5929507,
+            0.4987069,
+            0.632219
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "DMSE3DYVfh25",
+          "title": "PLSS Snaps",
+          "lead": "Snap that helps secure Personal Life Support System (PLSS) in place.",
+          "taglist": {
+            "EN": [
+              "Life Support"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -226.4411924,
+            945.9224254,
+            -27.034481
+          ],
+          "direction": [
+            -0.8678286,
+            -0.1688535,
+            0.4672923
+          ],
+          "scale": 3,
+          "color": [
+            0.7,
+            0.5,
+            1
+          ]
+        },
+        {
+          "id": "tIdm2CnYhCs5",
+          "title": "PLSS Mount",
+          "lead": "The Personal Life Support System (PLSS) has a hard mount on the exterior of the suit at each hip. The final design for the PLSS mounts have metal D-ring loops sewn to the inside of the cover layer of the suit.  These mounts provided a secure anchor to the massive PLSS.",
+          "taglist": {
+            "EN": [
+              "Life Support"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -218.9122465,
+            1015.0874481,
+            -97.3947193
+          ],
+          "direction": [
+            -0.8502354,
+            0.0744446,
+            -0.521112
+          ],
+          "scale": 4,
+          "color": [
+            0.7,
+            0.5,
+            1
+          ]
+        },
+        {
+          "id": "erfoqzo1hYD4",
+          "title": "PLSS Mount",
+          "lead": "The Personal Life Support System (PLSS) has a hard mount on the exterior of the suit at each hip. The final design for the PLSS mounts have metal D-ring loops sewn to the inside of the cover layer of the suit at each hip. These mounts provided a secure anchor to the massive PLSS.",
+          "taglist": {
+            "EN": [
+              "Life Support"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            235.2461479,
+            1006.7308794,
+            -92.2946914
+          ],
+          "direction": [
+            0.8512816,
+            0.2236085,
+            -0.4746777
+          ],
+          "scale": 3,
+          "color": [
+            0.7,
+            0.5,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "units": "mm",
+      "tags": "Interior, Seals and Connections 2, Restraints, Hidden Features 2",
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "material": {
+        "color": [
+          0.813253,
+          0.7919419,
+          0.752259
+        ],
+        "opacity": 1,
+        "hiddenOpacity": 0,
+        "roughness": 0.7535747,
+        "metalness": 0.4745679,
+        "occlusion": 0.3,
+        "doubleSided": false
+      },
+      "boundingBox": {
+        "min": [
+          -203.103653,
+          -341.9717712,
+          -1.526922
+        ],
+        "max": [
+          130.3777924,
+          355.7038879,
+          1621.5943604
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "suit-interior-web.glb",
+              "type": "Model",
+              "byteSize": 254412
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "JDjjN7WEGKiX",
+          "title": "Arm Restraint",
+          "lead": "To prevent the astronauts’ arms from lifting and floating in space during weightlessness, a restraint system across the chest held the arms down.",
+          "taglist": {
+            "EN": [
+              "Restraints"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            80.6955271,
+            1325.0409646,
+            24.3322831
+          ],
+          "direction": [
+            0.3497249,
+            0.2318401,
+            0.9077129
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.7,
+            0
+          ]
+        },
+        {
+          "id": "2XhQRaEHgMH0",
+          "title": "Shoulder Restraint",
+          "lead": "The human shoulder is a complex joint. In order to protect it, allow movement and restrain the ballooning of the spacesuit, spacesuit designers created a metal tunnel within the suit. This made the astronauts’ shoulder movements more mechanical than normal.",
+          "taglist": {
+            "EN": [
+              "Restraints"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            302.2244159,
+            1391.5348662,
+            23.0669504
+          ],
+          "direction": [
+            0.4348863,
+            0.6856316,
+            0.5837664
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.7,
+            0
+          ]
+        },
+        {
+          "id": "c8EJggPdmWeK",
+          "title": "Arm Bearing",
+          "lead": "The restrictions on shoulder joint movement required a joint high on the upper arm that allowed the astronaut to rotate his arm.",
+          "taglist": {
+            "EN": [
+              "Restraints"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -290.3757951,
+            1283.3662658,
+            32.8640064
+          ],
+          "direction": [
+            -0.4815464,
+            0.2153256,
+            0.8495575
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.7,
+            0
+          ]
+        },
+        {
+          "id": "XtZx6b9uMako",
+          "title": "Lower Arm Restraint Cables",
+          "lead": "Restraining cables prevent the length of the arm from expanding, thus keeping the astronaut’s gloves in his hands.",
+          "taglist": {
+            "EN": [
+              "Restraints"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            325.3252613,
+            1151.3494008,
+            -75.0199405
+          ],
+          "direction": [
+            0.7081397,
+            -0.0899846,
+            0.7003149
+          ],
+          "scale": 10,
+          "color": [
+            1,
+            0.7,
+            0
+          ]
+        },
+        {
+          "id": "Kr0im93ZAzXO",
+          "title": "Hip Restraint",
+          "lead": "A wire restraint runs down the sides of the thighs from the waist to prevent the suit from ballooning, and to reinforce the points at which the suit flexes at the hips and the knees.",
+          "taglist": {
+            "EN": [
+              "Restraints"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            251.0341818,
+            828.6799268,
+            -65.9559299
+          ],
+          "direction": [
+            0.8250059,
+            0.2697887,
+            0.4965675
+          ],
+          "scale": 10,
+          "color": [
+            1,
+            0.7,
+            0
+          ]
+        },
+        {
+          "id": "Ak1BExGaOS25",
+          "title": "Restraint Anchor",
+          "lead": "The restraint system has reinforced attachment points at each end of every wire. During testing astronauts and technicians stressed these points to assure that they would not give out.",
+          "taglist": {
+            "EN": [
+              "Restraints"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            252.5857487,
+            676.6346988,
+            -62.5665265
+          ],
+          "direction": [
+            0.9120858,
+            -0.3014189,
+            0.2779317
+          ],
+          "scale": 10,
+          "color": [
+            1,
+            0.7,
+            0
+          ]
+        },
+        {
+          "id": "3j1QdsmbElpO",
+          "title": "Thigh Restraints",
+          "lead": "Restraints ran down both the inside and outsides of the knees.",
+          "taglist": {
+            "EN": [
+              "Restraints"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -236.2863791,
+            526.1766301,
+            -63.0007405
+          ],
+          "direction": [
+            -0.7562002,
+            0.0039181,
+            0.6543286
+          ],
+          "scale": 10,
+          "color": [
+            1,
+            0.7,
+            0
+          ]
+        },
+        {
+          "id": "IhKSkEOlSjUA",
+          "title": "Ankle Restraints",
+          "lead": "The ankle is a complex joint. The spacesuit is designed to allow flexibility and reinforcement for this joint with eight wired restraints to protect it and to make walking more comfortable.",
+          "taglist": {
+            "EN": [
+              "Restraints"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            195.3455217,
+            148.1118567,
+            -83.9587755
+          ],
+          "direction": [
+            0.8803919,
+            0.2621612,
+            0.3951982
+          ],
+          "scale": 10,
+          "color": [
+            1,
+            0.7,
+            0
+          ]
+        },
+        {
+          "id": "mmFjTj21qArF",
+          "title": "Water Connector",
+          "lead": "Multiple Water Connector (MWC) includes a double-ball-lock system that engages the Liquid Cooling Garment (LCG) dual-passage (in and out) connector to the inner ball-lock mechanism and a Portable Life Support System (PLSS) dual-passage connector to the outer ball-lock mechanism.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            86.5139762,
+            1269.9196001,
+            95.2083881
+          ],
+          "direction": [
+            0.7660619,
+            0.3260674,
+            0.5539217
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "z7YEHyV6Et6p",
+          "title": "Oxygen Supply",
+          "lead": "This is the gas connector for incoming oxygen with lock tab and seal. The blue connector brings fresh oxygen to the astronaut from the Lunar Module. The connector feeds into reinforced tubing that distributes oxygen throughout the suit.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            117.4391508,
+            1181.3056964,
+            99.7831093
+          ],
+          "direction": [
+            0.4838958,
+            0.1534304,
+            0.8615706
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "3URROYxhYtaT",
+          "title": "Diverter Valve",
+          "lead": "Diverter valve that directs the flow of air into the suit. In the CLOSE position, all inlet gas flow is directed to the helmet by the blade on the valve. In the OPEN position, the blade divides the inlet gas flow and diverts a part of it through the torso duct and to the helmet.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            150.3702469,
+            1159.7069594,
+            76.9116506
+          ],
+          "direction": [
+            0.6797183,
+            -0.2082374,
+            0.7032924
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "xXE5fAuyIOr0",
+          "title": "Air Removal",
+          "lead": "This is the gas connector for outgoing oxygen and carbon dioxide with lock tab and seal. The red connector removes exhaled air including carbon dioxide from the suit to the Lunar Module.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            105.215825,
+            1063.3292246,
+            90.8908561
+          ],
+          "direction": [
+            0.3977149,
+            0.0039378,
+            0.9175006
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "8EujZVreJK9Y",
+          "title": "Communications Connector",
+          "lead": "This connection on the astronaut’s right feeds communications and telemetry data directly to the Personal Life Support System (PLSS). The electrical harness connection has a central 61-pin connector from which two branches extend. One branch connects to the communications cap or carrier, while the second, shorter branch connects to the biomedical harness.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -48.3829056,
+            1263.9466259,
+            107.6458111
+          ],
+          "direction": [
+            -0.7495616,
+            0.4356091,
+            0.4983996
+          ],
+          "scale": 3.5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "Bk5DVWGmFzdo",
+          "title": "Oxygen Supply",
+          "lead": "This is the gas connector for incoming oxygen with lock tab and seal. The blue connector brings fresh oxygen to the astronaut from the PLSS. The connector feeds into reinforced tubing that distributes oxygen throughout the suit.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -95.790366,
+            1177.1683726,
+            110.5334085
+          ],
+          "direction": [
+            -0.5974603,
+            0.378782,
+            0.7067994
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "m7GXLkLjVdgu",
+          "title": "Diverter Valve",
+          "lead": "Diverter valve that directs the flow of air into the suit. In the CLOSE position, all inlet gas flow is directed to the helmet by the blade on the valve. In the OPEN position, the blade divides the inlet gas flow and diverts a part of it through the torso duct and to the helmet.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -122.6278054,
+            1163.7845915,
+            67.7012654
+          ],
+          "direction": [
+            -0.7263284,
+            -0.5378756,
+            0.4279449
+          ],
+          "scale": 3,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "e6joImJLYcOB",
+          "title": "Air Removal",
+          "lead": "This is the gas connector for outgoing oxygen and carbon dioxide with lock tab and seal. The red connector removes exhaled air including carbon dioxide from the suit to the PLSS.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 1"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -100.1603158,
+            1075.4851109,
+            92.2560113
+          ],
+          "direction": [
+            -0.7495616,
+            -0.4983996,
+            0.4356091
+          ],
+          "scale": 2.5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "i6zRFYGuOnly",
+          "title": "Helmet Tie Down",
+          "lead": "This is the torso adjusting strap used to prevent the helmet from riding up while the astronauts were seated.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 1"
+            ]
+          },
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            14.3759447,
+            1271.4549523,
+            111.0128627
+          ],
+          "direction": [
+            0.0352654,
+            0.7875936,
+            0.6151851
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "yAMmGrjBQTBB",
+          "title": "Wrist Snaps",
+          "lead": "Snaps at the neck, wrists and lower legs keep the blue interior fabric liner in place.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            308.2717472,
+            1047.8923091,
+            -44.9776999
+          ],
+          "direction": [
+            0.5752599,
+            0.4813399,
+            0.6613532
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "RykmpL3oWlJq",
+          "title": "Boot Zippers",
+          "lead": "Pressurized zippers seal the spacesuit to its boots.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -203.3836229,
+            325.2115734,
+            -21.1592095
+          ],
+          "direction": [
+            -0.4438683,
+            0.5931337,
+            0.6716944
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "IlCAv7a1euyE",
+          "title": "Boot Zippers",
+          "lead": "Pressurized zippers seal the spacesuit to its boots.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            217.7630891,
+            325.0154459,
+            -32.8318235
+          ],
+          "direction": [
+            0.4105982,
+            0.7077931,
+            0.5748375
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "fO4xUuqzobDA",
+          "title": "Boot Sole",
+          "lead": "Phenolic resin sole. These molded soles on the spacesuit boots are designed to have a high melting point and to resist deforming when the suit is under pressure. The soles are extremely durable to withstand punctures that might breach the lunar overshoes. In addition, each sole has a metal shank to add stability when walking on uneven surfaces.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            171.0120223,
+            11.8030124,
+            76.338198
+          ],
+          "direction": [
+            0.5204095,
+            0.3325925,
+            0.7864835
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "95G9HdG5XNu8",
+          "title": "Ankle Restraints",
+          "lead": "The ankle is a complex joint. The Spacesuit is designed to allow flexibility and reinforcement for this joint with eight wired restraints to protect in and to make walking more comfortable.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -188.0455195,
+            143.9193758,
+            -68.2474348
+          ],
+          "direction": [
+            -0.5124896,
+            0.2073431,
+            0.8332846
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "gMSw07LnnZeb",
+          "title": "Urine Transfer Tube",
+          "lead": "A urine collection tube is sewn into the suit, this allowed the astronaut to syphon urine out of the collection bag before removing the spacesuit.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -227.3730194,
+            770.8437372,
+            15.3275061
+          ],
+          "direction": [
+            -0.6459373,
+            -0.0039148,
+            0.7633804
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "QOBXXg7iq8oB",
+          "title": "Urine Transfer Valve",
+          "lead": "The urine collection valve is hidden under a flap on the right thigh.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -121.6573223,
+            688.5345964,
+            61.8846666
+          ],
+          "direction": [
+            0.1694714,
+            0.5162965,
+            0.8394745
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "3gxuS3fauG2U",
+          "title": "Neck Ring Snaps",
+          "lead": "Snaps at the neck, wrists and lower legs keep the blue fabric  liner in place.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -103.3235813,
+            1523.5722416,
+            -32.2928376
+          ],
+          "direction": [
+            0.8355897,
+            0.537445,
+            0.1137657
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "8Z0g0bfNFV6W",
+          "title": "Neck Ring",
+          "lead": "The neck ring has a smooth channel that joins the helmet to the suit.  Pins throughout the circumference hold the two together and compress an o-ring to form a seal.",
+          "taglist": {
+            "EN": [
+              "Hidden Features 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            101.7964392,
+            1603.9440038,
+            -84.2334464
+          ],
+          "direction": [
+            0.4042387,
+            0.914443,
+            0.0196232
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            0.5,
+            0
+          ]
+        },
+        {
+          "id": "j2rureG2eGQx",
+          "title": "Neck Ring",
+          "lead": "Formally known as the helmet attaching ring, the neck ring forms a seal between the Apollo bubble helmet and the spacesuit. The Apollo 11 helmet rings were made of red anodized aluminum to assure that a late change in design would only allow red helmet rings to attach to red neck ring. The neck ring has a channel along its inner edge that holds a rubber o-ring that, when compressed, forms the seal between the two parts of the suit.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -89.669513,
+            1480.3726391,
+            74.0955508
+          ],
+          "direction": [
+            -0.6221436,
+            0.1369499,
+            0.770832
+          ],
+          "scale": 4,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "CTApsr3dimmu",
+          "title": "Locking Mechanism",
+          "lead": "The locking mechanism has a slide button that snaps closed when the helmet is in place by extending pins that are distributed around the circumference of the ring. The astronaut has to press the button in order to release the helmet from the locking position.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            37.2079867,
+            1450.4742941,
+            125.4257455
+          ],
+          "direction": [
+            0.2711183,
+            0.3418448,
+            0.8997983
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "qFGPz5zd7WvV",
+          "title": "Vent Channel",
+          "lead": "At the front of the neck ring is a vent channel that matched one on the back of the bubble helmet. This sends the oxygen supply to the helmet. The air flows through a vent pad and duct assembly that directs airflow around the astronaut’s head. ",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            69.3890195,
+            1576.056902,
+            -75.096646
+          ],
+          "direction": [
+            -0.4108496,
+            -0.0039129,
+            0.9116948
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "IcK9s3NweNss",
+          "title": "Wrist Disconnect",
+          "lead": "The wrist disconnects form seals with the spacesuit gloves, both the Intravehicular (IV, worn inside the spacecraft) and Extravehicular (EV, worn outside of the spacecraft) gloves.   Similar to the neck connects, the wrist connects have a latch that retracts pins around the circumference of the ring. The left is always blue.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            319.8814905,
+            995.8513235,
+            54.4345326
+          ],
+          "direction": [
+            0.5061237,
+            0.3491861,
+            0.7886113
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "APm6fSx6UhO0",
+          "title": "Wrist Disconnect",
+          "lead": "The wrist disconnects form seals with the spacesuit gloves, both the Intravehicular (IV, worn inside the spacecraft) and Extravehicular (EV, worn outside of the spacecraft) gloves.   Similar to the neck connects, the wrist connects have a latch that retracts pins around the circumference of the ring. The right disconnect is always red (remember: red, right, running).",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -309.3964844,
+            1023.8520046,
+            72.8762533
+          ],
+          "direction": [
+            -0.4738326,
+            0.3250257,
+            0.8184381
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "BHIhI9XgrXTr",
+          "title": "Pressure Zipper",
+          "lead": "A few inches below the neck ring is the top of the dual pressure garment zipper. This zipper consists of two heavy-duty brass zippers with a rubber gasket in between them. When the suit is under pressure, the two brass zippers are pressed together and form a seal. The zipper extends from the base of the neck, down the back, under the crotch and up to just below the waist.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            3.0351712,
+            1539.8157245,
+            -96.5086229
+          ],
+          "direction": [
+            -0.8448932,
+            0.1925571,
+            0.4990764
+          ],
+          "scale": 5,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "wBFS1wmJQODD",
+          "title": "Zipper Pull B",
+          "lead": "Zipper pull for the outer brass zipper.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            16.3316734,
+            1501.206022,
+            -96.7665872
+          ],
+          "direction": [
+            0.8295843,
+            0.2791492,
+            0.4835965
+          ],
+          "scale": 3,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "M1doKxHOSvkz",
+          "title": "Zipper Pull A",
+          "lead": "Zipper pull for the inner brass zipper.",
+          "taglist": {
+            "EN": [
+              "Seals and Connections 2"
+            ]
+          },
+          "style": "Extended",
+          "position": [
+            -2.2793128,
+            1457.5202734,
+            -78.5041076
+          ],
+          "direction": [
+            -0.7517879,
+            0.1141458,
+            0.6494503
+          ],
+          "scale": 3,
+          "color": [
+            1,
+            1,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "metas": [
+    {
+      "collection": {
+        "edanRecordId": "edanlists:p2b-1580421846495-1581618462852-0",
+        "title": "Neil Armstrong Spacesuit",
+        "titles": {
+          "EN": "Neil Armstrong Spacesuit"
+        }
+      },
+      "articles": [
+        {
+          "id": "aVQ1sXuipwri",
+          "uris": {
+            "EN": "articles/humans-reach-the-moon.html"
+          },
+          "titles": {
+            "EN": "Humans Reach the Moon"
+          },
+          "lead": "Neil Armstrong wore this spacesuit when he made his historic “one small step” onto the surface of the Moon on July 20, 1969."
+        }
+      ]
+    }
+  ],
+  "setups": [
+    {
+      "interface": {
+        "visible": true,
+        "logo": true,
+        "menu": true,
+        "tools": true
+      },
+      "reader": {
+        "enabled": false,
+        "position": "Overlay",
+        "articleId": "aVQ1sXuipwri"
+      },
+      "viewer": {
+        "shader": "Default",
+        "exposure": 0.5,
+        "toneMapping": true,
+        "gamma": 1,
+        "activeTags": "Exterior",
+        "sortedTags": "Exterior, Interior, EV Visor, EV Gloves, Patches, Life Support, Pockets and Stowage, Gauges, Restraints, Seals and Connections 1, Seals and Connections 2, Hidden Features 1, Hidden Features 2",
+        "radioTags": true
+      },
+      "navigation": {
+        "enabled": true,
+        "autoZoom": false,
+        "autoRotation": false,
+        "lightsFollowCamera": true,
+        "type": "Orbit",
+        "orbit": {
+          "orbit": [
+            -8.0012873,
+            36.8468074,
+            0
+          ],
+          "offset": [
+            9.125815,
+            14.5648262,
+            228.6300136
+          ],
+          "minOrbit": [
+            -90,
+            null,
+            null
+          ],
+          "maxOrbit": [
+            90,
+            null,
+            null
+          ],
+          "minOffset": [
+            null,
+            null,
+            0.1
+          ],
+          "maxOffset": [
+            null,
+            null,
+            10000
+          ]
+        }
+      },
+      "background": {
+        "style": "RadialGradient",
+        "color0": [
+          0.1024096,
+          0.231964,
+          0.4096386
+        ],
+        "color1": [
+          0.01,
+          0.03,
+          0.05
+        ]
+      },
+      "floor": {
+        "visible": true,
+        "position": [
+          1.4622391,
+          -80.48953,
+          1.6794746
+        ],
+        "size": 184.9996618,
+        "color": [
+          0.084375,
+          0.1088951,
+          0.1626506
+        ],
+        "opacity": 0.9,
+        "receiveShadow": false
+      },
+      "grid": {
+        "visible": false,
+        "color": [
+          0.5,
+          0.7,
+          0.8
+        ]
+      },
+      "tape": {
+        "enabled": false,
+        "startPosition": [
+          -1.2133121,
+          -7.6566713,
+          0.9531438
+        ],
+        "startDirection": [
+          0.4192148,
+          0.2468274,
+          0.8736906
+        ],
+        "endPosition": [
+          -0.0101566,
+          6.5141057,
+          1.3390362
+        ],
+        "endDirection": [
+          -0.208508,
+          -0.2399809,
+          0.9481211
+        ]
+      },
+      "slicer": {
+        "enabled": false,
+        "axis": "Y",
+        "position": 0.68125,
+        "inverted": false
+      },
+      "tours": [
+        {
+          "steps": [
+            {
+              "id": "W6rAon",
+              "titles": {
+                "EN": "EV Visor"
+              }
+            },
+            {
+              "id": "lyvZN7",
+              "titles": {
+                "EN": "EV Protective Visor"
+              }
+            },
+            {
+              "id": "VeSh2p",
+              "titles": {
+                "EN": "Side Eye Shade"
+              }
+            },
+            {
+              "id": "dDJUJo",
+              "titles": {
+                "EN": "Cover"
+              }
+            },
+            {
+              "id": "DCkyYO",
+              "titles": {
+                "EN": "Latch and Catch Assembly"
+              }
+            },
+            {
+              "id": "mlGXLK",
+              "titles": {
+                "EN": "Sun Visor"
+              }
+            },
+            {
+              "id": "Kw2ux0",
+              "titles": {
+                "EN": "EV Visor (End)"
+              }
+            }
+          ],
+          "title": "EV Visor",
+          "lead": "This is the Lunar Extravehicular Visor Assembly, also known as the LEVA.   It sits on top of the pressure bubble helmet and fastens to the neck ring of the spacesuit.  The LEVA provides visual protection for the astronaut and allows him to control his visual environment."
+        },
+        {
+          "steps": [
+            {
+              "id": "y4U8pl",
+              "titles": {
+                "EN": "EV Gloves"
+              }
+            },
+            {
+              "id": "MD6Ppr",
+              "titles": {
+                "EN": "Flap"
+              }
+            },
+            {
+              "id": "sFHaEb",
+              "titles": {
+                "EN": "Chromel R"
+              }
+            },
+            {
+              "id": "yhnicD",
+              "titles": {
+                "EN": "Gauntlet"
+              }
+            },
+            {
+              "id": "MW0VMj",
+              "titles": {
+                "EN": "Fingertips"
+              }
+            },
+            {
+              "id": "wEzjwR",
+              "titles": {
+                "EN": "Signs of Repair"
+              }
+            },
+            {
+              "id": "8l1Lih",
+              "titles": {
+                "EN": "EV Gloves (End)"
+              }
+            }
+          ],
+          "title": "EV Gloves",
+          "lead": "Extravehicular Pressure Gloves (EV gloves).  These gloves replace the intravehicular (IV) gloves that Armstrong wore while inside the spacecraft during launch and entry.  They have a similar locking mechanism that keeps oxygen inside the spacesuit, but are more rugged to allow astronauts the minimum risk while exploring the lunar surface. The EV glove consists of a modified IV glove covered by the EV glove shell assembly."
+        },
+        {
+          "steps": [
+            {
+              "id": "9zrEdK",
+              "titles": {
+                "EN": "Patches"
+              }
+            },
+            {
+              "id": "hKKELw",
+              "titles": {
+                "EN": "American Flag"
+              }
+            },
+            {
+              "id": "SUB5X6",
+              "titles": {
+                "EN": "Apollo 11 Mission Patch"
+              }
+            },
+            {
+              "id": "8Hsr88",
+              "titles": {
+                "EN": "Name Tag"
+              }
+            },
+            {
+              "id": "KMeXaB",
+              "titles": {
+                "EN": "NASA Logo"
+              }
+            },
+            {
+              "id": "VBiNc7",
+              "titles": {
+                "EN": "Patches (End)"
+              }
+            }
+          ],
+          "title": "Patches",
+          "lead": "Patches on the suit.  Just prior to flight, NASA technicians in the Crew Services Division sewed the patches on the flight suits for the final crew.  NASA made the decision to preserve the Apollo 11 spacesuits  in their entirety as recovered.  Unlike subsequent missions, Neil Armstrong’s suit still bears the patched that flew with him to the Moon."
+        },
+        {
+          "steps": [
+            {
+              "id": "ySnRrm",
+              "titles": {
+                "EN": "Restraints"
+              }
+            },
+            {
+              "id": "LPp5Yr",
+              "titles": {
+                "EN": "Arm Restraint"
+              }
+            },
+            {
+              "id": "dh2pkx",
+              "titles": {
+                "EN": "Shoulder Restraint"
+              }
+            },
+            {
+              "id": "giKui7",
+              "titles": {
+                "EN": "Arm Bearing"
+              }
+            },
+            {
+              "id": "CK1BbB",
+              "titles": {
+                "EN": "Lower Arm Restraint Cable"
+              }
+            },
+            {
+              "id": "6B3yht",
+              "titles": {
+                "EN": "Hip Restraint"
+              }
+            },
+            {
+              "id": "9DfZpd",
+              "titles": {
+                "EN": "Restraint Anchor"
+              }
+            },
+            {
+              "id": "DFWRmo",
+              "titles": {
+                "EN": "Thigh Restraints"
+              }
+            },
+            {
+              "id": "D4MZS2",
+              "titles": {
+                "EN": "Ankle Restraints"
+              }
+            },
+            {
+              "id": "Vdhr3y",
+              "titles": {
+                "EN": "Restraints (End)"
+              }
+            }
+          ],
+          "title": "Restraints",
+          "lead": "The restraints are a system of wires and reinforced fabric that prevent the spacesuit from ballooning under pressure."
+        },
+        {
+          "steps": [
+            {
+              "id": "mpd4tY",
+              "titles": {
+                "EN": "Life Support"
+              }
+            },
+            {
+              "id": "dJZKlI",
+              "titles": {
+                "EN": "PLSS Snaps"
+              }
+            },
+            {
+              "id": "q0iLQY",
+              "titles": {
+                "EN": "PLSS Mount"
+              }
+            },
+            {
+              "id": "aZUvrh",
+              "titles": {
+                "EN": "PLSS Mount"
+              }
+            },
+            {
+              "id": "XQgrYz",
+              "titles": {
+                "EN": "PLSS Abrasion Layer"
+              }
+            },
+            {
+              "id": "GJcwAq",
+              "titles": {
+                "EN": "Life Support (End)"
+              }
+            }
+          ],
+          "title": "Life Support",
+          "lead": "From the initial connections on the front of the chest, the life support system is integrated deep inside the spacesuit."
+        },
+        {
+          "steps": [
+            {
+              "id": "P6DEOY",
+              "titles": {
+                "EN": "Seals and Connections"
+              }
+            },
+            {
+              "id": "NGg20n",
+              "titles": {
+                "EN": "Water Connector"
+              }
+            },
+            {
+              "id": "DZHCFt",
+              "titles": {
+                "EN": "Snaps"
+              }
+            },
+            {
+              "id": "vNE9rK",
+              "titles": {
+                "EN": "Oxygen Supply"
+              }
+            },
+            {
+              "id": "2IUDr2",
+              "titles": {
+                "EN": "Diverter Valve"
+              }
+            },
+            {
+              "id": "nveJRy",
+              "titles": {
+                "EN": "Velcro"
+              }
+            },
+            {
+              "id": "y20uPY",
+              "titles": {
+                "EN": "Air Removal"
+              }
+            },
+            {
+              "id": "eaRigj",
+              "titles": {
+                "EN": "Air Removal"
+              }
+            },
+            {
+              "id": "Hd71YK",
+              "titles": {
+                "EN": "Diverter Valve"
+              }
+            },
+            {
+              "id": "Hgv4MU",
+              "titles": {
+                "EN": "Oxygen Supply"
+              }
+            },
+            {
+              "id": "c0sB2q",
+              "titles": {
+                "EN": "Communications Connector"
+              }
+            },
+            {
+              "id": "OLTdmw",
+              "titles": {
+                "EN": "Neck Ring"
+              }
+            },
+            {
+              "id": "vxDI9E",
+              "titles": {
+                "EN": "Locking Mechanism"
+              }
+            },
+            {
+              "id": "WVuoEO",
+              "titles": {
+                "EN": "Vent Channel"
+              }
+            },
+            {
+              "id": "of1XQZ",
+              "titles": {
+                "EN": "Pressure Zipper"
+              }
+            },
+            {
+              "id": "loj9NC",
+              "titles": {
+                "EN": "Zipper Pull A"
+              }
+            },
+            {
+              "id": "QBeWoF",
+              "titles": {
+                "EN": "Zipper Pull B"
+              }
+            },
+            {
+              "id": "VLeZBm",
+              "titles": {
+                "EN": "Wrist Disconnect"
+              }
+            },
+            {
+              "id": "K2UsRx",
+              "titles": {
+                "EN": "Zipper Flap"
+              }
+            },
+            {
+              "id": "xeWEyV",
+              "titles": {
+                "EN": "Cuff, Left"
+              }
+            },
+            {
+              "id": "mTokBj",
+              "titles": {
+                "EN": "Cuff, Right"
+              }
+            },
+            {
+              "id": "Kl1CbP",
+              "titles": {
+                "EN": "Seals and Connectors (End)"
+              }
+            }
+          ],
+          "title": "Seals and Connections",
+          "lead": "There are essential openings throughout the suit.  Each must make an airtight seal."
+        },
+        {
+          "steps": [
+            {
+              "id": "VYLGpH",
+              "titles": {
+                "EN": "Pockets and Stowage"
+              }
+            },
+            {
+              "id": "NptRmd",
+              "titles": {
+                "EN": "Penlight Pocket"
+              }
+            },
+            {
+              "id": "BWpStX",
+              "titles": {
+                "EN": "Utility Pocket"
+              }
+            },
+            {
+              "id": "Kyl5mP",
+              "titles": {
+                "EN": "Contrast Stitching"
+              }
+            },
+            {
+              "id": "dqOlBH",
+              "titles": {
+                "EN": "Belt Loops"
+              }
+            },
+            {
+              "id": "mGAdjy",
+              "titles": {
+                "EN": "Pockets and Stowage (End)"
+              }
+            }
+          ],
+          "title": "Pockets and Stowage",
+          "lead": "In low gravity settings, astronauts needed places to hold various things. As a result, there are numerous pockets and stowage points on the astronaut’s suit."
+        },
+        {
+          "steps": [
+            {
+              "id": "IcBLxo",
+              "titles": {
+                "EN": "Gauges"
+              }
+            },
+            {
+              "id": "q85UUG",
+              "titles": {
+                "EN": "Pressure Gauge"
+              }
+            },
+            {
+              "id": "IAWxci",
+              "titles": {
+                "EN": "Pressure Relief Valve"
+              }
+            },
+            {
+              "id": "92Cq7a",
+              "titles": {
+                "EN": "Gauges (End)"
+              }
+            }
+          ],
+          "title": "Gauges",
+          "lead": "In addition to the controls and gauges included on the Remote Control Unit (RCU) worn on the front of the suit just under the neck ring, there were two gauges and controls on the wrists of each arm of the suit."
+        },
+        {
+          "steps": [
+            {
+              "id": "KzRkkx",
+              "titles": {
+                "EN": "Hidden Features"
+              }
+            },
+            {
+              "id": "b71hL9",
+              "titles": {
+                "EN": "Helmet Tie Down"
+              }
+            },
+            {
+              "id": "sngtex",
+              "titles": {
+                "EN": "Strap Channel"
+              }
+            },
+            {
+              "id": "vQhMpz",
+              "titles": {
+                "EN": "Flap"
+              }
+            },
+            {
+              "id": "z2f4u7",
+              "titles": {
+                "EN": "Access Flap"
+              }
+            },
+            {
+              "id": "EYYzda",
+              "titles": {
+                "EN": "Boot Cover Layer"
+              }
+            },
+            {
+              "id": "ipXlRy",
+              "titles": {
+                "EN": "Boot Sole"
+              }
+            },
+            {
+              "id": "e9gN9Y",
+              "titles": {
+                "EN": "Heel Plate"
+              }
+            },
+            {
+              "id": "dWEaQV",
+              "titles": {
+                "EN": "Signs of Repair"
+              }
+            },
+            {
+              "id": "iGQJdx",
+              "titles": {
+                "EN": "Teflon Disk (1)"
+              }
+            },
+            {
+              "id": "kPG8v1",
+              "titles": {
+                "EN": "Teflon Disk (2)"
+              }
+            },
+            {
+              "id": "wbKJlx",
+              "titles": {
+                "EN": "Neck Ring"
+              }
+            },
+            {
+              "id": "UO6eg6",
+              "titles": {
+                "EN": "Wrist Snaps"
+              }
+            },
+            {
+              "id": "X6eUf2",
+              "titles": {
+                "EN": "Boot Zippers"
+              }
+            },
+            {
+              "id": "wcwnvX",
+              "titles": {
+                "EN": "Boot Sole"
+              }
+            },
+            {
+              "id": "c4Gfym",
+              "titles": {
+                "EN": "Ankle Restraints"
+              }
+            },
+            {
+              "id": "D3GkV3",
+              "titles": {
+                "EN": "Boot Zippers"
+              }
+            },
+            {
+              "id": "NkxbVx",
+              "titles": {
+                "EN": "Urine Transfer Tube"
+              }
+            },
+            {
+              "id": "znuOrd",
+              "titles": {
+                "EN": "Urine Transfer Valve"
+              }
+            },
+            {
+              "id": "E6ldQC",
+              "titles": {
+                "EN": "Hidden Features (End)"
+              }
+            }
+          ],
+          "title": "Hidden Features",
+          "lead": "Parts of the suit are hidden deep beneath layers of fabric.\n"
+        }
+      ],
+      "snapshots": {
+        "features": [
+          "reader",
+          "viewer",
+          "navigation"
+        ],
+        "targets": [
+          "scenes/0/setup/reader/enabled",
+          "scenes/0/setup/reader/articleId",
+          "scenes/0/setup/navigation/orbit",
+          "scenes/0/setup/navigation/offset",
+          "scenes/0/setup/viewer/annotationsVisible",
+          "scenes/0/setup/viewer/activeAnnotation",
+          "scenes/0/setup/viewer/activeTags",
+          "scenes/0/setup/viewer/shader",
+          "scenes/0/setup/viewer/exposure"
+        ],
+        "states": [
+          {
+            "id": "W6rAon",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                4.5849038,
+                0.3633094,
+                0
+              ],
+              [
+                -13.025516,
+                23.1107071,
+                288.5657652
+              ],
+              true,
+              "",
+              "EV Visor",
+              0,
+              1
+            ],
+            "duration": 1.5,
+            "threshold": 0.1992288
+          },
+          {
+            "id": "lyvZN7",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                10.4824368,
+                -13.352518,
+                0
+              ],
+              [
+                -8.669646,
+                99.153379,
+                109.7333968
+              ],
+              true,
+              "IK9cl93R5CyW",
+              "EV Visor",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.2,
+            "threshold": 0.6
+          },
+          {
+            "id": "VeSh2p",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                4.930344,
+                30,
+                0
+              ],
+              [
+                9.1913167,
+                89.9034246,
+                62.931601
+              ],
+              true,
+              "MyfE7usvlIGl",
+              "EV Visor",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.6
+          },
+          {
+            "id": "dDJUJo",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                17.4809513,
+                25,
+                0
+              ],
+              [
+                9.7618337,
+                67.6268496,
+                53.6333415
+              ],
+              true,
+              "jfBgFNzOUt9V",
+              "EV Visor",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.6
+          },
+          {
+            "id": "DCkyYO",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                10.1935019,
+                -51,
+                0
+              ],
+              [
+                -7.2864639,
+                74.6461165,
+                46.8454376
+              ],
+              true,
+              "F17aIqJWTWRV",
+              "EV Visor",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.75
+          },
+          {
+            "id": "mlGXLK",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                14.6976233,
+                -0.111143,
+                0
+              ],
+              [
+                -22.7233557,
+                76.7921685,
+                147.3427655
+              ],
+              true,
+              "tasbfQTkwudA",
+              "EV Visor",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "y4U8pl",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -5.8639356,
+                5.4014388,
+                0
+              ],
+              [
+                1.5721667,
+                9.6523904,
+                242.6343028
+              ],
+              true,
+              "",
+              "EV Gloves",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "MD6Ppr",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -4.7862552,
+                43.7115108,
+                0
+              ],
+              [
+                14.0480868,
+                0.9360964,
+                60.2851654
+              ],
+              true,
+              "Ow2wrXN6uH15",
+              "EV Gloves",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.2,
+            "threshold": 0.8
+          },
+          {
+            "id": "sFHaEb",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -2.6547782,
+                45.9568345,
+                0
+              ],
+              [
+                12.9812875,
+                2.8200899,
+                56.341276
+              ],
+              true,
+              "u4fEA92I2Xqe",
+              "EV Gloves",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 0.8,
+            "threshold": 0.4
+          },
+          {
+            "id": "yhnicD",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -2.7619637,
+                55,
+                0
+              ],
+              [
+                9.6712866,
+                20.0512718,
+                76.0238654
+              ],
+              true,
+              "KBidri6lKMh3",
+              "EV Gloves",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.3
+          },
+          {
+            "id": "MW0VMj",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                0.0988408,
+                -27.9298561,
+                0
+              ],
+              [
+                -17.6135787,
+                -0.0883926,
+                56.8698053
+              ],
+              true,
+              "JyGqme6nHjTS",
+              "EV Gloves",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.85
+          },
+          {
+            "id": "wEzjwR",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -21.6802056,
+                -4.5,
+                0
+              ],
+              [
+                -20.1699141,
+                13.5412014,
+                49.9168831
+              ],
+              true,
+              "PWJEeUg1twj4",
+              "EV Gloves",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.7
+          },
+          {
+            "id": "9zrEdK",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -8.4281629,
+                14.4964029,
+                0
+              ],
+              [
+                8.8406392,
+                46.569944,
+                209.8544086
+              ],
+              true,
+              "",
+              "Patches",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "hKKELw",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -15.7557785,
+                48.1151079,
+                0
+              ],
+              [
+                13.0375836,
+                54.1107535,
+                81.3851578
+              ],
+              true,
+              "Z6I0rtWYfRnM",
+              "Patches",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.3,
+            "threshold": 0.6
+          },
+          {
+            "id": "SUB5X6",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -15.6272751,
+                4.5899281,
+                0
+              ],
+              [
+                16.1856478,
+                48.8323597,
+                60.2851654
+              ],
+              true,
+              "L0wghfvSlEEj",
+              "Patches",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.6
+          },
+          {
+            "id": "8Hsr88",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -2.4272304,
+                -14,
+                0
+              ],
+              [
+                9.8547064,
+                54.1680816,
+                47.3143561
+              ],
+              true,
+              "Vv8kZ7XKcfPl",
+              "Patches",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.6
+          },
+          {
+            "id": "KMeXaB",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -3.6450924,
+                -23.6546763,
+                0
+              ],
+              [
+                -2.4637307,
+                57.6462879,
+                34.0675257
+              ],
+              true,
+              "N5j0XMOgwNVu",
+              "Patches",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.7
+          },
+          {
+            "id": "ySnRrm",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -2.8396057,
+                5.4431315,
+                0
+              ],
+              [
+                4.7178315,
+                8.1610738,
+                313.3916994
+              ],
+              true,
+              "",
+              "Restraints",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "LPp5Yr",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -1.9533428,
+                5,
+                0
+              ],
+              [
+                11.0320253,
+                52.6328668,
+                37.7709672
+              ],
+              true,
+              "JDjjN7WEGKiX",
+              "Restraints",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "dh2pkx",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -1.9533428,
+                14,
+                0
+              ],
+              [
+                29.6382453,
+                59.4829587,
+                33.7734063
+              ],
+              true,
+              "2XhQRaEHgMH0",
+              "Restraints",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.7
+          },
+          {
+            "id": "giKui7",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -21.2644866,
+                -13.2446592,
+                0
+              ],
+              [
+                -27.7158879,
+                41.7226108,
+                91.8188202
+              ],
+              true,
+              "c8EJggPdmWeK",
+              "Restraints",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.8,
+            "threshold": 0.7
+          },
+          {
+            "id": "CK1BbB",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -12.9141006,
+                27,
+                0
+              ],
+              [
+                34.5270201,
+                31.5575691,
+                74.951508
+              ],
+              true,
+              "XtZx6b9uMako",
+              "Restraints",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "6B3yht",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -12.1512747,
+                45.1151079,
+                0
+              ],
+              [
+                25.0748698,
+                -6.5574165,
+                74.951508
+              ],
+              true,
+              "Kr0im93ZAzXO",
+              "Restraints",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.6
+          },
+          {
+            "id": "9DfZpd",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -12.1512747,
+                49,
+                0
+              ],
+              [
+                23.6096018,
+                -16.1031546,
+                52.1428924
+              ],
+              true,
+              "Ak1BExGaOS25",
+              "Restraints",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.2,
+            "threshold": 0.6
+          },
+          {
+            "id": "DFWRmo",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -9.283896,
+                -29.0935252,
+                0
+              ],
+              [
+                -24.4048979,
+                -36.2716758,
+                98.2461376
+              ],
+              true,
+              "3j1QdsmbElpO",
+              "Restraints",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.6
+          },
+          {
+            "id": "D4MZS2",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                8.8199543,
+                49.1297455,
+                0
+              ],
+              [
+                20.1986757,
+                -60.4753958,
+                74.951508
+              ],
+              true,
+              "IhKSkEOlSjUA",
+              "Restraints",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.6
+          },
+          {
+            "id": "mpd4tY",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -6.0128827,
+                -135,
+                0
+              ],
+              [
+                -11.9171199,
+                9.2998492,
+                223.4969734
+              ],
+              true,
+              "",
+              "Life Support",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "dJZKlI",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -7.2564454,
+                -110.1366906,
+                0
+              ],
+              [
+                6.7974009,
+                10.07714,
+                41.5931297
+              ],
+              true,
+              "DMSE3DYVfh25",
+              "Life Support",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.6
+          },
+          {
+            "id": "q0iLQY",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -31.8266237,
+                -105.5251799,
+                0
+              ],
+              [
+                -4.1331956,
+                2.2523924,
+                57.4831644
+              ],
+              true,
+              "tIdm2CnYhCs5",
+              "Life Support",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.6
+          },
+          {
+            "id": "aZUvrh",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -37.2462235,
+                -228.5683453,
+                0
+              ],
+              [
+                -9.4871988,
+                -0.7065838,
+                58.3444531
+              ],
+              true,
+              "erfoqzo1hYD4",
+              "Life Support",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "threshold": 0.7
+          },
+          {
+            "id": "XQgrYz",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -27.0506452,
+                -196.8417266,
+                0
+              ],
+              [
+                3.4838572,
+                48.6262184,
+                93.6884421
+              ],
+              true,
+              "7rhen6XE6s2e",
+              "Life Support",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.6
+          },
+          {
+            "id": "P6DEOY",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -2.207724,
+                -2.3884892,
+                0
+              ],
+              [
+                -2.6882062,
+                35.8330227,
+                162.8524046
+              ],
+              true,
+              "",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "threshold": 0.2
+          },
+          {
+            "id": "NGg20n",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                0.8138587,
+                -8,
+                0
+              ],
+              [
+                12.5961168,
+                47.7406397,
+                34.8245133
+              ],
+              true,
+              "mmFjTj21qArF",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.7
+          },
+          {
+            "id": "DZHCFt",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                4.0614906,
+                13,
+                0
+              ],
+              [
+                15.4006673,
+                41.5813593,
+                28.4271763
+              ],
+              true,
+              "FropbxXEB0Q2",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1,
+            "threshold": 0.7
+          },
+          {
+            "id": "vNE9rK",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                3.4037868,
+                38.0431655,
+                0
+              ],
+              [
+                0.7929488,
+                38.9439377,
+                39.8705853
+              ],
+              true,
+              "z7YEHyV6Et6p",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1,
+            "threshold": 0.65
+          },
+          {
+            "id": "2IUDr2",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                0.8138587,
+                32,
+                0
+              ],
+              [
+                10.1319515,
+                34.7919187,
+                32.5462741
+              ],
+              true,
+              "3URROYxhYtaT",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1,
+            "threshold": 0.6
+          },
+          {
+            "id": "nveJRy",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -4.0575892,
+                7.4,
+                0
+              ],
+              [
+                13.8498375,
+                27.19535,
+                29.5336998
+              ],
+              true,
+              "EWwouCiWeAUY",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "y20uPY",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -4.4263657,
+                20.0118168,
+                0
+              ],
+              [
+                7.2338104,
+                25.0751674,
+                33.9796332
+              ],
+              true,
+              "xXE5fAuyIOr0",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1,
+            "threshold": 0.7
+          },
+          {
+            "id": "eaRigj",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -6.5961159,
+                -14.8597122,
+                0
+              ],
+              [
+                -7.8892199,
+                25.4456281,
+                38.903282
+              ],
+              true,
+              "e6joImJLYcOB",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "Hd71YK",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -3.1428785,
+                0.2482014,
+                0
+              ],
+              [
+                -13.2307396,
+                34.0503876,
+                31.7566665
+              ],
+              true,
+              "m7GXLkLjVdgu",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1,
+            "threshold": 0.7
+          },
+          {
+            "id": "Hgv4MU",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -4.8694972,
+                -4.5,
+                0
+              ],
+              [
+                -11.0145192,
+                36.5599684,
+                36.3582075
+              ],
+              true,
+              "Bk5DVWGmFzdo",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 0.8,
+            "threshold": 0.6
+          },
+          {
+            "id": "c0sB2q",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -4.8694972,
+                -4.5,
+                0
+              ],
+              [
+                -6.2190594,
+                46.3451664,
+                36.3582075
+              ],
+              true,
+              "8EujZVreJK9Y",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1,
+            "threshold": 0.7
+          },
+          {
+            "id": "VYLGpH",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                17.5736352,
+                26.7765363,
+                0
+              ],
+              [
+                1.9815594,
+                0.161435,
+                243.3515618
+              ],
+              true,
+              "",
+              "Pockets and Stowage",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "NptRmd",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                9.1937469,
+                25.9385475,
+                0
+              ],
+              [
+                28.2485206,
+                54.2178248,
+                39.8205224
+              ],
+              true,
+              "akGdj5G3K3gt",
+              "Pockets and Stowage",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "BWpStX",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -0.0241302,
+                31.3854749,
+                0
+              ],
+              [
+                13.0089156,
+                -16.6278259,
+                63.9430572
+              ],
+              true,
+              "Wkif0HxjlfBq",
+              "Pockets and Stowage",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "Kyl5mP",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                14.2216799,
+                37.6703911,
+                0
+              ],
+              [
+                19.7693594,
+                -28.3205006,
+                73.2084062
+              ],
+              true,
+              "QDlf8W7Mp3Mc",
+              "Pockets and Stowage",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.2
+          },
+          {
+            "id": "dqOlBH",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                14.6040734,
+                25.5195531,
+                0
+              ],
+              [
+                26.1489997,
+                -48.3510932,
+                40.3357882
+              ],
+              true,
+              "M01hMk3Fcc1E",
+              "Pockets and Stowage",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "IcBLxo",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -7.8343066,
+                -60.0047426,
+                0
+              ],
+              [
+                -0.0203585,
+                11.5744342,
+                260.3861712
+              ],
+              true,
+              "",
+              "Gauges",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "q85UUG",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -5.0647234,
+                -114.9321972,
+                0
+              ],
+              [
+                7.8476437,
+                19.7480175,
+                49.3013721
+              ],
+              true,
+              "DrCHnrFQotxh",
+              "Gauges",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "IAWxci",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -15.5269235,
+                21.3296089,
+                0
+              ],
+              [
+                19.9107571,
+                18.9457345,
+                67.1395231
+              ],
+              true,
+              "Xg7SPYlYb4nA",
+              "Gauges",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "KzRkkx",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -21.3928452,
+                -69.5921788,
+                0
+              ],
+              [
+                -6.4299258,
+                11.5262129,
+                226.3169525
+              ],
+              true,
+              "",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "b71hL9",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -6.5378721,
+                -37.5197776,
+                0
+              ],
+              [
+                9.9570476,
+                46.3601708,
+                36.6710508
+              ],
+              true,
+              "i6zRFYGuOnly",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "sngtex",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -0.216355,
+                -19.0840234,
+                0
+              ],
+              [
+                8.3933343,
+                29.3382489,
+                55.0333589
+              ],
+              true,
+              "1LHxiSGEoOzs",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.2,
+            "threshold": 0.6
+          },
+          {
+            "id": "vQhMpz",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -6.0810167,
+                -17.7306399,
+                0
+              ],
+              [
+                7.0351867,
+                9.5419278,
+                53.6981906
+              ],
+              true,
+              "av7rrTdYfsQl",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.2,
+            "threshold": 0.6
+          },
+          {
+            "id": "z2f4u7",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -18.2331147,
+                -26.2069285,
+                0
+              ],
+              [
+                -16.6462499,
+                -15.7297378,
+                57.0681676
+              ],
+              true,
+              "qyQs7gDYOu6E",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.7
+          },
+          {
+            "id": "EYYzda",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -12.367193,
+                -23.9726935,
+                0
+              ],
+              [
+                -18.1891813,
+                -65.4612684,
+                39.8971566
+              ],
+              true,
+              "zWXpxwgvzkxe",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.6
+          },
+          {
+            "id": "ipXlRy",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                26.1802931,
+                -25.3689396,
+                0
+              ],
+              [
+                -5.5668043,
+                -70.2774527,
+                96.1459633
+              ],
+              true,
+              "ETJglLbqrVXG",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.7
+          },
+          {
+            "id": "e9gN9Y",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                24.4536744,
+                -19.7574288,
+                0
+              ],
+              [
+                -19.5143625,
+                -74.6201114,
+                63.1289502
+              ],
+              true,
+              "hqChXmSR03Tc",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.2,
+            "threshold": 0.6
+          },
+          {
+            "id": "dWEaQV",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -6.5392519,
+                -153.3660057,
+                0
+              ],
+              [
+                5.4328617,
+                -51.5706322,
+                60.073695
+              ],
+              true,
+              "WrLOsQ4f5IBE",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 2.5,
+            "threshold": 0.7
+          },
+          {
+            "id": "iGQJdx",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -31.4969324,
+                -173.3609006,
+                0
+              ],
+              [
+                20.3181588,
+                2.0322324,
+                44.4772683
+              ],
+              true,
+              "XOhARHavE00c",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.7
+          },
+          {
+            "id": "kPG8v1",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -32.0599304,
+                -146.9492439,
+                0
+              ],
+              [
+                22.076179,
+                31.1500258,
+                67.3227213
+              ],
+              true,
+              "hq44xbX5jRBu",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.7
+          },
+          {
+            "id": "wbKJlx",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -6.1204886,
+                20.2295271,
+                0
+              ],
+              [
+                12.6025836,
+                73.0670487,
+                99.50686
+              ],
+              true,
+              "8Z0g0bfNFV6W",
+              "Hidden Features 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "UO6eg6",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -32.5171366,
+                7.6596947,
+                0
+              ],
+              [
+                32.8355085,
+                17.0460252,
+                52.593132
+              ],
+              true,
+              "yAMmGrjBQTBB",
+              "Hidden Features 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "X6eUf2",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                6.0669503,
+                42.0172366,
+                0
+              ],
+              [
+                15.804746,
+                -47.1036641,
+                59.042331
+              ],
+              true,
+              "IlCAv7a1euyE",
+              "Hidden Features 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.75
+          },
+          {
+            "id": "wcwnvX",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -0.2179659,
+                -19.5749422,
+                0
+              ],
+              [
+                20.3767235,
+                -69.9551573,
+                51.5698585
+              ],
+              true,
+              "fO4xUuqzobDA",
+              "Hidden Features 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.2,
+            "threshold": 0.75
+          },
+          {
+            "id": "c4Gfym",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -3.1509268,
+                -18.0900742,
+                0
+              ],
+              [
+                -23.6072202,
+                -65.0033983,
+                32.7160254
+              ],
+              true,
+              "95G9HdG5XNu8",
+              "Hidden Features 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.75
+          },
+          {
+            "id": "D3GkV3",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -3.5825815,
+                -21.111657,
+                0
+              ],
+              [
+                -20.4908849,
+                -46.4124008,
+                28.1574395
+              ],
+              true,
+              "RykmpL3oWlJq",
+              "Hidden Features 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.75
+          },
+          {
+            "id": "NkxbVx",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -11.9359434,
+                -5.3695244,
+                0
+              ],
+              [
+                -24.4821042,
+                -9.6872401,
+                72.6049193
+              ],
+              true,
+              "gMSw07LnnZeb",
+              "Hidden Features 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.75
+          },
+          {
+            "id": "znuOrd",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                2.714995,
+                -3.6531545,
+                0
+              ],
+              [
+                -9.042837,
+                -10.1315108,
+                41.0294961
+              ],
+              true,
+              "QOBXXg7iq8oB",
+              "Hidden Features 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.2,
+            "threshold": 0.75
+          },
+          {
+            "id": "OLTdmw",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -30.0598031,
+                -11.2798722,
+                0
+              ],
+              [
+                -8.1870773,
+                40.662918,
+                130.2861535
+              ],
+              true,
+              "j2rureG2eGQx",
+              "Seals and Connections 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.7
+          },
+          {
+            "id": "vxDI9E",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -27.5087686,
+                -10.871171,
+                0
+              ],
+              [
+                7.3511981,
+                49.6965342,
+                106.8760029
+              ],
+              true,
+              "CTApsr3dimmu",
+              "Seals and Connections 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1,
+            "threshold": 0.7
+          },
+          {
+            "id": "WVuoEO",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                3.4602602,
+                -11.3487329,
+                0
+              ],
+              [
+                0.0887569,
+                77.2512961,
+                69.1477247
+              ],
+              true,
+              "qFGPz5zd7WvV",
+              "Seals and Connections 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1,
+            "threshold": 0.7
+          },
+          {
+            "id": "of1XQZ",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -9.8325215,
+                -6.411852,
+                0
+              ],
+              [
+                -6.5908796,
+                76.2836495,
+                76.8680399
+              ],
+              true,
+              "BHIhI9XgrXTr",
+              "Seals and Connections 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "loj9NC",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -18.6963129,
+                -8.6899441,
+                0
+              ],
+              [
+                -4.3714084,
+                66.9326967,
+                35.9852423
+              ],
+              true,
+              "M1doKxHOSvkz",
+              "Seals and Connections 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 0.8,
+            "threshold": 0.7
+          },
+          {
+            "id": "VLeZBm",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -11.1544134,
+                -55.198324,
+                0
+              ],
+              [
+                -9.8410768,
+                19.3136939,
+                72.5132036
+              ],
+              true,
+              "APm6fSx6UhO0",
+              "Seals and Connections 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 2.5,
+            "threshold": 0.7
+          },
+          {
+            "id": "K2UsRx",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                6.4433519,
+                -173.3547486,
+                0
+              ],
+              [
+                -10.9874188,
+                19.1875914,
+                101.2051719
+              ],
+              true,
+              "9OcXtE8d81LL",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.8
+          },
+          {
+            "id": "mTokBj",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -25.7181099,
+                -150.1074917,
+                0
+              ],
+              [
+                -8.5635695,
+                -62.3880297,
+                87.4352485
+              ],
+              true,
+              "P86EmQEftaTa",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 0.8,
+            "threshold": 0.6
+          },
+          {
+            "id": "QBeWoF",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -18.6963129,
+                -0.2704463,
+                0
+              ],
+              [
+                3.6922847,
+                67.4483445,
+                38.5042093
+              ],
+              true,
+              "wBFS1wmJQODD",
+              "Seals and Connections 2",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1,
+            "threshold": 0.7
+          },
+          {
+            "id": "xeWEyV",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -25.7181099,
+                -150.1074917,
+                0
+              ],
+              [
+                -28.4548547,
+                -59.4709425,
+                47.7401488
+              ],
+              true,
+              "saooCZPm7zj3",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "Kw2ux0",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                4.5849038,
+                0.3633094,
+                0
+              ],
+              [
+                -13.025516,
+                23.1107071,
+                288.5657652
+              ],
+              true,
+              "",
+              "EV Visor",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "8l1Lih",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -5.8639356,
+                5.4014388,
+                0
+              ],
+              [
+                1.5721667,
+                9.6523904,
+                242.6343028
+              ],
+              true,
+              "",
+              "EV Gloves",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "VBiNc7",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -8.4281629,
+                14.4964029,
+                0
+              ],
+              [
+                8.8406392,
+                46.569944,
+                209.8544086
+              ],
+              true,
+              "",
+              "Patches",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "Vdhr3y",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -2.8396057,
+                5.4431315,
+                0
+              ],
+              [
+                4.7178315,
+                8.1610738,
+                313.3916994
+              ],
+              true,
+              "",
+              "Restraints",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "GJcwAq",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -6.0128827,
+                -135,
+                0
+              ],
+              [
+                -11.9171199,
+                9.2998492,
+                223.4969734
+              ],
+              true,
+              "",
+              "Life Support",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "Kl1CbP",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -2.207724,
+                -2.3884892,
+                0
+              ],
+              [
+                -2.6882062,
+                35.8330227,
+                162.8524046
+              ],
+              true,
+              "",
+              "Seals and Connections 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "mGAdjy",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                17.5736352,
+                26.7765363,
+                0
+              ],
+              [
+                1.9815594,
+                0.161435,
+                243.3515618
+              ],
+              true,
+              "",
+              "Pockets and Stowage",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          },
+          {
+            "id": "92Cq7a",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -7.8343066,
+                -60.0047426,
+                0
+              ],
+              [
+                -0.0203585,
+                11.5744342,
+                260.3861712
+              ],
+              true,
+              "",
+              "Gauges",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "E6ldQC",
+            "values": [
+              false,
+              "aVQ1sXuipwri",
+              [
+                -21.3928452,
+                -69.5921788,
+                0
+              ],
+              [
+                -6.4299258,
+                11.5262129,
+                226.3169525
+              ],
+              true,
+              "",
+              "Hidden Features 1",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5,
+            "threshold": 0.2
+          }
+        ]
+      },
+      "environment": {
+        "index": 0
+      },
+      "language": {
+        "language": "EN"
+      }
+    }
+  ]
+}
