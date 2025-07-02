@@ -28,15 +28,20 @@
     "nodes": [
         {
             "translation": [
-                11.7702203,
-                -12.8244682,
-                9999.9848849
+                -13.7327263,
+                2.6995861,
+                20.5296388
             ],
             "rotation": [
-                0.0006624,
-                0.0006246,
-                -4e-7,
-                0.9999996
+                -0.0447339,
+                -0.291649,
+                -0.0136559,
+                0.9553812
+            ],
+            "scale": [
+                1,
+                1,
+                1
             ],
             "name": "Camera",
             "camera": 0
@@ -44,9 +49,9 @@
         {
             "rotation": [
                 0,
-                0.0006247,
+                -0.2919685,
                 0,
-                0.9999998
+                0.9564279
             ],
             "name": "Lights",
             "children": [
@@ -274,11 +279,11 @@
     ],
     "cameras": [
         {
-            "type": "orthographic",
-            "orthographic": {
-                "ymag": 20,
-                "znear": 0.0620725,
-                "zfar": 62.0725337
+            "type": "perspective",
+            "perspective": {
+                "yfov": 30,
+                "znear": 0.1333956,
+                "zfar": 133.3955753
             },
             "autoNearFar": true
         }
@@ -351,6 +356,283 @@
                             "type": "Model",
                             "mimeType": "model/gltf-binary"
                         }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "tf1dITKTLEzA",
+                    "titles": {
+                        "EN": "Point of interest"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "POI Bottom"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        -0.0153455,
+                        0.0149114,
+                        0.030087
+                    ],
+                    "direction": [
+                        -0.0364327,
+                        0.8004714,
+                        0.5982626
+                    ],
+                    "scale": 0.02,
+                    "color": [
+                        0.87,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "id": "io8rrJSTOXrW",
+                    "titles": {
+                        "EN": "Point of interest"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "POI Bottom"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        -0.0003162,
+                        0.029147,
+                        -0.0241629
+                    ],
+                    "direction": [
+                        0.192408,
+                        0.9641736,
+                        0.1826152
+                    ],
+                    "scale": 0.02,
+                    "color": [
+                        0.87,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "id": "j3hXRGSa2NRr",
+                    "titles": {
+                        "EN": "Point of interest"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "POI Bottom"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.0124839,
+                        0.0304133,
+                        -0.0236702
+                    ],
+                    "direction": [
+                        -0.2299079,
+                        0.9508171,
+                        -0.2075792
+                    ],
+                    "scale": 0.02,
+                    "color": [
+                        0.87,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "id": "c2OJUJmIsbuu",
+                    "titles": {
+                        "EN": "Point of interest"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "POI Top"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.0102251,
+                        -0.0236039,
+                        0.0040775
+                    ],
+                    "direction": [
+                        -0.0233931,
+                        -0.9990972,
+                        -0.0354617
+                    ],
+                    "scale": 0.02,
+                    "color": [
+                        0.87,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "id": "Vxtr3PcOXIGu",
+                    "titles": {
+                        "EN": "white"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "POI Domain"
+                        ]
+                    },
+                    "position": [
+                        0.0236103,
+                        0.0303108,
+                        -0.0290015
+                    ],
+                    "direction": [
+                        0.9999706,
+                        -0.003241,
+                        0.0069471
+                    ],
+                    "scale": 0.03,
+                    "color": [
+                        0,
+                        0.0235294,
+                        0.8666667
+                    ]
+                },
+                {
+                    "id": "bG37EdnUkeTr",
+                    "titles": {
+                        "EN": "black"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "POI Domain"
+                        ]
+                    },
+                    "position": [
+                        0.0235752,
+                        0.0146952,
+                        -0.0463891
+                    ],
+                    "direction": [
+                        0.9994876,
+                        -0.0213099,
+                        0.0238813
+                    ],
+                    "scale": 0.02,
+                    "color": [
+                        0,
+                        0.0270276,
+                        0.87
+                    ]
+                },
+                {
+                    "id": "QX5VLFBFJdXO",
+                    "titles": {
+                        "EN": "black"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "POI Domain"
+                        ]
+                    },
+                    "position": [
+                        0.0231752,
+                        -0.0183481,
+                        0.054922
+                    ],
+                    "direction": [
+                        0.9996684,
+                        -0.0252057,
+                        0.0052675
+                    ],
+                    "scale": 0.02,
+                    "color": [
+                        0.5803922,
+                        0,
+                        0.8666667
+                    ]
+                },
+                {
+                    "id": "zaPyKoGDy5ll",
+                    "titles": {
+                        "EN": "white"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "POI Domain"
+                        ]
+                    },
+                    "position": [
+                        0.0231787,
+                        -0.0192299,
+                        0.0500721
+                    ],
+                    "direction": [
+                        0.9996684,
+                        -0.0252057,
+                        0.0052675
+                    ],
+                    "scale": 0.02,
+                    "color": [
+                        0.5813756,
+                        0,
+                        0.8666667
+                    ]
+                },
+                {
+                    "id": "Nju3d9sQ2JX9",
+                    "titles": {
+                        "EN": "Point of interest"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "POI Top"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.0110087,
+                        -0.0226425,
+                        0.0565662
+                    ],
+                    "direction": [
+                        -0.2633714,
+                        -0.9646444,
+                        -0.0098277
+                    ],
+                    "scale": 0.02,
+                    "color": [
+                        0.87,
+                        0,
+                        0
                     ]
                 }
             ]
@@ -447,7 +729,7 @@
             "tags": "Arrows",
             "boundingBox": {
                 "min": [
-                    -0.0205132,
+                    0.0228613,
                     -0.0283591,
                     -0.0550468
                 ],
@@ -476,13 +758,13 @@
             "tags": " Domain insight",
             "boundingBox": {
                 "min": [
-                    0.021376,
-                    -0.0222766,
-                    -0.0587462
+                    0.0212121,
+                    -0.0223297,
+                    -0.0587464
                 ],
                 "max": [
-                    0.0245756,
-                    0.0298339,
+                    0.0238157,
+                    0.030037,
                     0.061915
                 ]
             },
@@ -591,11 +873,27 @@
     "metas": [
         {
             "collection": {
-                "titles": {},
+                "titles": {
+                    "EN": "Granite"
+                },
                 "intros": {
                     "EN": ""
                 }
-            }
+            },
+            "articles": [
+                {
+                    "id": "93C8hos87Zaa",
+                    "uris": {
+                        "EN": "articles/new-article-93C8hos87Zaa-EN.html"
+                    },
+                    "titles": {
+                        "EN": "GRANITE"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                }
+            ]
         }
     ],
     "setups": [
@@ -603,44 +901,47 @@
             "units": "cm",
             "interface": {
                 "visible": true,
-                "logo": true,
+                "logo": false,
                 "menu": true,
                 "tools": true
             },
             "viewer": {
                 "shader": "Default",
                 "exposure": 1,
+                "toneMapping": false,
                 "gamma": 2,
-                "annotationsVisible": false
+                "isWallMountAR": false,
+                "arScale": 1,
+                "activeTags": "Granite, Domain 1 2, POI Domain"
             },
             "reader": {
                 "enabled": false,
                 "position": "Overlay"
             },
             "navigation": {
-                "type": "Orbit",
                 "enabled": true,
                 "autoZoom": true,
-                "lightsFollowCamera": true,
                 "autoRotation": false,
+                "lightsFollowCamera": true,
+                "type": "Orbit",
                 "orbit": {
                     "orbit": [
-                        -24,
-                        -26,
+                        -5.3616109,
+                        -33.9516889,
                         0
                     ],
                     "offset": [
-                        0,
-                        0,
-                        150
+                        0.0742563,
+                        0.3798548,
+                        24.8433452
                     ],
                     "minOrbit": [
-                        -90,
+                        -120,
                         null,
                         null
                     ],
                     "maxOrbit": [
-                        90,
+                        120,
                         null,
                         null
                     ],
@@ -672,18 +973,19 @@
             "floor": {
                 "visible": false,
                 "position": [
-                    0,
-                    -25,
-                    0
+                    0.4949977,
+                    -8.8130216,
+                    0.3894545
                 ],
-                "size": 50,
+                "size": 19.4679575,
                 "color": [
                     0.6,
                     0.75,
                     0.8
                 ],
                 "opacity": 0.5,
-                "receiveShadow": false
+                "receiveShadow": false,
+                "autoSize": true
             },
             "grid": {
                 "visible": false,
@@ -694,33 +996,18 @@
                 ]
             },
             "tape": {
-                "enabled": false,
-                "startPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "startDirection": [
-                    0,
-                    0,
-                    0
-                ],
-                "endPosition": [
-                    0,
-                    0,
-                    0
-                ],
-                "endDirection": [
-                    0,
-                    0,
-                    0
-                ]
+                "enabled": false
             },
             "slicer": {
                 "enabled": false,
                 "axis": "X",
+                "position": 0.5,
                 "inverted": false,
-                "position": 0.5
+                "color": [
+                    0,
+                    0.61,
+                    0.87
+                ]
             },
             "tours": [
                 {
@@ -728,70 +1015,70 @@
                         {
                             "id": "NUUOAy",
                             "titles": {
-                                "EN": "STEP 1"
+                                "EN": "Start"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "0LtyFe",
+                            "id": "o0dYwG",
                             "titles": {
-                                "EN": "Frame"
+                                "EN": "Frame 2"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "4XgyNo",
+                            "id": "w8ceeq",
                             "titles": {
-                                "EN": "Frame zoom"
+                                "EN": "Frame Zoom 2"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "BR78R6",
+                            "id": "ubPRFB",
                             "titles": {
-                                "EN": "Domain"
+                                "EN": "Domain 1 and 2 2"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "oAjtpo",
+                            "id": "Y4ozWC",
                             "titles": {
-                                "EN": "Arrows"
+                                "EN": "Arrows 2"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "uFQbuL",
+                            "id": "NNckF8",
                             "titles": {
-                                "EN": "Domain insight"
+                                "EN": "domain insight 02"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "20Lazb",
+                            "id": "Bdv9ws",
                             "titles": {
-                                "EN": "Bottom"
+                                "EN": "Bottom 2"
                             },
                             "altTexts": {
                                 "EN": "undefined"
                             }
                         },
                         {
-                            "id": "ulVZKG",
+                            "id": "85yryW",
                             "titles": {
-                                "EN": "Top"
+                                "EN": "Top 2"
                             },
                             "altTexts": {
                                 "EN": "undefined"
@@ -836,124 +1123,7 @@
                     "scenes/0/setup/viewer/variant",
                     "scenes/0/setup/viewer/exposure",
                     "scenes/0/setup/navigation/orbit",
-                    "scenes/0/setup/navigation/offset",
-                    "node/6/position",
-                    "node/6/rotation",
-                    "node/6/scale",
-                    "model/0/visible",
-                    "model/0/quality",
-                    "model/0/overlayMap",
-                    "model/0/override",
-                    "model/0/opacity",
-                    "model/0/variant",
-                    "model/0/roughness",
-                    "model/0/metalness",
-                    "model/0/color",
-                    "model/0/slicerEnabled",
-                    "node/7/position",
-                    "node/7/rotation",
-                    "node/7/scale",
-                    "model/1/visible",
-                    "model/1/quality",
-                    "model/1/overlayMap",
-                    "model/1/override",
-                    "model/1/opacity",
-                    "model/1/variant",
-                    "model/1/roughness",
-                    "model/1/metalness",
-                    "model/1/color",
-                    "model/1/slicerEnabled",
-                    "node/8/position",
-                    "node/8/rotation",
-                    "node/8/scale",
-                    "model/2/visible",
-                    "model/2/quality",
-                    "model/2/overlayMap",
-                    "model/2/override",
-                    "model/2/opacity",
-                    "model/2/variant",
-                    "model/2/roughness",
-                    "model/2/metalness",
-                    "model/2/color",
-                    "model/2/slicerEnabled",
-                    "node/9/position",
-                    "node/9/rotation",
-                    "node/9/scale",
-                    "model/3/visible",
-                    "model/3/quality",
-                    "model/3/overlayMap",
-                    "model/3/override",
-                    "model/3/opacity",
-                    "model/3/variant",
-                    "model/3/roughness",
-                    "model/3/metalness",
-                    "model/3/color",
-                    "model/3/slicerEnabled",
-                    "node/10/position",
-                    "node/10/rotation",
-                    "node/10/scale",
-                    "model/4/visible",
-                    "model/4/quality",
-                    "model/4/overlayMap",
-                    "model/4/override",
-                    "model/4/opacity",
-                    "model/4/variant",
-                    "model/4/roughness",
-                    "model/4/metalness",
-                    "model/4/color",
-                    "model/4/slicerEnabled",
-                    "node/11/position",
-                    "node/11/rotation",
-                    "node/11/scale",
-                    "model/5/visible",
-                    "model/5/quality",
-                    "model/5/overlayMap",
-                    "model/5/override",
-                    "model/5/opacity",
-                    "model/5/variant",
-                    "model/5/roughness",
-                    "model/5/metalness",
-                    "model/5/color",
-                    "model/5/slicerEnabled",
-                    "node/12/position",
-                    "node/12/rotation",
-                    "node/12/scale",
-                    "model/6/visible",
-                    "model/6/quality",
-                    "model/6/overlayMap",
-                    "model/6/override",
-                    "model/6/opacity",
-                    "model/6/variant",
-                    "model/6/roughness",
-                    "model/6/metalness",
-                    "model/6/color",
-                    "model/6/slicerEnabled",
-                    "node/13/position",
-                    "node/13/rotation",
-                    "node/13/scale",
-                    "model/7/visible",
-                    "model/7/quality",
-                    "model/7/overlayMap",
-                    "model/7/override",
-                    "model/7/opacity",
-                    "model/7/variant",
-                    "model/7/roughness",
-                    "model/7/metalness",
-                    "model/7/color",
-                    "model/7/slicerEnabled",
-                    "node/14/position",
-                    "node/14/rotation",
-                    "node/14/scale",
-                    "model/8/visible",
-                    "model/8/quality",
-                    "model/8/overlayMap",
-                    "model/8/override",
-                    "model/8/opacity",
-                    "model/8/variant",
-                    "model/8/roughness",
-                    "model/8/metalness",
-                    "model/8/color",
-                    "model/8/slicerEnabled"
+                    "scenes/0/setup/navigation/offset"
                 ],
                 "states": [
                     {
@@ -964,3444 +1134,216 @@
                             "",
                             false,
                             "",
-                            "Granite",
+                            "XY scale, Granite",
                             0,
                             0,
                             1,
                             [
-                                -0.0045628,
-                                0.0715796,
+                                -0.0141141,
+                                -0.0184714,
                                 0
                             ],
                             [
-                                -0.7227691,
-                                0.4243854,
-                                11.7059982
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
+                                0.0742563,
+                                0.3798548,
+                                18.6135131
+                            ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "20Lazb",
+                        "id": "o0dYwG",
                         "values": [
                             false,
                             0,
                             "",
                             true,
                             "",
-                            "Bottom",
+                            "Granite, Frame",
                             0,
                             0,
                             1,
                             [
-                                -112.2438049,
-                                90.9091389,
+                                -0.0141141,
+                                -0.0184714,
                                 0
                             ],
                             [
-                                0.2367881,
-                                2.2115102,
-                                18.4811115
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
+                                0.0742563,
+                                0.3798548,
+                                18.6135131
+                            ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "ulVZKG",
+                        "id": "w8ceeq",
                         "values": [
                             false,
                             0,
                             "",
                             true,
                             "",
-                            "Top",
+                            "Frame, Granite",
                             0,
                             0,
                             1,
                             [
-                                98.2371495,
-                                -90.4320679,
+                                -0.0141141,
+                                -0.0184714,
                                 0
                             ],
                             [
-                                0.2367881,
-                                2.2115102,
-                                18.4811115
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
+                                0.3756688,
+                                -1.6525459,
+                                8.7469812
+                            ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "sNtoiK",
-                        "values": [
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            [
-                                98.1580217,
-                                -90.2710949,
-                                0
-                            ],
-                            [
-                                0.2367881,
-                                2.2115102,
-                                18.4811115
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
-                        ],
-                        "curve": "EaseOutQuad",
-                        "duration": 1
-                    },
-                    {
-                        "id": "LvN2nU",
-                        "values": [
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            null,
-                            [
-                                98.1580217,
-                                -90.2710949,
-                                0
-                            ],
-                            [
-                                0.2367881,
-                                2.2115102,
-                                18.4811115
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
-                        ],
-                        "curve": "EaseOutQuad",
-                        "duration": 1
-                    },
-                    {
-                        "id": "rXEBjq",
-                        "values": [
-                            null,
-                            null,
-                            null,
-                            null,
-                            "mLRZjnFozeGs",
-                            null,
-                            null,
-                            null,
-                            null,
-                            [
-                                98.1580217,
-                                -90.2710949,
-                                0
-                            ],
-                            [
-                                0.2367881,
-                                2.2115102,
-                                18.4811115
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
-                        ],
-                        "curve": "EaseOutQuad",
-                        "duration": 0.3
-                    },
-                    {
-                        "id": "0LtyFe",
+                        "id": "ubPRFB",
                         "values": [
                             false,
                             0,
                             "",
                             true,
                             "",
-                            "Frame",
+                            "Granite, Domain 1 2",
                             0,
                             0,
                             1,
                             [
-                                0.075917,
-                                -0.0075481,
+                                -0.0141141,
+                                -0.0184714,
                                 0
                             ],
                             [
-                                -0.7227691,
-                                0.4243854,
-                                11.7059982
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
+                                0.0742563,
+                                0.3798548,
+                                22.8023539
+                            ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "4XgyNo",
+                        "id": "Y4ozWC",
                         "values": [
                             false,
                             0,
                             "",
                             true,
                             "",
-                            "Frame",
+                            "Granite, Domain 1 2, POI Domain",
                             0,
                             0,
                             1,
                             [
-                                -0.1423369,
-                                -0.5340805,
+                                -0.0141141,
+                                -0.0184714,
                                 0
                             ],
                             [
-                                0.3774595,
-                                -1.4146441,
-                                3.5726231
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
+                                0.0742563,
+                                0.3798548,
+                                22.8023539
+                            ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "BR78R6",
+                        "id": "NNckF8",
                         "values": [
                             false,
                             0,
                             "",
-                            false,
+                            true,
                             "",
-                            "Granite",
+                            "Domain 1 2, Granite BW, Domain insight",
                             0,
                             0,
                             1,
                             [
-                                -0.0045628,
-                                0.0715796,
+                                -1.1896468,
+                                -28.7548072,
                                 0
                             ],
                             [
-                                -0.7227691,
-                                0.4243854,
-                                11.7059982
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
+                                -0.2781853,
+                                0.0762248,
+                                19.6251193
+                            ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "oAjtpo",
+                        "id": "Bdv9ws",
                         "values": [
                             false,
                             0,
                             "",
-                            false,
+                            true,
                             "",
-                            "Granite",
+                            "Granite, Bottom, POI Bottom",
                             0,
                             0,
                             1,
                             [
-                                -0.0045628,
-                                0.0715796,
+                                -88.035704,
+                                178.958374,
                                 0
                             ],
                             [
-                                -0.7227691,
-                                0.4243854,
-                                11.7059982
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
+                                0.5096437,
+                                0.2577201,
+                                18.7886531
+                            ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "uFQbuL",
+                        "id": "85yryW",
                         "values": [
                             false,
                             0,
                             "",
                             true,
                             "",
-                            "Domain insight",
+                            "Granite, Top, POI Top",
                             0,
                             0,
                             1,
                             [
-                                5.2949164,
-                                -1.0769712,
+                                88.6168143,
+                                179.9539874,
                                 0
                             ],
                             [
-                                -0.7227691,
-                                0.4243854,
-                                11.7059982
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
+                                0.3884007,
+                                0.0530771,
+                                18.6901932
+                            ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
-                    },
-                    {
-                        "id": "scene-default",
-                        "values": [
-                            false,
-                            0,
-                            "",
-                            false,
-                            "",
-                            "Frame",
-                            0,
-                            0,
-                            1,
-                            [
-                                4.8925106,
-                                -1.1574843,
-                                0
-                            ],
-                            [
-                                -0.7227691,
-                                0.4243854,
-                                10.0255407
-                            ],
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true,
-                            [
-                                0,
-                                0,
-                                0
-                            ],
-                            [
-                                0,
-                                270,
-                                0
-                            ],
-                            [
-                                10,
-                                10,
-                                10
-                            ],
-                            true,
-                            2,
-                            0,
-                            false,
-                            1,
-                            0,
-                            0.8,
-                            0.1,
-                            [
-                                1,
-                                1,
-                                1
-                            ],
-                            true
-                        ],
-                        "curve": "EaseOutQuad",
-                        "duration": 1,
-                        "threshold": 0
                     }
                 ]
+            },
+            "environment": {
+                "index": 0
+            },
+            "language": {
+                "language": "EN"
+            },
+            "audio": {
+                "narrationId": ""
             }
         }
     ]

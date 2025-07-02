@@ -874,7 +874,21 @@
                 "intros": {
                     "EN": ""
                 }
-            }
+            },
+            "articles": [
+                {
+                    "id": "93C8hos87Zaa",
+                    "uris": {
+                        "EN": "articles/article.html"
+                    },
+                    "titles": {
+                        "EN": "GRANITE"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                }
+            ]
         }
     ],
     "setups": [
@@ -889,8 +903,10 @@
             "viewer": {
                 "shader": "Default",
                 "exposure": 1,
+                "toneMapping": false,
                 "gamma": 2,
                 "annotationsVisible": false,
+                "arScale": 1,
                 "activeTags": "Granite"
             },
             "reader": {
@@ -1355,6 +1371,15 @@
                         "duration": 1.5
                     }
                 ]
+                },
+            "environment": {
+                "index": 0
+            },
+            "language": {
+                "language": "EN"
+            },
+            "audio": {
+                "narrationId": ""
             }
         }
     ]
