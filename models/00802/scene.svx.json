@@ -636,7 +636,7 @@
             "viewer": {
                 "shader": "Default",
                 "exposure": 1,
-                "tonmapping": true,
+                "toneMapping": true,
                 "gamma": 2,
                 "annotationsVisible": false,
                 "activeTags": "Main"
