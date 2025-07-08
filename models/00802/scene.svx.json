@@ -284,6 +284,7 @@
                         ]
                     },
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         0.0266911,
                         0.0605531,
@@ -377,6 +378,7 @@
                         ]
                     },
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         -0.0024115,
                         0.0601918,
@@ -408,6 +410,7 @@
                         ]
                     },
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         0.0828849,
                         0.0306191,
@@ -470,6 +473,7 @@
                         ]
                     },
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         0.1381867,
                         0.005391,
@@ -532,6 +536,7 @@
                         ]
                     },
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         0.1179249,
                         -0.0095966,
@@ -563,6 +568,7 @@
                         ]
                     },
                     "visible": false,
+                    "style": "Extended",
                     "position": [
                         -0.0141784,
                         0.0573625,

@@ -1,0 +1,1550 @@
+{
+  "asset": {
+    "type": "application/si-dpo-3d.document+json",
+    "version": "1.0",
+    "generator": "Voyager",
+    "copyright": "(c) Smithsonian Institution. All rights reserved."
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "units": "mm",
+      "nodes": [
+        0,
+        1,
+        6
+      ],
+      "meta": 1,
+      "setup": 0
+    }
+  ],
+  "nodes": [
+    {
+      "translation": [
+        1118.0488303,
+        466.7171993,
+        1363.6724507
+      ],
+      "rotation": [
+        -0.1235952,
+        0.3367165,
+        0.0446342,
+        0.9323915
+      ],
+      "name": "Camera",
+      "camera": 0
+    },
+    {
+      "rotation": [
+        0,
+        0.3396619,
+        0,
+        0.9405476
+      ],
+      "name": "Lights",
+      "children": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "translation": [
+        -430.3634069,
+        471.1887463,
+        793.5724182
+      ],
+      "rotation": [
+        0.4829741,
+        -0.1070728,
+        0.1880998,
+        0.8484633
+      ],
+      "scale": [
+        169.7210685,
+        169.7210685,
+        169.7210685
+      ],
+      "name": "Key",
+      "light": 0
+    },
+    {
+      "translation": [
+        775.4946198,
+        458.4728482,
+        474.7624897
+      ],
+      "rotation": [
+        0.3546969,
+        0.163893,
+        -0.3861077,
+        0.8356136
+      ],
+      "scale": [
+        169.7210685,
+        169.7210685,
+        169.7210685
+      ],
+      "name": "Fill #1",
+      "light": 1
+    },
+    {
+      "translation": [
+        -594.2354889,
+        -777.0939246,
+        282.8389923
+      ],
+      "rotation": [
+        0.9374013,
+        -0.3018693,
+        0.0532277,
+        0.1652891
+      ],
+      "scale": [
+        169.7210685,
+        169.7210685,
+        169.7210685
+      ],
+      "name": "Fill #2",
+      "light": 2
+    },
+    {
+      "translation": [
+        884.550377,
+        52.7386448,
+        -501.7747956
+      ],
+      "rotation": [
+        0.373256,
+        0.6426073,
+        -0.5786063,
+        0.3360813
+      ],
+      "scale": [
+        169.7210685,
+        169.7210685,
+        169.7210685
+      ],
+      "name": "Rim",
+      "light": 3
+    },
+    {
+      "name": "Collidoscope",
+      "model": 0,
+      "meta": 0
+    }
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "yfov": 52,
+        "znear": 7.4381049,
+        "zfar": 7438.1048795
+      }
+    }
+  ],
+  "lights": [
+    {
+      "color": [
+        1,
+        0.95,
+        0.9
+      ],
+      "intensity": 1,
+      "type": "directional",
+      "shadowEnabled": true,
+      "shadowSize": 1697.2106852
+    },
+    {
+      "color": [
+        0.9,
+        0.95,
+        1
+      ],
+      "intensity": 0.7,
+      "type": "directional",
+      "shadowEnabled": true,
+      "shadowSize": 1697.2106852
+    },
+    {
+      "color": [
+        0.8,
+        0.85,
+        1
+      ],
+      "intensity": 0.5,
+      "type": "directional"
+    },
+    {
+      "color": [
+        0.85,
+        0.9078313,
+        1
+      ],
+      "intensity": 0.6,
+      "type": "directional"
+    }
+  ],
+  "models": [
+    {
+      "units": "in",
+      "translation": [
+        0.0818279,
+        -2.6229982,
+        1.8162421
+      ],
+      "rotation": [
+        0,
+        0.0669499,
+        0,
+        0.9977563
+      ],
+      "boundingBox": {
+        "min": [
+          -18.5144465,
+          -19.8816948,
+          -17.1692881
+        ],
+        "max": [
+          18.2264843,
+          25.1276913,
+          13.9734905
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Thumb",
+          "assets": [
+            {
+              "uri": "collidoscope_thumb.glb",
+              "type": "Model",
+              "mimeType": "model/gltf-binary"
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "glass_test.glb",
+              "type": "Model",
+              "mimeType": "model/gltf-binary"
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "collidoscope_xr.glb",
+              "type": "Model"
+            }
+          ]
+        },
+        {
+          "usage": "App3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "collidoscope_ar.glb",
+              "type": "Model"
+            }
+          ]
+        },
+        {
+          "usage": "iOSApp3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "collidoscope.usdz",
+              "type": "Model",
+              "byteSize": 1734996,
+              "numFaces": 100000,
+              "imageSize": 2048
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "hwdV0FWcD9OD",
+          "titles": {
+            "EN": "Bed",
+            "ES": "Cama"
+          },
+          "leads": {
+            "EN": "",
+            "ES": ""
+          },
+          "taglist": {
+            "ES": []
+          },
+          "audioId": "SL12tHeMz6gp",
+          "style": "Extended",
+          "position": [
+            -14.8194026,
+            -17.3538539,
+            10.9306421
+          ],
+          "direction": [
+            -0.9695262,
+            0.0117487,
+            -0.2447058
+          ],
+          "scale": 1.670483,
+          "color": [
+            0,
+            0.61,
+            0.87
+          ]
+        },
+        {
+          "id": "XZdUUpysu4i8",
+          "titles": {
+            "EN": "A New Head",
+            "ES": "Una Nueva Cabeza"
+          },
+          "leads": {
+            "EN": "",
+            "ES": ""
+          },
+          "taglist": {
+            "ES": [],
+            "EN": []
+          },
+          "audioId": "WSLh1b7Nd9RX",
+          "style": "Extended",
+          "position": [
+            -6.8398218,
+            14.0725427,
+            0.804547
+          ],
+          "direction": [
+            -0.3204997,
+            0.5677113,
+            0.7582769
+          ],
+          "scale": 1.670483,
+          "color": [
+            0,
+            0.61,
+            0.87
+          ]
+        },
+        {
+          "id": "B8fcoUtnvu8s",
+          "titles": {
+            "EN": "Tattoos",
+            "ES": "Tatuajes"
+          },
+          "leads": {
+            "EN": "",
+            "ES": ""
+          },
+          "taglist": {
+            "ES": [],
+            "EN": []
+          },
+          "audioId": "c8j4QtKPx5qu",
+          "style": "Extended",
+          "position": [
+            -8.4183966,
+            -0.8773924,
+            0.0435351
+          ],
+          "direction": [
+            -0.9091855,
+            0.2869063,
+            -0.3017723
+          ],
+          "scale": 1.670483,
+          "color": [
+            0,
+            0.61,
+            0.87
+          ]
+        },
+        {
+          "id": "JsDH7V35HFQ4",
+          "titles": {
+            "EN": "Glass Skull",
+            "ES": "Calavera de Cristal"
+          },
+          "leads": {
+            "EN": "",
+            "ES": ""
+          },
+          "taglist": {
+            "ES": [],
+            "EN": []
+          },
+          "audioId": "RYZgJZFfysxa",
+          "style": "Extended",
+          "position": [
+            -0.1037864,
+            12.9433475,
+            -3.2931031
+          ],
+          "direction": [
+            0.9976795,
+            -0.0039344,
+            0.0679722
+          ],
+          "scale": 1.670483,
+          "color": [
+            0,
+            0.61,
+            0.87
+          ]
+        },
+        {
+          "id": "qEcym8OdDsC4",
+          "titles": {
+            "EN": "Collaboration",
+            "ES": "La Colaboración"
+          },
+          "leads": {
+            "EN": "Collaboration - making art together - is something Einar and Jamex have done since they started their glass lampworking business while still in school. As practiced collaborators they challenge perceptions about what it means to collaborate and what artistic collaboration entails.    <a href='https://latino.si.edu/exhibitions/collidoscope-online-exhibition/brothers-and-collaborators' target='_blank'>Learn more.</a>",
+            "ES": "La colaboración (hacer arte juntos) es algo que Einar y Jamex han hecho desde que comenzaron su negocio de fabricación de lámparas de vidrio cuando aún estaban en la escuela. Como colaboradores experimentados, desafían las percepciones sobre lo que significa colaborar y lo que implica la colaboración artística.    <a href='https://latino.si.edu/es/exhibitions/collidoscope-online-exhibition/hermanos-y-colaboradores' target='_blank'>Leer Más.</a>"
+          },
+          "taglist": {
+            "ES": [],
+            "EN": []
+          },
+          "style": "Extended",
+          "position": [
+            -13.517207,
+            -4.6951312,
+            10.9591232
+          ],
+          "direction": [
+            0.983444,
+            -0.0430572,
+            -0.1760227
+          ],
+          "scale": 1.670483,
+          "color": [
+            0,
+            0.61,
+            0.87
+          ]
+        },
+        {
+          "id": "3n8dw9jVwjwX",
+          "titles": {
+            "EN": "Remote Control",
+            "ES": "Control Remoto"
+          },
+          "leads": {
+            "EN": "",
+            "ES": ""
+          },
+          "taglist": {
+            "ES": [],
+            "EN": []
+          },
+          "audioId": "17Tvy9BCU5tz",
+          "style": "Extended",
+          "position": [
+            1.3918929,
+            3.0971907,
+            -3.4895621
+          ],
+          "direction": [
+            -0.3907977,
+            0.9187331,
+            0.0566277
+          ],
+          "scale": 1.670483,
+          "color": [
+            0,
+            0.61,
+            0.87
+          ]
+        },
+        {
+          "id": "CBhOXubznV6l",
+          "titles": {
+            "EN": "Mixed Media",
+            "ES": "Técnicas Mixtas"
+          },
+          "leads": {
+            "EN": "While working with glass became one of their favorite mediums, the brothers primarily work in mixed media and continue to learn about and utilize different mediums such as lenticular prints.    <a href='https://latino.si.edu/exhibitions/collidoscope-online-exhibition/mixing-media' target='_blank'>Learn more.</a>",
+            "ES": "Si bien trabajar con vidrio se convirtió en uno de sus medios favoritos, los hermanos trabajan principalmente en técnicas mixtas y continúan aprendiendo y utilizando diferentes medios, como las impresiones lenticulares.    <a href='https://latino.si.edu/es/exhibitions/collidoscope-online-exhibition/mezclando-medios' target='_blank'>Leer Más.</a>"
+          },
+          "taglist": {
+            "ES": [],
+            "EN": []
+          },
+          "style": "Extended",
+          "position": [
+            9.4490108,
+            -10.0399281,
+            -2.2364003
+          ],
+          "direction": [
+            -0.0393879,
+            0.9955154,
+            -0.0860099
+          ],
+          "scale": 1.670483,
+          "color": [
+            0,
+            0.61,
+            0.87
+          ]
+        },
+        {
+          "id": "vjfqKd5RdbOM",
+          "titles": {
+            "EN": "Charms ",
+            "ES": "Dijes"
+          },
+          "leads": {
+            "EN": "Metal can be a tricky element to render due to its shine. This is a material test for one of the many charms on the “¡2020!” baby’s body.  ",
+            "ES": "El metal puede ser un elemento complicado de renderizar debido a su brillo. Esta es una prueba material para uno de los dijes en el cuerpo del bebé."
+          },
+          "marker": "3",
+          "taglist": {
+            "ES": []
+          },
+          "imageUri": "articles/3%20MATERIAL_TEST_EXTERIOR_BODY_albedo_wnocoat-Camera.png",
+          "imageCredit": {
+            "EN": "Smithsonian Exhibitions",
+            "ES": "Cortesía de la Oficina de Exhibiciones del Smithsonian"
+          },
+          "imageAltText": {
+            "EN": "Rendering of bronze metal circle",
+            "ES": "Representación de un círculo de metal de bronce"
+          },
+          "style": "Circle",
+          "position": [
+            -4.9660696,
+            -1.7470673,
+            -3.7547632
+          ],
+          "direction": [
+            -0.5253789,
+            -0.4134401,
+            -0.7436695
+          ],
+          "scale": 3.149608,
+          "color": [
+            0.7007042,
+            0.3520495,
+            0.7296491
+          ]
+        },
+        {
+          "id": "wnlFrh9O0yHk",
+          "titles": {
+            "EN": "Challenging Tattoos",
+            "ES": "Tatuajes Desafiantes "
+          },
+          "leads": {
+            "EN": "According to designer Zachary Hudson the tattoos were some of the most difficult aspects to recreate digitally.",
+            "ES": "Según el diseñador Zachary Hudson, los tatuajes fueron algunos de los aspectos más difíciles de recrear digitalmente."
+          },
+          "marker": "1",
+          "taglist": {
+            "EN": [],
+            "ES": []
+          },
+          "imageUri": "articles/1%20MATERIAL_TEST_EXTERIORMAIN_SKIN3_albedo_w_no%20coat-Camera.png",
+          "imageCredit": {
+            "EN": "Smithsonian Exhibitions",
+            "ES": " Cortesía de la Oficina de Exhibiciones del Smithsonian "
+          },
+          "imageAltText": {
+            "EN": "Rendering of a pencil drawing of a animal-like figure barring its teeth ",
+            "ES": "Representación de un dibujo a lápiz de una figura parecida a un animal sin dientes"
+          },
+          "audioId": "zZQMwqEuAZjZ",
+          "style": "Circle",
+          "position": [
+            -5.1141316,
+            -0.9811804,
+            7.4379502
+          ],
+          "direction": [
+            0.3012161,
+            0.4190859,
+            0.8565255
+          ],
+          "scale": 3.149608,
+          "color": [
+            0.7,
+            0.35,
+            0.75
+          ]
+        },
+        {
+          "id": "UGzulvwuVbvC",
+          "titles": {
+            "EN": "Cameos",
+            "ES": "Camafeo "
+          },
+          "leads": {
+            "EN": "Material test of the small cameo paintings that surround the bed frame. They were found at a flea market and digitally re-created by designers. ",
+            "ES": "Prueba de material de los pequeños camafeos que rodean la cama. Fueron encontrados en un mercadillo y recreados digitalmente por diseñadores. "
+          },
+          "marker": "2",
+          "taglist": {
+            "EN": [],
+            "ES": []
+          },
+          "imageUri": "articles/2%20MATERIAL_TEST_EXTERIOR_BED_albedo_nocoat-Camera.png",
+          "imageCredit": {
+            "EN": "Smithsonian Exhibitions",
+            "ES": "Cortesía de la Oficina de Exhibiciones del Smithsonian "
+          },
+          "imageAltText": {
+            "EN": "Rendering of a painted cameo with a man and woman",
+            "ES": "Representación de un camafeo pintado con un hombre y una mujer."
+          },
+          "style": "Circle",
+          "position": [
+            14.7616653,
+            -12.7036796,
+            -0.550513
+          ],
+          "direction": [
+            0.9996186,
+            0.0273966,
+            0.0034661
+          ],
+          "scale": 3.149608,
+          "color": [
+            0.7,
+            0.35,
+            0.75
+          ]
+        },
+        {
+          "id": "9ampFjg1sVPo",
+          "titles": {
+            "EN": "Glass Ashtray",
+            "ES": "Cenicero de cristal "
+          },
+          "leads": {
+            "EN": "Jamie Cope at the Digital Program Office used new techniques to more accurately see how light would pass though these transparent objects. ",
+            "ES": "Jamie Cope de la Oficina del Programa Digital utilizó nuevas técnicas para ver cómo pasaría la luz a través de estos objetos transparentes."
+          },
+          "marker": "4",
+          "taglist": {
+            "EN": []
+          },
+          "imageUri": "articles/4%20MATERIAL_TEST_EXTERIOR_ashtray_albedo_translucency_absorption_nocoat_2-Camera.png",
+          "imageCredit": {
+            "EN": "Smithsonian Exhibitions",
+            "ES": "Cortesía de la Oficina de Exhibiciones del Smithsonian "
+          },
+          "imageAltText": {
+            "EN": "Rendering of a clear glass ashtray with a yellow liquid and plastic ants inside",
+            "ES": "Representación de un cenicero de vidrio transparente con un líquido amarillo y hormigas de plástico en su interior."
+          },
+          "audioId": "Fq78Mlzblvmj",
+          "style": "Circle",
+          "position": [
+            16.0417623,
+            -20.8177121,
+            10.7421486
+          ],
+          "direction": [
+            0.0121823,
+            0.9999231,
+            0.0023148
+          ],
+          "scale": 3.149608,
+          "color": [
+            0.7,
+            0.35,
+            0.75
+          ]
+        },
+        {
+          "id": "C9QedwqPW09G",
+          "titles": {
+            "EN": "Eye",
+            "ES": "Ojo "
+          },
+          "leads": {
+            "EN": "This material test of the sculpture’s eye showcases the shape as well as the white speck details in the glass.  ",
+            "ES": "Esta prueba material del ojo de la escultura muestra la forma así como los detalles de motas blancas en el vidrio. "
+          },
+          "marker": "5",
+          "taglist": {
+            "EN": []
+          },
+          "imageUri": "articles/5%20MATERIAL_TEST_EXTERIORMAIN_EYE_albedo_w_transparencymap_nocoat-Camera.png",
+          "imageCredit": {
+            "EN": "Smithsonian Exhibitions",
+            "ES": "Cortesía de la Oficina de Exhibiciones del Smithsonian "
+          },
+          "imageAltText": {
+            "EN": "Rendering of glass with white specks and a blue crosshair design. ",
+            "ES": "Representación de vidrio con motas blancas y un diseño de cruz azul."
+          },
+          "style": "Circle",
+          "position": [
+            -4.8324364,
+            10.8710322,
+            3.2650146
+          ],
+          "direction": [
+            0.3592954,
+            0.7717304,
+            0.5247276
+          ],
+          "scale": 3.149608,
+          "color": [
+            0.7,
+            0.35,
+            0.75
+          ]
+        },
+        {
+          "id": "utEw3EklS4KI",
+          "titles": {
+            "EN": "Nose",
+            "ES": "Nariz "
+          },
+          "leads": {
+            "EN": "Notice the red and white specks of color, they reference how the color of the red head can be seen through the speckled white glass of the nose.  ",
+            "ES": "Observe las motas de color rojas y blancas, hacen referencia a cómo se puede ver el color de la cabeza roja a través del cristal blanco de la nariz."
+          },
+          "marker": "6",
+          "imageUri": "articles/6%20MATERIAL_TEST_EXTERIORMAIN_NOSE_albedo_w_transparencymap_nocoat-Camera.png",
+          "imageCredit": {
+            "EN": "Smithsonian Exhibition",
+            "ES": "Cortesía de la Oficina de Exhibiciones del Smithsonian "
+          },
+          "imageAltText": {
+            "EN": "Rendering of transparent glass with a red tinge, white specks and a black circle",
+            "ES": "Representación de vidrio transparente con un tinte rojo, motas blancas y un círculo negro."
+          },
+          "style": "Circle",
+          "position": [
+            -2.8495166,
+            8.2724058,
+            2.6883371
+          ],
+          "direction": [
+            0.0858511,
+            0.4264746,
+            0.9004161
+          ],
+          "scale": 3.149608,
+          "color": [
+            0.7,
+            0.35,
+            0.75
+          ]
+        },
+        {
+          "id": "MjJ4kXoY5M3v",
+          "titles": {
+            "EN": "Gestures",
+            "ES": "Gestos "
+          },
+          "leads": {
+            "EN": "Zachary Hudson discusses how this model was unique. ",
+            "ES": "Zachary Hudson analiza cómo este modelo fue único."
+          },
+          "marker": "7",
+          "imageUri": "articles/7%20MATERIAL_TEST_EXTERIORMAIN_bed_albedo_w_nocoat-Camera..png",
+          "imageCredit": {
+            "EN": "Smithsonian Exhibitions",
+            "ES": "Cortesía de la Oficina de Exhibiciones del Smithsonian "
+          },
+          "imageAltText": {
+            "EN": "Rendering of a gestural squiggle in brown and green",
+            "ES": "Representación de un garabato gestual en marrón y verde."
+          },
+          "audioId": "baguMycyvT44",
+          "style": "Circle",
+          "position": [
+            -1.3392387,
+            -13.22253,
+            11.3098874
+          ],
+          "direction": [
+            0.1063144,
+            -0.0274306,
+            0.9939542
+          ],
+          "scale": 3.149608,
+          "color": [
+            0.7,
+            0.35,
+            0.75
+          ]
+        },
+        {
+          "id": "InidCXx1Ay7D",
+          "titles": {
+            "EN": "Textured Glass",
+            "ES": "Vidrio texturizado"
+          },
+          "leads": {
+            "EN": "The yellow details on the top of the baby’s head have texture. The transparency and texture of the glass are rendered in this material sample. ",
+            "ES": "Los detalles amarillos en la parte superior de la cabeza del bebé tienen textura. La transparencia y la textura del vidrio se reflejan en esta muestra"
+          },
+          "marker": "8",
+          "taglist": {
+            "EN": []
+          },
+          "imageUri": "articles/8%20MATERIAL_TEST_YELLOW_FINS_albedo_w_absorb_w_distance_w_no_%20coat_denoise-Camera.png",
+          "imageCredit": {
+            "EN": "Smithsonian Exhibitions",
+            "ES": "Cortesía de la Oficina de Exhibiciones del Smithsonian "
+          },
+          "imageAltText": {
+            "EN": "Rendering of yellow tinted bumpy textured glass",
+            "ES": "Representación de vidrio texturizado con baches teñido de amarillo"
+          },
+          "style": "Circle",
+          "position": [
+            -6.0655092,
+            20.4830677,
+            -8.0080525
+          ],
+          "direction": [
+            -0.7584071,
+            0.4670042,
+            0.454671
+          ],
+          "scale": 3.149608,
+          "color": [
+            0.7,
+            0.35,
+            0.75
+          ]
+        },
+        {
+          "id": "h8vJAG8AEbZy",
+          "titles": {
+            "EN": "Glass Ribbons",
+            "ES": "Cintas de vidrio"
+          },
+          "leads": {
+            "EN": "Glass artists can layer colors and shapes. The green ribbons of glass running in the clear glass take more time and effort to model and render.",
+            "ES": "Los artistas del vidrio pueden superponer colores y formas. Las cintas verdes de vidrio requieren más tiempo y esfuerzo para modelarse y renderizarse."
+          },
+          "marker": "9",
+          "taglist": {
+            "ES": []
+          },
+          "imageUri": "articles/9%20MATERIAL_TEST_HORNTWIST_albedo_w_no_%20coat-Camera.png",
+          "imageCredit": {
+            "EN": "Smithsonian Exhibitions",
+            "ES": "Cortesía de la Oficina de Exhibiciones del Smithsonian "
+          },
+          "imageAltText": {
+            "EN": "Rendering of a clear glass cylinder with a green spiral ",
+            "ES": "Representación de un cilindro de vidrio transparente con una espiral verde"
+          },
+          "style": "Circle",
+          "position": [
+            -0.4688349,
+            15.252592,
+            -1.6841494
+          ],
+          "direction": [
+            0.734188,
+            0.5682342,
+            0.3715883
+          ],
+          "scale": 3.149608,
+          "color": [
+            0.7,
+            0.35,
+            0.75
+          ]
+        }
+      ]
+    }
+  ],
+  "metas": [
+    {
+      "articles": [
+        {
+          "id": "V5SUrJrqqH9d",
+          "uris": {
+            "EN": "articles/new-article-V5SUrJrqqH9d-0.html",
+            "ES": "articles/new-article-V5SUrJrqqH9d-ES.html"
+          },
+          "titles": {
+            "EN": "¡2020!",
+            "ES": "¡2020!"
+          },
+          "leads": {
+            "EN": ""
+          }
+        },
+        {
+          "id": "EUxsOZaFVG4P",
+          "uris": {
+            "EN": "articles/new-article-EUxsOZaFVG4P-0.html",
+            "ES": "articles/new-article-EUxsOZaFVG4P-ES.html"
+          },
+          "titles": {
+            "EN": "Making the Model",
+            "ES": "Creando un modelo digital "
+          },
+          "leads": {
+            "EN": "",
+            "ES": ""
+          },
+          "taglist": {
+            "ES": []
+          }
+        }
+      ]
+    },
+    {
+      "collection": {
+        "edanRecordId": "edanmdm:dpo-3d-230007",
+        "titles": {
+          "EN": "¡2020!",
+          "ES": "¡2020!"
+        }
+      },
+      "images": [
+        {
+          "uri": "scene-image-thumb.jpg",
+          "quality": "Thumb",
+          "byteSize": 14154,
+          "width": 320,
+          "height": 320
+        },
+        {
+          "uri": "scene-image-low.jpg",
+          "quality": "Low",
+          "byteSize": 41091,
+          "width": 640,
+          "height": 640
+        },
+        {
+          "uri": "scene-image-medium.jpg",
+          "quality": "Medium",
+          "byteSize": 123609,
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "uri": "scene-image-high.jpg",
+          "quality": "High",
+          "byteSize": 367872,
+          "width": 2560,
+          "height": 2560
+        }
+      ],
+      "audio": [
+        {
+          "id": "olnKtAnq1Kxh",
+          "name": "Object Overview",
+          "uris": {
+            "EN": "FINAL Object Overview.mp3",
+            "ES": "FINAL Object Overview.mp3"
+          },
+          "captionUris": {
+            "EN": "FINAL_Object_Overview.vtt",
+            "ES": "FINAL_Object_Overview ES.vtt"
+          },
+          "durations": {}
+        },
+        {
+          "id": "SL12tHeMz6gp",
+          "name": "Annotation Bed",
+          "uris": {
+            "EN": "Annotation 1 bed.mp3",
+            "ES": "Annotation 1 bed.mp3"
+          },
+          "captionUris": {
+            "EN": "Annotation 1_bed.vtt",
+            "ES": "Annotation 1_bedES.vtt"
+          },
+          "durations": {}
+        },
+        {
+          "id": "WSLh1b7Nd9RX",
+          "name": "Annotation New Head",
+          "uris": {
+            "EN": "Annotation 2 A New Head.mp3",
+            "ES": "Annotation 2 A New Head.mp3"
+          },
+          "captionUris": {
+            "EN": "Annotation 2_A New Head.vtt",
+            "ES": "Annotation 2_A New Head ES.vtt"
+          },
+          "durations": {}
+        },
+        {
+          "id": "c8j4QtKPx5qu",
+          "name": "Annotation Tattoos",
+          "uris": {
+            "EN": "Annotation 3 Tatoos.mp3",
+            "ES": "Annotation 3 Tatoos.mp3"
+          },
+          "captionUris": {
+            "EN": "Annotation 3_Tatoos.vtt",
+            "ES": "Annotation 3_TatoosES.vtt"
+          },
+          "durations": {}
+        },
+        {
+          "id": "RYZgJZFfysxa",
+          "name": "Annotation Glass Skull",
+          "uris": {
+            "EN": "Annotation 4 Glass Skull.mp3",
+            "ES": "Annotation 4 Glass Skull.mp3"
+          },
+          "captionUris": {
+            "EN": "Annotation 4_Glass_Skull.vtt",
+            "ES": "Annotation 4_Glass_Skull ES.vtt"
+          },
+          "durations": {}
+        },
+        {
+          "id": "17Tvy9BCU5tz",
+          "name": "Annotation Remote Control",
+          "uris": {
+            "EN": "Annotation 6 Remote Control.mp3",
+            "ES": "Annotation 6 Remote Control.mp3"
+          },
+          "captionUris": {
+            "EN": "Annotation 6_Remote_Control.vtt",
+            "ES": "Annotation 6_Remote_ControlES.vtt"
+          },
+          "durations": {}
+        },
+        {
+          "id": "zZQMwqEuAZjZ",
+          "name": "Annotation 1 Challenging Tattoos",
+          "uris": {
+            "EN": "1 Tattoos.mp3",
+            "ES": "1 Tattoos.mp3"
+          },
+          "captionUris": {
+            "EN": "1 Tatoos_Zach.vtt",
+            "ES": "1 Tatoos_Zach es.vtt"
+          },
+          "durations": {}
+        },
+        {
+          "id": "Fq78Mlzblvmj",
+          "name": "Annotation 4 Ashtray",
+          "uris": {
+            "EN": "4 ashtray .mp3",
+            "ES": "4 ashtray .mp3"
+          },
+          "captionUris": {
+            "EN": "4 Ashtray_Jamie.vtt",
+            "ES": "4 Ashtray_Jamie es.vtt"
+          },
+          "durations": {}
+        },
+        {
+          "id": "baguMycyvT44",
+          "name": "Annotation 7 Gestures",
+          "uris": {
+            "EN": "7 Artist Integrity.mp3",
+            "ES": "7 Artist Integrity.mp3"
+          },
+          "captionUris": {
+            "EN": "7 artist_integrity_Zach.vtt",
+            "ES": "7 artist_integrity_Zach es.vtt"
+          },
+          "durations": {}
+        }
+      ]
+    }
+  ],
+  "setups": [
+    {
+      "units": "cm",
+      "interface": {
+        "visible": true,
+        "logo": true,
+        "menu": true,
+        "tools": true
+      },
+      "viewer": {
+        "shader": "Default",
+        "exposure": 1,
+        "toneMapping": false,
+        "gamma": 2,
+        "isWallMountAR": false,
+        "arScale": 1
+      },
+      "reader": {
+        "enabled": false,
+        "position": "Overlay"
+      },
+      "navigation": {
+        "enabled": true,
+        "autoZoom": true,
+        "autoRotation": false,
+        "lightsFollowCamera": true,
+        "type": "Orbit",
+        "orbit": {
+          "orbit": [
+            -15.4596872,
+            25.7590751,
+            0
+          ],
+          "offset": [
+            -21.8161713,
+            -82.9274636,
+            1696.3915495
+          ],
+          "minOrbit": [
+            -90,
+            null,
+            null
+          ],
+          "maxOrbit": [
+            90,
+            null,
+            null
+          ],
+          "minOffset": [
+            null,
+            null,
+            0.1
+          ],
+          "maxOffset": [
+            null,
+            null,
+            10000
+          ]
+        }
+      },
+      "background": {
+        "style": "Solid",
+        "color0": [
+          1,
+          1,
+          1
+        ],
+        "color1": [
+          0.01,
+          0.03,
+          0.05
+        ]
+      },
+      "floor": {
+        "visible": false,
+        "position": [
+          4.2753953,
+          -571.6192221,
+          34.7014055
+        ],
+        "size": 1143.2384431,
+        "color": [
+          0.6,
+          0.75,
+          0.8
+        ],
+        "opacity": 0.5,
+        "receiveShadow": false
+      },
+      "grid": {
+        "visible": false,
+        "color": [
+          0.5,
+          0.7,
+          0.8
+        ]
+      },
+      "tape": {
+        "enabled": false
+      },
+      "slicer": {
+        "enabled": false,
+        "axis": "X",
+        "position": 0.5,
+        "inverted": false,
+        "color": [
+          0,
+          0.61,
+          0.87
+        ]
+      },
+      "environment": {
+        "index": 0
+      },
+      "language": {
+        "language": "EN"
+      },
+      "audio": {
+        "narrationId": "olnKtAnq1Kxh"
+      },
+      "tours": [
+        {
+          "steps": [
+            {
+              "id": "YLuljR",
+              "titles": {
+                "EN": "Read the Article",
+                "ES": "Leer el artículo"
+              }
+            },
+            {
+              "id": "BvxBst",
+              "titles": {
+                "EN": "Challenging Tattoos",
+                "ES": "Tatuajes Desafiantes "
+              }
+            },
+            {
+              "id": "Y7dZZo",
+              "titles": {
+                "EN": "Cameos",
+                "ES": "Camafeo "
+              }
+            },
+            {
+              "id": "2mPIg8",
+              "titles": {
+                "EN": "Charms",
+                "ES": "Dijes "
+              }
+            },
+            {
+              "id": "eBlIE9",
+              "titles": {
+                "EN": "Glass Ashtray",
+                "ES": "Cenicero de cristal "
+              }
+            },
+            {
+              "id": "1z3Enz",
+              "titles": {
+                "EN": "New Step #0",
+                "ES": "Ojo"
+              }
+            },
+            {
+              "id": "JdEN01",
+              "titles": {
+                "EN": "New Step #1",
+                "ES": "Nariz"
+              }
+            },
+            {
+              "id": "7j5GeD",
+              "titles": {
+                "EN": "New Step #2",
+                "ES": "Gestos"
+              }
+            },
+            {
+              "id": "KurkH0",
+              "titles": {
+                "EN": "New Step #3",
+                "ES": "Vidrio texturizado "
+              }
+            },
+            {
+              "id": "ur7yUj",
+              "titles": {
+                "EN": "New Step #4",
+                "ES": "Cintas de vidrio"
+              }
+            }
+          ],
+          "titles": {
+            "EN": "Making the Model",
+            "ES": "Creando un modelo digital  "
+          },
+          "leads": {
+            "EN": "Learn how the “¡2020!” 3D model was created. ",
+            "ES": "Descubra cómo se creó el modelo 3D."
+          },
+          "taglist": {
+            "EN": [],
+            "ES": []
+          }
+        }
+      ],
+      "snapshots": {
+        "features": [
+          "reader",
+          "viewer",
+          "navigation"
+        ],
+        "targets": [
+          "scenes/0/setup/reader/enabled",
+          "scenes/0/setup/reader/position",
+          "scenes/0/setup/reader/articleId",
+          "scenes/0/setup/navigation/orbit",
+          "scenes/0/setup/navigation/offset",
+          "scenes/0/setup/viewer/annotationsVisible",
+          "scenes/0/setup/viewer/activeAnnotation",
+          "scenes/0/setup/viewer/activeTags",
+          "scenes/0/setup/viewer/shader",
+          "scenes/0/setup/viewer/exposure"
+        ],
+        "states": [
+          {
+            "id": "YLuljR",
+            "values": [
+              true,
+              0,
+              "EUxsOZaFVG4P",
+              [
+                -2.1735182,
+                392.2329527,
+                0
+              ],
+              [
+                -144.0615727,
+                -16.6846138,
+                1202.241965
+              ],
+              false,
+              "",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "BvxBst",
+            "values": [
+              false,
+              0,
+              "",
+              [
+                -10.3216664,
+                370.8925647,
+                0
+              ],
+              [
+                -142.9581158,
+                36.1366879,
+                625.660043
+              ],
+              true,
+              "wnlFrh9O0yHk",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "Y7dZZo",
+            "values": [
+              false,
+              0,
+              "",
+              [
+                -11.1606005,
+                466.6254404,
+                0
+              ],
+              [
+                -96.7914028,
+                -292.0419257,
+                716.3181832
+              ],
+              true,
+              "UGzulvwuVbvC",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "2mPIg8",
+            "values": [
+              false,
+              0,
+              "",
+              [
+                -28.7572448,
+                565.0848522,
+                0
+              ],
+              [
+                51.3379472,
+                10.1961611,
+                567.7471985
+              ],
+              true,
+              "vjfqKd5RdbOM",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "eBlIE9",
+            "values": [
+              false,
+              0,
+              "",
+              [
+                -13.4257228,
+                496.9948575,
+                0
+              ],
+              [
+                -445.6296851,
+                -421.4023358,
+                353.1721923
+              ],
+              true,
+              "9ampFjg1sVPo",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "1z3Enz",
+            "values": [
+              false,
+              0,
+              "",
+              [
+                -22.9495201,
+                373.1853582,
+                0
+              ],
+              [
+                -111.9526174,
+                154.4930155,
+                447.2894921
+              ],
+              true,
+              "C9QedwqPW09G",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "JdEN01",
+            "values": [
+              false,
+              0,
+              "",
+              [
+                -30.9695626,
+                373.6866266,
+                0
+              ],
+              [
+                -96.7196891,
+                182.3954375,
+                331.3247984
+              ],
+              true,
+              "utEw3EklS4KI",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "7j5GeD",
+            "values": [
+              false,
+              0,
+              "",
+              [
+                -1.3956338,
+                376.1928678,
+                0
+              ],
+              [
+                -50.9608584,
+                -296.173572,
+                480.4228908
+              ],
+              true,
+              "MjJ4kXoY5M3v",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "KurkH0",
+            "values": [
+              false,
+              0,
+              "",
+              [
+                -24.4213837,
+                321.5242945,
+                0
+              ],
+              [
+                -172.9839953,
+                542.935174,
+                377.0562717
+              ],
+              true,
+              "InidCXx1Ay7D",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "ur7yUj",
+            "values": [
+              false,
+              0,
+              "",
+              [
+                -3.8700175,
+                445.3337265,
+                0
+              ],
+              [
+                87.3105327,
+                435.9810612,
+                282.057702
+              ],
+              true,
+              "h8vJAG8AEbZy",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          }
+        ]
+      }
+    }
+  ]
+}
