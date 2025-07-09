@@ -1,1 +1,1040 @@
-{"asset":{"type":"application/si-dpo-3d.document+json","version":"1.0","generator":"Voyager"},"scene":0,"scenes":[{"units":"mm","nodes":[0,1,6,7,8,9,10,11],"meta":0,"setup":0}],"nodes":[{"translation":[384.1338283,50.8642011,52.4535146],"rotation":[-0.0438609,0.6589461,0.0385401,0.7499206],"name":"Camera","camera":0},{"rotation":[0,0.6600722,0,0.7512022],"name":"Lights","children":[2,3,4,5]},{"translation":[-100.1972198,109.7021764,184.7595515],"rotation":[0.4829741,-0.1070728,0.1880998,0.8484633],"scale":[39.5144637,39.5144637,39.5144637],"name":"Key","light":0},{"translation":[180.550678,106.7416607,110.5342155],"rotation":[0.3546969,0.163893,-0.3861077,0.8356136],"scale":[39.5144637,39.5144637,39.5144637],"name":"Fill #1","light":1},{"translation":[-138.3499223,-180.9230282,65.8505817],"rotation":[0.9374013,-0.3018693,0.0532277,0.1652891],"scale":[39.5144637,39.5144637,39.5144637],"name":"Fill #2","light":2},{"translation":[205.9410423,12.2786127,-116.8232212],"rotation":[0.373256,0.6426073,-0.5786063,0.3360813],"scale":[39.5144637,39.5144637,39.5144637],"name":"Rim","light":3},{"name":"Main","model":0},{"name":"Axial","model":1},{"name":"Lineation","model":2},{"name":"Folds","model":3},{"name":"Angle","model":4},{"name":"XY","model":5}],"cameras":[{"type":"perspective","perspective":{"yfov":30,"znear":1.5640836,"zfar":1564.0835587},"autoNearFar":true}],"lights":[{"color":[1,0.95,0.9],"intensity":0.5,"type":"directional","shadowEnabled":true,"shadowSize":395.1446368},{"color":[0.9,0.95,1],"intensity":0.7,"type":"directional","shadowEnabled":true,"shadowSize":395.1446368},{"color":[0.8,0.85,1],"intensity":0.5,"type":"directional"},{"color":[0.85,0.9078313,1],"intensity":0.6,"type":"directional"}],"models":[{"units":"m","tags":"Main","boundingBox":{"min":[-0.1571565,-0.0506577,-0.1007016],"max":[0.1594069,0.0552499,0.0841584]},"derivatives":[{"usage":"Web3D","quality":"Medium","assets":[{"uri":"main.glb","type":"Model","mimeType":"model/gltf-binary"}]}]},{"units":"m","tags":"Axial","boundingBox":{"min":[-0.1549956,-0.0521374,-0.0718783],"max":[0.1625126,0.0605531,0.0013296]},"derivatives":[{"usage":"Web3D","quality":"Medium","assets":[{"uri":"Axial plane.glb","type":"Model","mimeType":"model/gltf-binary"}]}],"annotations":[{"id":"k9L3aviIAcXs","titles":{"EN":"Fold axial plane"},"leads":{"EN":""},"taglist":{"EN":["Axial"]},"style":"Extended","visible":false,"position":[0.0266911,0.0605531,-0.044179],"direction":[-0.0784302,19.9996895,-0.0784275],"scale":0.0096521,"color":[0.8166209,0.8803921,0.6181086]},{"id":"uQm4eQonR4Yr","titles":{"EN":"New cleavage"},"leads":{"EN":"It develops parallel to fold axial plane\n→ Axial planar cleavage"},"taglist":{"EN":["Axial"]},"visible":false,"position":[0.1345485,0.0402933,-0.0086912],"direction":[1.33037,0.0782544,19.9555474],"scale":0.0096521,"color":[0.0871605,0.4614378,0.2236617]}]},{"units":"m","tags":"Lineation","boundingBox":{"min":[-0.1627444,-0.0128564,-0.0873287],"max":[0.1559033,0.0609097,0.0557089]},"derivatives":[{"usage":"Web3D","quality":"Medium","assets":[{"uri":"lineation.glb","type":"Model","mimeType":"model/gltf-binary"}]}],"annotations":[{"id":"LZNdYuQtKOrl","titles":{"EN":"Hingelines"},"leads":{"EN":""},"taglist":{"EN":["Lineation"]},"imageUri":"articles/001.png","imageCredit":{"EN":""},"style":"Extended","visible":false,"position":[-0.0024115,0.0601918,0.0503538],"direction":[0.0039225,0.5373789,-0.8433318],"scale":0.0096954,"color":[0.8470186,0.9124185,0.7350038]},{"id":"vu2KU54xWIRl","titles":{"EN":"Intersections"},"leads":{"EN":"Lineation between folded bedding and new cleavage"},"taglist":{"EN":["Lineation"]},"articleId":"SgvnSMPzHZsi","style":"Extended","visible":false,"position":[0.0828849,0.0306191,-0.076786],"direction":[0.6876613,0.4597507,0.5619175],"scale":0.0096954,"color":[0.8470186,0.9124185,0.7350038]}]},{"units":"m","tags":"Folds","boundingBox":{"min":[0.0881865,-0.0321063,-0.0736369],"max":[0.1592964,0.0377765,0.0731063]},"derivatives":[{"usage":"Web3D","quality":"Medium","assets":[{"uri":"curves.glb","type":"Model","mimeType":"model/gltf-binary"}]}],"annotations":[{"id":"Xb7KvX2Tixem","titles":{"EN":"Asymmetric folds"},"leads":{"EN":"Sedimentery package of sub-mm lazers defining a primary planar structure-bedding.\n→this is folded forming asymmetric folds"},"taglist":{"EN":["Folds"]},"style":"Extended","visible":false,"position":[0.1381867,0.005391,-0.0210258],"direction":[0.9056456,0.1293779,0.403816],"scale":0.0095395,"color":[0.7137254,0.5055554,0.6827033]}]},{"units":"m","tags":"Angle","boundingBox":{"min":[-0.1686653,-0.0568276,-0.0035172],"max":[0.1306177,0.0629,0.0748551]},"derivatives":[{"usage":"Web3D","quality":"Medium","assets":[{"uri":"angle.glb","type":"Model","mimeType":"model/gltf-binary"}]}],"annotations":[{"id":"RSfiAR6NpRcd","titles":{"EN":"Interlimb agle"},"leads":{"EN":""},"taglist":{"EN":["Angle"]},"style":"Extended","position":[0.1179249,-0.0095966,0.0220674],"direction":[6.4345552,0.0261431,1.7436315],"scale":0.0082933,"color":[0.7890994,0.8640523,0.5034304]},{"id":"SgvnSMPzHZsi","titles":{"EN":"Axial plane"},"leads":{"EN":""},"taglist":{"EN":["Angle"]},"articleId":"LeX1TH","style":"Extended","position":[-0.0141784,0.0573625,0.0070231],"direction":[-0.1763594,-0.0195955,4.9968503],"scale":0.0082933,"color":[0.8705882,0.8613606,0.5344445]}]},{"units":"m","tags":"XY","boundingBox":{"min":[0.1160156,-0.0609252,-0.1207679],"max":[0.1160156,0.0670748,0.0992321]},"derivatives":[{"usage":"Web3D","quality":"Medium","assets":[{"uri":"XZ Scale.glb","type":"Model","mimeType":"model/gltf-binary"}]}]}],"metas":[{"collection":{"titles":{"EN":"008"},"intros":{"EN":""}},"articles":[{"id":"V5SUrJrqqH9d","uris":{"EN":"articles/Notes.html"},"titles":{"EN":"General Notes"},"leads":{"EN":""}},{"id":"SgvnSMPzHZsi","uris":{"EN":"articles/Lineation.html"},"titles":{"EN":"Lineation"},"leads":{"EN":""}},{"id":"LeX1TH","uris":{"EN":"articles/Axial.html"},"titles":{"EN":"Axial Plane"},"leads":{"EN":""}}]}],"setups":[{"units":"cm","interface":{"visible":true,"logo":true,"menu":true,"tools":true},"viewer":{"shader":"Default","exposure":1,"toneMapping":true,"gamma":2,"annotationsVisible":false,"activeTags":"Main"},"reader":{"enabled":false,"position":"Overlay"},"navigation":{"type":"Orbit","enabled":true,"autoZoom":true,"lightsFollowCamera":true,"autoRotation":false,"orbit":{"orbit":[-24,-26,0],"offset":[0,0,150],"minOrbit":[-90,null,null],"maxOrbit":[90,null,null],"minOffset":[null,null,0.1],"maxOffset":[null,null,10000]}},"background":{"style":"RadialGradient","color0":[0.2,0.25,0.3],"color1":[0.01,0.03,0.05]},"floor":{"visible":false,"position":[0,-25,0],"size":50,"color":[0.6,0.75,0.8],"opacity":0.5,"receiveShadow":false},"grid":{"visible":false,"color":[0.5,0.7,0.8]},"tape":{"enabled":false,"startPosition":[0,0,0],"startDirection":[0,0,0],"endPosition":[0,0,0],"endDirection":[0,0,0]},"slicer":{"enabled":false,"axis":"X","inverted":false,"position":0.5},"tours":[{"steps":[{"id":"10kkZH","titles":{"EN":"XY"},"altTexts":{"EN":"Missing content"}},{"id":"4nNqfZ","titles":{"EN":"Folds"},"altTexts":{"EN":"Missing content"}},{"id":"naIOgi","titles":{"EN":"Angle2"},"altTexts":{"EN":"Missing content"}},{"id":"LeX1TH","titles":{"EN":"Lineation"},"altTexts":{"EN":"Missing content"}},{"id":"1WFyfJ","titles":{"EN":"Axial"},"altTexts":{"EN":"Missing content"}},{"id":"eWHHk2","titles":{"EN":"Axial2"},"altTexts":{"EN":"Missing content"}}],"titles":{"EN":"008"},"leads":{"EN":""}}],"snapshots":{"features":["reader","viewer","navigation"],"targets":["scenes/0/setup/reader/enabled","scenes/0/setup/reader/position","scenes/0/setup/reader/articleId","scenes/0/setup/viewer/annotationsVisible","scenes/0/setup/viewer/activeAnnotation","scenes/0/setup/viewer/activeTags","scenes/0/setup/viewer/shader","scenes/0/setup/viewer/variant","scenes/0/setup/viewer/exposure","scenes/0/setup/navigation/orbit","scenes/0/setup/navigation/offset"],"states":[{"id":"4nNqfZ","values":[false,0,"",true,"","Main, Folds",0,0,1,[-8.0268333,781.6310005,0],[48.6525127,2.5364518,327.686946]],"curve":"EaseOutQuad","duration":1.5},{"id":"naIOgi","values":[false,0,"",true,"","Main, Angle",0,0,1,[-1.4242252,802.3058269,0],[25.2290106,4.9527544,508.0652731]],"curve":"EaseOutQuad","duration":1.5},{"id":"LeX1TH","values":[false,0,"",true,"","Main, Lineation",0,0,1,[-28.898538,839.6087867,0],[-16.4576311,-2.1881581,417.8802174]],"curve":"EaseOutQuad","duration":1.5},{"id":"1WFyfJ","values":[false,0,"",true,"","Main, Axial",0,0,1,[0.4473929,808.2831372,0],[13.6169511,9.3765986,426.2894962]],"curve":"EaseOutQuad","duration":1.5},{"id":"eWHHk2","values":[false,0,"",true,"","Main, Axial",0,0,1,[-84.8326591,719.8092203,0],[-2.4605882,9.3765986,527.3100245]],"curve":"EaseOutQuad","duration":1.5},{"id":"10kkZH","values":[false,0,"",true,"","Main, XY",0,0,1,[-4.5839595,782.6981608,0],[48.3837985,7.2764295,350.6250322]],"curve":"EaseOutQuad","duration":1.5}]}}]}
+{
+    "asset": {
+        "type": "application/si-dpo-3d.document+json",
+        "version": "1.0",
+        "generator": "Voyager"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "units": "mm",
+            "nodes": [
+                0,
+                1,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "meta": 0,
+            "setup": 0
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                384.1338283,
+                50.8642011,
+                52.4535146
+            ],
+            "rotation": [
+                -0.0438609,
+                0.6589461,
+                0.0385401,
+                0.7499206
+            ],
+            "name": "Camera",
+            "camera": 0
+        },
+        {
+            "rotation": [
+                0,
+                0.6600722,
+                0,
+                0.7512022
+            ],
+            "name": "Lights",
+            "children": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "translation": [
+                -100.1972198,
+                109.7021764,
+                184.7595515
+            ],
+            "rotation": [
+                0.4829741,
+                -0.1070728,
+                0.1880998,
+                0.8484633
+            ],
+            "scale": [
+                39.5144637,
+                39.5144637,
+                39.5144637
+            ],
+            "name": "Key",
+            "light": 0
+        },
+        {
+            "translation": [
+                180.550678,
+                106.7416607,
+                110.5342155
+            ],
+            "rotation": [
+                0.3546969,
+                0.163893,
+                -0.3861077,
+                0.8356136
+            ],
+            "scale": [
+                39.5144637,
+                39.5144637,
+                39.5144637
+            ],
+            "name": "Fill #1",
+            "light": 1
+        },
+        {
+            "translation": [
+                -138.3499223,
+                -180.9230282,
+                65.8505817
+            ],
+            "rotation": [
+                0.9374013,
+                -0.3018693,
+                0.0532277,
+                0.1652891
+            ],
+            "scale": [
+                39.5144637,
+                39.5144637,
+                39.5144637
+            ],
+            "name": "Fill #2",
+            "light": 2
+        },
+        {
+            "translation": [
+                205.9410423,
+                12.2786127,
+                -116.8232212
+            ],
+            "rotation": [
+                0.373256,
+                0.6426073,
+                -0.5786063,
+                0.3360813
+            ],
+            "scale": [
+                39.5144637,
+                39.5144637,
+                39.5144637
+            ],
+            "name": "Rim",
+            "light": 3
+        },
+        {
+            "name": "Main",
+            "model": 0
+        },
+        {
+            "name": "Axial",
+            "model": 1
+        },
+        {
+            "name": "Lineation",
+            "model": 2
+        },
+        {
+            "name": "Folds",
+            "model": 3
+        },
+        {
+            "name": "Angle",
+            "model": 4
+        },
+        {
+            "name": "XY",
+            "model": 5
+        }
+    ],
+    "cameras": [
+        {
+            "type": "perspective",
+            "perspective": {
+                "yfov": 30,
+                "znear": 1.5640836,
+                "zfar": 1564.0835587
+            },
+            "autoNearFar": true
+        }
+    ],
+    "lights": [
+        {
+            "color": [
+                1,
+                0.95,
+                0.9
+            ],
+            "intensity": 0.5,
+            "type": "directional",
+            "shadowEnabled": true,
+            "shadowSize": 395.1446368
+        },
+        {
+            "color": [
+                0.9,
+                0.95,
+                1
+            ],
+            "intensity": 0.7,
+            "type": "directional",
+            "shadowEnabled": true,
+            "shadowSize": 395.1446368
+        },
+        {
+            "color": [
+                0.8,
+                0.85,
+                1
+            ],
+            "intensity": 0.5,
+            "type": "directional"
+        },
+        {
+            "color": [
+                0.85,
+                0.9078313,
+                1
+            ],
+            "intensity": 0.6,
+            "type": "directional"
+        }
+    ],
+    "models": [
+        {
+            "units": "m",
+            "tags": "Main",
+            "boundingBox": {
+                "min": [
+                    -0.1571565,
+                    -0.0506577,
+                    -0.1007016
+                ],
+                "max": [
+                    0.1594069,
+                    0.0552499,
+                    0.0841584
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "Medium",
+                    "assets": [
+                        {
+                            "uri": "main.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "units": "m",
+            "tags": "Axial",
+            "boundingBox": {
+                "min": [
+                    -0.1549956,
+                    -0.0521374,
+                    -0.0718783
+                ],
+                "max": [
+                    0.1625126,
+                    0.0605531,
+                    0.0013296
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "Medium",
+                    "assets": [
+                        {
+                            "uri": "Axial plane.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "k9L3aviIAcXs",
+                    "titles": {
+                        "EN": "Fold axial plane"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Axial"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.0266911,
+                        0.0605531,
+                        -0.044179
+                    ],
+                    "direction": [
+                        -0.0784302,
+                        19.9996895,
+                        -0.0784275
+                    ],
+                    "scale": 0.0096521,
+                    "color": [
+                        0.8166209,
+                        0.8803921,
+                        0.6181086
+                    ]
+                },
+                {
+                    "id": "uQm4eQonR4Yr",
+                    "titles": {
+                        "EN": "New cleavage"
+                    },
+                    "leads": {
+                        "EN": "It develops parallel to fold axial plane\n→ Axial planar cleavage"
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Axial"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.1345485,
+                        0.0402933,
+                        -0.0086912
+                    ],
+                    "direction": [
+                        1.33037,
+                        0.0782544,
+                        19.9555474
+                    ],
+                    "scale": 0.0096521,
+                    "color": [
+                        0.0871605,
+                        0.4614378,
+                        0.2236617
+                    ]
+                }
+            ]
+        },
+        {
+            "units": "m",
+            "tags": "Lineation",
+            "boundingBox": {
+                "min": [
+                    -0.1627444,
+                    -0.0128564,
+                    -0.0873287
+                ],
+                "max": [
+                    0.1559033,
+                    0.0609097,
+                    0.0557089
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "Medium",
+                    "assets": [
+                        {
+                            "uri": "lineation.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "LZNdYuQtKOrl",
+                    "titles": {
+                        "EN": "Hingelines"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Lineation"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        -0.0024115,
+                        0.0601918,
+                        0.0503538
+                    ],
+                    "direction": [
+                        0.0039225,
+                        0.5373789,
+                        -0.8433318
+                    ],
+                    "scale": 0.0096954,
+                    "color": [
+                        0.8470186,
+                        0.9124185,
+                        0.7350038
+                    ]
+                },
+                {
+                    "id": "vu2KU54xWIRl",
+                    "titles": {
+                        "EN": "Intersections*"
+                    },
+                    "leads": {
+                        "EN": "Lineation between folded bedding and new cleavage"
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Lineation"
+                        ]
+                    },
+                    "articleId": "SgvnSMPzHZsi",
+                    "style": "Extended",
+                    "visible": false,
+                    "position": [
+                        0.0828849,
+                        0.0306191,
+                        -0.076786
+                    ],
+                    "direction": [
+                        0.6876613,
+                        0.4597507,
+                        0.5619175
+                    ],
+                    "scale": 0.0096954,
+                    "color": [
+                        0.8470186,
+                        0.9124185,
+                        0.7350038
+                    ]
+                }
+            ]
+        },
+        {
+            "units": "m",
+            "tags": "Folds",
+            "boundingBox": {
+                "min": [
+                    0.0881865,
+                    -0.0321063,
+                    -0.0736369
+                ],
+                "max": [
+                    0.1592964,
+                    0.0377765,
+                    0.0731063
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "Medium",
+                    "assets": [
+                        {
+                            "uri": "curves.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "Xb7KvX2Tixem",
+                    "titles": {
+                        "EN": "Asymmetric folds*"
+                    },
+                    "leads": {
+                        "EN": "Sedimentery package of sub-mm lazers defining a primary planar structure-bedding.\n→this is folded forming asymmetric folds"
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Folds"
+                        ]
+                    },
+                    "style": "Extended",
+                    "visible": false,
+                    "position": [
+                        0.1381867,
+                        0.005391,
+                        -0.0210258
+                    ],
+                    "direction": [
+                        0.9056456,
+                        0.1293779,
+                        0.403816
+                    ],
+                    "scale": 0.0095395,
+                    "color": [
+                        0.7137254,
+                        0.5055554,
+                        0.6827033
+                    ]
+                }
+            ]
+        },
+        {
+            "units": "m",
+            "tags": "Angle",
+            "boundingBox": {
+                "min": [
+                    -0.1686653,
+                    -0.0568276,
+                    -0.0035172
+                ],
+                "max": [
+                    0.1306177,
+                    0.0629,
+                    0.0748551
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "Medium",
+                    "assets": [
+                        {
+                            "uri": "angle.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "RSfiAR6NpRcd",
+                    "titles": {
+                        "EN": "Interlimb agle"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Angle"
+                        ]
+                    },
+                    "position": [
+                        0.1179249,
+                        -0.0095966,
+                        0.0220674
+                    ],
+                    "direction": [
+                        6.4345552,
+                        0.0261431,
+                        1.7436315
+                    ],
+                    "scale": 0.0082933,
+                    "color": [
+                        0.7890994,
+                        0.8640523,
+                        0.5034304
+                    ]
+                },
+                {
+                    "id": "SgvnSMPzHZsi",
+                    "titles": {
+                        "EN": "Axial plane*"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Angle"
+                        ]
+                    },
+                    "articleId": "LeX1TH",
+                    "style": "Extended",
+                    "position": [
+                        -0.0141784,
+                        0.0573625,
+                        0.0070231
+                    ],
+                    "direction": [
+                        -0.1763594,
+                        -0.0195955,
+                        4.9968503
+                    ],
+                    "scale": 0.0082933,
+                    "color": [
+                        0.8705882,
+                        0.8613606,
+                        0.5344445
+                    ]
+                }
+            ]
+        },
+        {
+            "units": "m",
+            "tags": "XY",
+            "boundingBox": {
+                "min": [
+                    0.1160156,
+                    -0.0609252,
+                    -0.1207679
+                ],
+                "max": [
+                    0.1160156,
+                    0.0670748,
+                    0.0992321
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "Medium",
+                    "assets": [
+                        {
+                            "uri": "XZ Scale.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "metas": [
+        {
+            "collection": {
+                "titles": {
+                    "EN": "008"
+                },
+                "intros": {
+                    "EN": ""
+                }
+            },
+            "articles": [
+                {
+                    "id": "V5SUrJrqqH9d",
+                    "uris": {
+                        "EN": "articles/Notes.html"
+                    },
+                    "titles": {
+                        "EN": "General Notes"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                },
+                {
+                    "id": "SgvnSMPzHZsi",
+                    "uris": {
+                        "EN": "articles/Lineation.html"
+                    },
+                    "titles": {
+                        "EN": "Lineation"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                },
+                {
+                    "id": "LeX1TH",
+                    "uris": {
+                        "EN": "articles/Axial.html"
+                    },
+                    "titles": {
+                        "EN": "Axial Plane"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "setups": [
+        {
+            "units": "cm",
+            "interface": {
+                "visible": true,
+                "logo": true,
+                "menu": true,
+                "tools": true
+            },
+            "viewer": {
+                "shader": "Default",
+                "exposure": 1,
+                "toneMapping": true,
+                "gamma": 2,
+                "annotationsVisible": false,
+                "activeTags": "Main"
+            },
+            "reader": {
+                "enabled": false,
+                "position": "Overlay"
+            },
+            "navigation": {
+                "type": "Orbit",
+                "enabled": true,
+                "autoZoom": true,
+                "lightsFollowCamera": true,
+                "autoRotation": false,
+                "orbit": {
+                    "orbit": [
+                        -24,
+                        -26,
+                        0
+                    ],
+                    "offset": [
+                        0,
+                        0,
+                        150
+                    ],
+                    "minOrbit": [
+                        -90,
+                        null,
+                        null
+                    ],
+                    "maxOrbit": [
+                        90,
+                        null,
+                        null
+                    ],
+                    "minOffset": [
+                        null,
+                        null,
+                        0.1
+                    ],
+                    "maxOffset": [
+                        null,
+                        null,
+                        10000
+                    ]
+                }
+            },
+            "background": {
+                "style": "RadialGradient",
+                "color0": [
+                    0.2,
+                    0.25,
+                    0.3
+                ],
+                "color1": [
+                    0.01,
+                    0.03,
+                    0.05
+                ]
+            },
+            "floor": {
+                "visible": false,
+                "position": [
+                    0,
+                    -25,
+                    0
+                ],
+                "size": 50,
+                "color": [
+                    0.6,
+                    0.75,
+                    0.8
+                ],
+                "opacity": 0.5,
+                "receiveShadow": false
+            },
+            "grid": {
+                "visible": false,
+                "color": [
+                    0.5,
+                    0.7,
+                    0.8
+                ]
+            },
+            "tape": {
+                "enabled": false,
+                "startPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "startDirection": [
+                    0,
+                    0,
+                    0
+                ],
+                "endPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "endDirection": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "slicer": {
+                "enabled": false,
+                "axis": "X",
+                "inverted": false,
+                "position": 0.5
+            },
+            "tours": [
+                {
+                    "steps": [
+                        {
+                            "id": "10kkZH",
+                            "titles": {
+                                "EN": "XY"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        },
+                        {
+                            "id": "4nNqfZ",
+                            "titles": {
+                                "EN": "Folds"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        },
+                        {
+                            "id": "naIOgi",
+                            "titles": {
+                                "EN": "Angle2"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        },
+                        {
+                            "id": "LeX1TH",
+                            "titles": {
+                                "EN": "Lineation"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        },
+                        {
+                            "id": "1WFyfJ",
+                            "titles": {
+                                "EN": "Axial"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        },
+                        {
+                            "id": "eWHHk2",
+                            "titles": {
+                                "EN": "Axial2"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        }
+                    ],
+                    "titles": {
+                        "EN": "008"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                }
+            ],
+            "snapshots": {
+                "features": [
+                    "reader",
+                    "viewer",
+                    "navigation"
+                ],
+                "targets": [
+                    "scenes/0/setup/reader/enabled",
+                    "scenes/0/setup/reader/position",
+                    "scenes/0/setup/reader/articleId",
+                    "scenes/0/setup/viewer/annotationsVisible",
+                    "scenes/0/setup/viewer/activeAnnotation",
+                    "scenes/0/setup/viewer/activeTags",
+                    "scenes/0/setup/viewer/shader",
+                    "scenes/0/setup/viewer/variant",
+                    "scenes/0/setup/viewer/exposure",
+                    "scenes/0/setup/navigation/orbit",
+                    "scenes/0/setup/navigation/offset"
+                ],
+                "states": [
+                    {
+                        "id": "4nNqfZ",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, Folds",
+                            0,
+                            0,
+                            1,
+                            [
+                                -8.0268333,
+                                781.6310005,
+                                0
+                            ],
+                            [
+                                48.6525127,
+                                2.5364518,
+                                327.686946
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "naIOgi",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, Angle",
+                            0,
+                            0,
+                            1,
+                            [
+                                -1.4242252,
+                                802.3058269,
+                                0
+                            ],
+                            [
+                                25.2290106,
+                                4.9527544,
+                                508.0652731
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "LeX1TH",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, Lineation",
+                            0,
+                            0,
+                            1,
+                            [
+                                -28.898538,
+                                839.6087867,
+                                0
+                            ],
+                            [
+                                -16.4576311,
+                                -2.1881581,
+                                417.8802174
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "1WFyfJ",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, Axial",
+                            0,
+                            0,
+                            1,
+                            [
+                                0.4473929,
+                                808.2831372,
+                                0
+                            ],
+                            [
+                                13.6169511,
+                                9.3765986,
+                                426.2894962
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "eWHHk2",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, Axial",
+                            0,
+                            0,
+                            1,
+                            [
+                                -84.8326591,
+                                719.8092203,
+                                0
+                            ],
+                            [
+                                -2.4605882,
+                                9.3765986,
+                                527.3100245
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "10kkZH",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, XY",
+                            0,
+                            0,
+                            1,
+                            [
+                                -4.5839595,
+                                782.6981608,
+                                0
+                            ],
+                            [
+                                48.3837985,
+                                7.2764295,
+                                350.6250322
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    }
+                ]
+            }
+        }
+    ]
+}
