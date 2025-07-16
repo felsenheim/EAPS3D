@@ -22,15 +22,15 @@
     "nodes": [
         {
             "translation": [
-                -149.6380656,
-                54.8793421,
-                315.6275407
+                -190.656239,
+                117.9176851,
+                335.4235335
             ],
             "rotation": [
-                -0.0480277,
-                -0.2124879,
-                -0.010457,
-                0.9759267
+                -0.1189268,
+                -0.2475687,
+                -0.0306356,
+                0.9610555
             ],
             "name": "Camera",
             "camera": 0
@@ -38,9 +38,9 @@
         {
             "rotation": [
                 0,
-                -0.2127451,
+                -0.249457,
                 0,
-                0.9771077
+                0.9683859
             ],
             "name": "Lights",
             "children": [
@@ -242,6 +242,28 @@
                         }
                     ]
                 }
+            ],
+            "annotations": [
+                {
+                    "id": "IdfN0BOXAvoT",
+                    "titles": {
+                        "EN": "New Annotation"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "position": [
+                        0.0421113,
+                        -0.0019058,
+                        0.010857
+                    ],
+                    "direction": [
+                        0.9952688,
+                        -0.090479,
+                        -0.0354048
+                    ],
+                    "scale": 0.0059927
+                }
             ]
         },
         {
@@ -330,8 +352,7 @@
                 "toneMapping": true,
                 "gamma": 2,
                 "annotationsVisible": false,
-                "activeTags": "Main",
-                "sortedTags": "Main, Main BW, Composition"
+                "activeTags": "Main"
             },
             "reader": {
                 "enabled": false,
