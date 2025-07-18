@@ -17,27 +17,22 @@
                 9,
                 10
             ],
-            "meta": 0,
+            "meta": 2,
             "setup": 0
         }
     ],
     "nodes": [
         {
             "translation": [
-                -163.4031046,
-                49.835946,
-                293.5993749
+                -70.4594445,
+                33.8615057,
+                216.7814168
             ],
             "rotation": [
-                -0.0870433,
-                -0.2586713,
-                -0.0234111,
-                0.9617508
-            ],
-            "scale": [
-                1,
-                1,
-                1
+                -0.0430002,
+                -0.1550483,
+                -0.0067553,
+                0.9869475
             ],
             "name": "Camera",
             "camera": 0
@@ -45,9 +40,9 @@
         {
             "rotation": [
                 0,
-                -0.2597286,
+                -0.1551954,
                 0,
-                0.9656817
+                0.9878838
             ],
             "name": "Lights",
             "children": [
@@ -59,9 +54,9 @@
         },
         {
             "translation": [
-                -64.4564454,
-                70.5709435,
-                118.8550337
+                -60.7832586,
+                66.5493091,
+                112.0818283
             ],
             "rotation": [
                 0.4829741,
@@ -70,18 +65,18 @@
                 0.8484633
             ],
             "scale": [
-                25.4194864,
-                25.4194864,
-                25.4194864
+                23.9709033,
+                23.9709033,
+                23.9709033
             ],
             "name": "Key",
             "light": 0
         },
         {
             "translation": [
-                116.1474833,
-                68.6664564,
-                71.1061907
+                109.5285734,
+                64.7533532,
+                67.0540541
             ],
             "rotation": [
                 0.3546969,
@@ -90,18 +85,18 @@
                 0.8356136
             ],
             "scale": [
-                25.4194864,
-                25.4194864,
-                25.4194864
+                23.9709033,
+                23.9709033,
+                23.9709033
             ],
             "name": "Fill #1",
             "light": 1
         },
         {
             "translation": [
-                -88.9999166,
-                -116.3870146,
-                42.3613991
+                -83.9280682,
+                -109.7544545,
+                39.9473453
             ],
             "rotation": [
                 0.9374013,
@@ -110,18 +105,19 @@
                 0.1652891
             ],
             "scale": [
-                25.4194864,
-                25.4194864,
-                25.4194864
+                23.9709033,
+                23.9709033,
+                23.9709033
             ],
             "name": "Fill #2",
-            "light": 2
+            "light": 2,
+            "meta": 0
         },
         {
             "translation": [
-                132.4809966,
-                7.8987793,
-                -75.1518814
+                124.9312869,
+                7.4486507,
+                -70.8691925
             ],
             "rotation": [
                 0.373256,
@@ -130,9 +126,9 @@
                 0.3360813
             ],
             "scale": [
-                25.4194864,
-                25.4194864,
-                25.4194864
+                23.9709033,
+                23.9709033,
+                23.9709033
             ],
             "name": "Rim",
             "light": 3
@@ -165,7 +161,8 @@
                 0.7071068
             ],
             "name": "Width",
-            "model": 2
+            "model": 2,
+            "meta": 1
         },
         {
             "rotation": [
@@ -193,8 +190,8 @@
             "type": "perspective",
             "perspective": {
                 "yfov": 30,
-                "znear": 1.0385863,
-                "zfar": 1038.5862521
+                "znear": 0.9217836,
+                "zfar": 921.7836413
             },
             "autoNearFar": true
         }
@@ -206,10 +203,10 @@
                 0.95,
                 0.9
             ],
-            "intensity": 0.5,
+            "intensity": 0.7,
             "type": "directional",
             "shadowEnabled": true,
-            "shadowSize": 254.1948643
+            "shadowSize": 239.7090326
         },
         {
             "color": [
@@ -217,10 +214,10 @@
                 0.95,
                 1
             ],
-            "intensity": 0.7,
+            "intensity": 0.9,
             "type": "directional",
             "shadowEnabled": true,
-            "shadowSize": 254.1948643
+            "shadowSize": 239.7090326
         },
         {
             "color": [
@@ -228,7 +225,7 @@
                 0.85,
                 1
             ],
-            "intensity": 1,
+            "intensity": 1.2,
             "type": "directional"
         },
         {
@@ -237,8 +234,52 @@
                 0.9078313,
                 1
             ],
-            "intensity": 0.6,
+            "intensity": 0.8,
             "type": "directional"
+        }
+    ],
+    "metas": [
+        {
+            "articles": [
+                {
+                    "id": "F9bqxrRRoG8M",
+                    "uris": {
+                        "EN": "articles/Notes.html"
+                    },
+                    "titles": {
+                        "EN": "Notes"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                }
+            ]
+        },
+        {
+            "articles": [
+                {
+                    "id": "KUtmyUsbEBdk",
+                    "uris": {
+                        "EN": "articles/Cevron folds.html"
+                    },
+                    "titles": {
+                        "EN": "Cevron folds"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                }
+            ]
+        },
+        {
+            "collection": {
+                "titles": {
+                    "EN": "001"
+                },
+                "intros": {
+                    "EN": ""
+                }
+            }
         }
     ],
     "models": [
@@ -272,24 +313,64 @@
             ],
             "annotations": [
                 {
-                    "id": "sPTE5wmp3Gqc",
+                    "id": "8iQxmccUkfmd",
                     "titles": {
-                        "EN": "New Annotation"
+                        "EN": "Dark folds"
                     },
                     "leads": {
                         "EN": ""
                     },
+                    "taglist": {
+                        "EN": [
+                            "Main"
+                        ]
+                    },
                     "position": [
-                        0.0421194,
-                        -0.0034125,
-                        0.0150635
+                        0.0439121,
+                        0.0017185,
+                        0.0570394
                     ],
                     "direction": [
                         0.9952688,
                         -0.090479,
                         -0.0354048
                     ],
-                    "scale": 0.0059927
+                    "scale": 0.0059927,
+                    "color": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "id": "ZZJkYWCviuIA",
+                    "titles": {
+                        "EN": "White folds"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Main"
+                        ]
+                    },
+                    "position": [
+                        0.0439021,
+                        -0.0058134,
+                        0.074285
+                    ],
+                    "direction": [
+                        0.9968622,
+                        -0.074276,
+                        -0.0273648
+                    ],
+                    "scale": 0.0059927,
+                    "color": [
+                        0,
+                        0,
+                        0
+                    ]
                 }
             ]
         },
@@ -318,6 +399,40 @@
                             "type": "Model",
                             "mimeType": "model/gltf-binary"
                         }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "HeGrKs9uLaeE",
+                    "titles": {
+                        "EN": "Fold elements*"
+                    },
+                    "leads": {
+                        "EN": "The compositional layering is folded"
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Folds"
+                        ]
+                    },
+                    "style": "Extended",
+                    "visible": false,
+                    "position": [
+                        0.0450838,
+                        0.0062771,
+                        0.0659362
+                    ],
+                    "direction": [
+                        0.9999231,
+                        -0.0039213,
+                        0.0117638
+                    ],
+                    "scale": 0.0042773,
+                    "color": [
+                        0.8439483,
+                        0.8679738,
+                        0.5762381
                     ]
                 }
             ]
@@ -349,6 +464,41 @@
                         }
                     ]
                 }
+            ],
+            "annotations": [
+                {
+                    "id": "PbDeFygLj1ac",
+                    "titles": {
+                        "EN": "Cevron folds*"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Width"
+                        ]
+                    },
+                    "articleId": "KUtmyUsbEBdk",
+                    "style": "Extended",
+                    "visible": false,
+                    "position": [
+                        0.0435177,
+                        0.0106067,
+                        0.0076477
+                    ],
+                    "direction": [
+                        0.9955154,
+                        -0.0905014,
+                        -0.0275439
+                    ],
+                    "scale": 0.0039904,
+                    "color": [
+                        0.87,
+                        0,
+                        0
+                    ]
+                }
             ]
         },
         {
@@ -376,6 +526,228 @@
                             "type": "Model",
                             "mimeType": "model/gltf-binary"
                         }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "H3Jltfmjw2Xs",
+                    "titles": {
+                        "EN": "Limb"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Axial"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.0410339,
+                        -0.0201268,
+                        -0.0297807
+                    ],
+                    "direction": [
+                        0.9979058,
+                        -0.0544577,
+                        -0.0349052
+                    ],
+                    "scale": 0.0055721,
+                    "color": [
+                        0.8396086,
+                        0.8679738,
+                        0.5665939
+                    ]
+                },
+                {
+                    "id": "qUvPWQUyPWJH",
+                    "titles": {
+                        "EN": "Limb"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Axial"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.0421649,
+                        -0.0045816,
+                        -0.018706
+                    ],
+                    "direction": [
+                        0.9979058,
+                        -0.0544577,
+                        -0.0349052
+                    ],
+                    "scale": 0.0055721,
+                    "color": [
+                        0.8396086,
+                        0.8679738,
+                        0.5665939
+                    ]
+                },
+                {
+                    "id": "p2ZJO5K8BDCe",
+                    "titles": {
+                        "EN": "Hinge"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Axial"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.0400605,
+                        -0.0106286,
+                        -0.076626
+                    ],
+                    "direction": [
+                        0.9979058,
+                        -0.0544577,
+                        -0.0349052
+                    ],
+                    "scale": 0.0055721,
+                    "color": [
+                        0.8396086,
+                        0.8679738,
+                        0.5665939
+                    ]
+                },
+                {
+                    "id": "GZ3sA3C8nrHz",
+                    "titles": {
+                        "EN": "Innerlimb angle"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Axial"
+                        ]
+                    },
+                    "visible": false,
+                    "position": [
+                        0.0454964,
+                        0.0179419,
+                        0.0438372
+                    ],
+                    "direction": [
+                        6.6569673,
+                        -0.310846,
+                        -0.1805104
+                    ],
+                    "scale": 0.0055721,
+                    "color": [
+                        0.8396086,
+                        0.8679738,
+                        0.5665939
+                    ]
+                },
+                {
+                    "id": "whuwE33eecuh",
+                    "titles": {
+                        "EN": "Fold axial plane*"
+                    },
+                    "leads": {
+                        "EN": "(= to fold hinge dor cylindrical folds) lies on the fold axial plane of the fold\nLine → linear structure"
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Axial"
+                        ]
+                    },
+                    "style": "Extended",
+                    "visible": false,
+                    "position": [
+                        0.0220597,
+                        -0.0124815,
+                        0.09097
+                    ],
+                    "direction": [
+                        0.3377828,
+                        15.7780436,
+                        4.4376735
+                    ],
+                    "scale": 0.0055721,
+                    "color": [
+                        0.8396086,
+                        0.8679738,
+                        0.5665939
+                    ]
+                },
+                {
+                    "id": "VZ2ePpYkltQs",
+                    "titles": {
+                        "EN": "Tangents*"
+                    },
+                    "leads": {
+                        "EN": "The tangents to the inflection points → overtime the interlimb angle"
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Axial"
+                        ]
+                    },
+                    "style": "Extended",
+                    "visible": false,
+                    "position": [
+                        0.0446727,
+                        0.0128634,
+                        0.0627994
+                    ],
+                    "direction": [
+                        0.0548275,
+                        0.7733436,
+                        0.6316119
+                    ],
+                    "scale": 0.0055721,
+                    "color": [
+                        0.8578574,
+                        0.859477,
+                        0.6529638
+                    ]
+                },
+                {
+                    "id": "y9AEVL4zmEsb",
+                    "titles": {
+                        "EN": "Tangents*"
+                    },
+                    "leads": {
+                        "EN": "The tangents to the inflection points → overtime the interlimb angle"
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Axial"
+                        ]
+                    },
+                    "style": "Extended",
+                    "visible": false,
+                    "position": [
+                        -0.0211331,
+                        -0.0100547,
+                        0.0862446
+                    ],
+                    "direction": [
+                        0.3377828,
+                        15.7780436,
+                        4.4376735
+                    ],
+                    "scale": 0.0055721,
+                    "color": [
+                        0.8578574,
+                        0.859477,
+                        0.6529638
                     ]
                 }
             ]
@@ -408,18 +780,6 @@
                     ]
                 }
             ]
-        }
-    ],
-    "metas": [
-        {
-            "collection": {
-                "titles": {
-                    "EN": "001"
-                },
-                "intros": {
-                    "EN": ""
-                }
-            }
         }
     ],
     "setups": [
@@ -547,6 +907,207 @@
                 "axis": "X",
                 "inverted": false,
                 "position": 0.5
+            },
+            "tours": [
+                {
+                    "steps": [
+                        {
+                            "id": "2Bvn4m",
+                            "titles": {
+                                "EN": "XY Scale"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        },
+                        {
+                            "id": "nIQQ6e",
+                            "titles": {
+                                "EN": "Folds"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        },
+                        {
+                            "id": "9VP9iN",
+                            "titles": {
+                                "EN": "Axial"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        },
+                        {
+                            "id": "CVEECR",
+                            "titles": {
+                                "EN": "Width"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        }
+                    ],
+                    "titles": {
+                        "EN": "001"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                }
+            ],
+            "snapshots": {
+                "features": [
+                    "reader",
+                    "viewer",
+                    "navigation"
+                ],
+                "targets": [
+                    "scenes/0/setup/reader/enabled",
+                    "scenes/0/setup/reader/position",
+                    "scenes/0/setup/reader/articleId",
+                    "scenes/0/setup/viewer/annotationsVisible",
+                    "scenes/0/setup/viewer/activeAnnotation",
+                    "scenes/0/setup/viewer/activeTags",
+                    "scenes/0/setup/viewer/shader",
+                    "scenes/0/setup/viewer/variant",
+                    "scenes/0/setup/viewer/exposure",
+                    "scenes/0/setup/navigation/orbit",
+                    "scenes/0/setup/navigation/offset"
+                ],
+                "states": [
+                    {
+                        "id": "scene-default",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main",
+                            0,
+                            0,
+                            1,
+                            [
+                                -5.4695893,
+                                -26.9242889,
+                                0
+                            ],
+                            [
+                                -44.0483757,
+                                -7.7438135,
+                                187.6836827
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1,
+                        "threshold": 0
+                    },
+                    {
+                        "id": "2Bvn4m",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, XY Scale",
+                            0,
+                            0,
+                            1,
+                            [
+                                0.4820963,
+                                -1.2564755,
+                                0
+                            ],
+                            [
+                                1.6227282,
+                                12.5943359,
+                                279.4651936
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "nIQQ6e",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, Folds",
+                            0,
+                            0,
+                            1,
+                            [
+                                -4.4493034,
+                                -24.9696172,
+                                0
+                            ],
+                            [
+                                -8.26948,
+                                5.4369367,
+                                228.4627798
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "9VP9iN",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, Axial",
+                            0,
+                            0,
+                            1,
+                            [
+                                -14.2657881,
+                                -33.1318815,
+                                0
+                            ],
+                            [
+                                -8.4552663,
+                                3.3666091,
+                                248.5566923
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "CVEECR",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, Width",
+                            0,
+                            0,
+                            1,
+                            [
+                                -0.9083167,
+                                -5.7827817,
+                                0
+                            ],
+                            [
+                                -0.5936512,
+                                13.9083096,
+                                247.3387645
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    }
+                ]
             }
         }
     ]
