@@ -24,15 +24,20 @@
     "nodes": [
         {
             "translation": [
-                -70.4594445,
-                33.8615057,
-                216.7814168
+                -47.8629471,
+                162.1292913,
+                310.5596054
             ],
             "rotation": [
-                -0.0430002,
-                -0.1550483,
-                -0.0067553,
-                0.9869475
+                -0.2074211,
+                -0.0671528,
+                -0.0142738,
+                0.9758398
+            ],
+            "scale": [
+                1,
+                1,
+                1
             ],
             "name": "Camera",
             "camera": 0
@@ -40,9 +45,9 @@
         {
             "rotation": [
                 0,
-                -0.1551954,
+                -0.0686531,
                 0,
-                0.9878838
+                0.9976406
             ],
             "name": "Lights",
             "children": [
@@ -54,9 +59,9 @@
         },
         {
             "translation": [
-                -60.7832586,
-                66.5493091,
-                112.0818283
+                -878.395703,
+                961.7224964,
+                1619.7255412
             ],
             "rotation": [
                 0.4829741,
@@ -65,18 +70,18 @@
                 0.8484633
             ],
             "scale": [
-                23.9709033,
-                23.9709033,
-                23.9709033
+                346.4101615,
+                346.4101615,
+                346.4101615
             ],
             "name": "Key",
             "light": 0
         },
         {
             "translation": [
-                109.5285734,
-                64.7533532,
-                67.0540541
+                1582.8277469,
+                935.7686397,
+                969.016706
             ],
             "rotation": [
                 0.3546969,
@@ -85,18 +90,18 @@
                 0.8356136
             ],
             "scale": [
-                23.9709033,
-                23.9709033,
-                23.9709033
+                346.4101615,
+                346.4101615,
+                346.4101615
             ],
             "name": "Fill #1",
             "light": 1
         },
         {
             "translation": [
-                -83.9280682,
-                -109.7544545,
-                39.9473453
+                -1212.867757,
+                -1586.0920173,
+                577.2901494
             ],
             "rotation": [
                 0.9374013,
@@ -105,9 +110,9 @@
                 0.1652891
             ],
             "scale": [
-                23.9709033,
-                23.9709033,
-                23.9709033
+                346.4101615,
+                346.4101615,
+                346.4101615
             ],
             "name": "Fill #2",
             "light": 2,
@@ -115,9 +120,9 @@
         },
         {
             "translation": [
-                124.9312869,
-                7.4486507,
-                -70.8691925
+                1805.4166264,
+                107.6425139,
+                -1024.1503279
             ],
             "rotation": [
                 0.373256,
@@ -126,9 +131,9 @@
                 0.3360813
             ],
             "scale": [
-                23.9709033,
-                23.9709033,
-                23.9709033
+                346.4101615,
+                346.4101615,
+                346.4101615
             ],
             "name": "Rim",
             "light": 3
@@ -190,8 +195,8 @@
             "type": "perspective",
             "perspective": {
                 "yfov": 30,
-                "znear": 0.9217836,
-                "zfar": 921.7836413
+                "znear": 6.9282032,
+                "zfar": 6928.2032303
             },
             "autoNearFar": true
         }
@@ -206,7 +211,7 @@
             "intensity": 0.7,
             "type": "directional",
             "shadowEnabled": true,
-            "shadowSize": 239.7090326
+            "shadowSize": 3464.1016151
         },
         {
             "color": [
@@ -217,7 +222,7 @@
             "intensity": 0.9,
             "type": "directional",
             "shadowEnabled": true,
-            "shadowSize": 239.7090326
+            "shadowSize": 3464.1016151
         },
         {
             "color": [
@@ -260,10 +265,10 @@
                 {
                     "id": "KUtmyUsbEBdk",
                     "uris": {
-                        "EN": "articles/Cevron folds.html"
+                        "EN": "articles/Chevron folds.html"
                     },
                     "titles": {
-                        "EN": "Cevron folds"
+                        "EN": "Chevron folds"
                     },
                     "leads": {
                         "EN": ""
@@ -469,7 +474,7 @@
                 {
                     "id": "PbDeFygLj1ac",
                     "titles": {
-                        "EN": "Cevron folds*"
+                        "EN": "Chevron folds*"
                     },
                     "leads": {
                         "EN": ""
@@ -543,7 +548,6 @@
                             "Axial"
                         ]
                     },
-                    "visible": false,
                     "position": [
                         0.0410339,
                         -0.0201268,
@@ -574,7 +578,6 @@
                             "Axial"
                         ]
                     },
-                    "visible": false,
                     "position": [
                         0.0421649,
                         -0.0045816,
@@ -605,7 +608,6 @@
                             "Axial"
                         ]
                     },
-                    "visible": false,
                     "position": [
                         0.0400605,
                         -0.0106286,
@@ -636,7 +638,6 @@
                             "Axial"
                         ]
                     },
-                    "visible": false,
                     "position": [
                         0.0454964,
                         0.0179419,
@@ -668,7 +669,6 @@
                         ]
                     },
                     "style": "Extended",
-                    "visible": false,
                     "position": [
                         0.0220597,
                         -0.0124815,
@@ -700,7 +700,6 @@
                         ]
                     },
                     "style": "Extended",
-                    "visible": false,
                     "position": [
                         0.0446727,
                         0.0128634,
@@ -710,38 +709,6 @@
                         0.0548275,
                         0.7733436,
                         0.6316119
-                    ],
-                    "scale": 0.0055721,
-                    "color": [
-                        0.8578574,
-                        0.859477,
-                        0.6529638
-                    ]
-                },
-                {
-                    "id": "y9AEVL4zmEsb",
-                    "titles": {
-                        "EN": "Tangents*"
-                    },
-                    "leads": {
-                        "EN": "The tangents to the inflection points → overtime the interlimb angle"
-                    },
-                    "taglist": {
-                        "EN": [
-                            "Axial"
-                        ]
-                    },
-                    "style": "Extended",
-                    "visible": false,
-                    "position": [
-                        -0.0211331,
-                        -0.0100547,
-                        0.0862446
-                    ],
-                    "direction": [
-                        0.3377828,
-                        15.7780436,
-                        4.4376735
                     ],
                     "scale": 0.0055721,
                     "color": [
@@ -976,33 +943,6 @@
                     "scenes/0/setup/navigation/offset"
                 ],
                 "states": [
-                    {
-                        "id": "scene-default",
-                        "values": [
-                            false,
-                            0,
-                            "",
-                            true,
-                            "",
-                            "Main",
-                            0,
-                            0,
-                            1,
-                            [
-                                -5.4695893,
-                                -26.9242889,
-                                0
-                            ],
-                            [
-                                -44.0483757,
-                                -7.7438135,
-                                187.6836827
-                            ]
-                        ],
-                        "curve": "EaseOutQuad",
-                        "duration": 1,
-                        "threshold": 0
-                    },
                     {
                         "id": "2Bvn4m",
                         "values": [
