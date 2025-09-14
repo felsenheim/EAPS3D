@@ -17,26 +17,24 @@
                 9,
                 10,
                 11,
-                12,
-                13,
-                14
+                12
             ],
-            "meta": 0,
+            "meta": 1,
             "setup": 0
         }
     ],
     "nodes": [
         {
             "translation": [
-                -13.7327263,
-                2.6995861,
-                20.5296388
+                -0.9383433,
+                -168.9974631,
+                13.742721
             ],
             "rotation": [
-                -0.0447339,
-                -0.291649,
-                -0.0136559,
-                0.9553812
+                0.0007263,
+                -0.6756495,
+                0.7372224,
+                0.0006656
             ],
             "scale": [
                 1,
@@ -49,9 +47,9 @@
         {
             "rotation": [
                 0,
-                -0.2919685,
+                0.9999995,
                 0,
-                0.9564279
+                -0.0009852
             ],
             "name": "Lights",
             "children": [
@@ -63,9 +61,9 @@
         },
         {
             "translation": [
-                -7.8698972,
-                8.6164551,
-                14.5117666
+                -40.0582858,
+                43.8583141,
+                73.8658311
             ],
             "rotation": [
                 0.4829741,
@@ -74,18 +72,18 @@
                 0.8484633
             ],
             "scale": [
-                3.1036267,
-                3.1036267,
-                3.1036267
+                15.7976607,
+                15.7976607,
+                15.7976607
             ],
             "name": "Key",
             "light": 0
         },
         {
             "translation": [
-                14.1811846,
-                8.3839242,
-                8.6818068
+                72.1831471,
+                42.6747165,
+                44.1909586
             ],
             "rotation": [
                 0.3546969,
@@ -94,18 +92,18 @@
                 0.8356136
             ],
             "scale": [
-                3.1036267,
-                3.1036267,
-                3.1036267
+                15.7976607,
+                15.7976607,
+                15.7976607
             ],
             "name": "Fill #1",
             "light": 1
         },
         {
             "translation": [
-                -10.8665656,
-                -14.2104305,
-                5.1721725
+                -55.311522,
+                -72.3320106,
+                26.3266928
             ],
             "rotation": [
                 0.9374013,
@@ -114,18 +112,18 @@
                 0.1652891
             ],
             "scale": [
-                3.1036267,
-                3.1036267,
-                3.1036267
+                15.7976607,
+                15.7976607,
+                15.7976607
             ],
             "name": "Fill #2",
             "light": 2
         },
         {
             "translation": [
-                16.175447,
-                0.9644122,
-                -9.1757709
+                82.3340722,
+                4.9089204,
+                -46.7052678
             ],
             "rotation": [
                 0.373256,
@@ -134,9 +132,9 @@
                 0.3360813
             ],
             "scale": [
-                3.1036267,
-                3.1036267,
-                3.1036267
+                15.7976607,
+                15.7976607,
+                15.7976607
             ],
             "name": "Rim",
             "light": 3
@@ -148,13 +146,9 @@
                 0,
                 0.7071068
             ],
-            "scale": [
-                10,
-                10,
-                10
-            ],
             "name": "Main",
-            "model": 0
+            "model": 0,
+            "meta": 0
         },
         {
             "rotation": [
@@ -163,12 +157,7 @@
                 0,
                 0.7071068
             ],
-            "scale": [
-                10,
-                10,
-                10
-            ],
-            "name": "Main blackwhite",
+            "name": "XY",
             "model": 1
         },
         {
@@ -178,12 +167,7 @@
                 0,
                 0.7071068
             ],
-            "scale": [
-                10,
-                10,
-                10
-            ],
-            "name": "XY scale",
+            "name": "Frame",
             "model": 2
         },
         {
@@ -193,12 +177,7 @@
                 0,
                 0.7071068
             ],
-            "scale": [
-                10,
-                10,
-                10
-            ],
-            "name": "Domain 1,2",
+            "name": "Domain 1",
             "model": 3
         },
         {
@@ -208,12 +187,7 @@
                 0,
                 0.7071068
             ],
-            "scale": [
-                10,
-                10,
-                10
-            ],
-            "name": "Arrows",
+            "name": "Domain 2",
             "model": 4
         },
         {
@@ -223,12 +197,7 @@
                 0,
                 0.7071068
             ],
-            "scale": [
-                10,
-                10,
-                10
-            ],
-            "name": "Domain second",
+            "name": "Top",
             "model": 5
         },
         {
@@ -238,43 +207,8 @@
                 0,
                 0.7071068
             ],
-            "scale": [
-                10,
-                10,
-                10
-            ],
-            "name": "bottom",
+            "name": "Bottom",
             "model": 6
-        },
-        {
-            "rotation": [
-                0,
-                -0.7071068,
-                0,
-                0.7071068
-            ],
-            "scale": [
-                10,
-                10,
-                10
-            ],
-            "name": "Top",
-            "model": 7
-        },
-        {
-            "rotation": [
-                0,
-                -0.7071068,
-                0,
-                0.7071068
-            ],
-            "scale": [
-                10,
-                10,
-                10
-            ],
-            "name": "red frame",
-            "model": 8
         }
     ],
     "cameras": [
@@ -282,8 +216,8 @@
             "type": "perspective",
             "perspective": {
                 "yfov": 30,
-                "znear": 0.1333956,
-                "zfar": 133.3955753
+                "znear": 0.6782316,
+                "zfar": 678.2316465
             },
             "autoNearFar": true
         }
@@ -295,10 +229,10 @@
                 0.95,
                 0.9
             ],
-            "intensity": 0.5,
+            "intensity": 0.8,
             "type": "directional",
             "shadowEnabled": true,
-            "shadowSize": 31.0362668
+            "shadowSize": 157.9766068
         },
         {
             "color": [
@@ -309,7 +243,7 @@
             "intensity": 0.7,
             "type": "directional",
             "shadowEnabled": true,
-            "shadowSize": 31.0362668
+            "shadowSize": 157.9766068
         },
         {
             "color": [
@@ -332,18 +266,18 @@
     ],
     "models": [
         {
-            "units": "cm",
-            "tags": "Granite",
+            "units": "m",
+            "tags": "Main",
             "boundingBox": {
                 "min": [
-                    -0.028354,
-                    -0.0252327,
-                    -0.0665249
+                    -0.028356,
+                    -0.025232,
+                    -0.0665257
                 ],
                 "max": [
-                    0.0237206,
-                    0.0344356,
-                    0.069816
+                    0.0237171,
+                    0.0344394,
+                    0.0698198
                 ]
             },
             "derivatives": [
@@ -352,7 +286,7 @@
                     "quality": "Medium",
                     "assets": [
                         {
-                            "uri": "Main model.glb",
+                            "uri": "Main.glb",
                             "type": "Model",
                             "mimeType": "model/gltf-binary"
                         }
@@ -361,251 +295,135 @@
             ],
             "annotations": [
                 {
-                    "id": "tf1dITKTLEzA",
+                    "id": "BRe9U3zrmeVH",
                     "titles": {
-                        "EN": "Point of interest"
+                        "EN": "White"
                     },
                     "leads": {
                         "EN": ""
                     },
                     "taglist": {
                         "EN": [
-                            "POI Bottom"
+                            "Domain 1"
                         ]
                     },
+                    "style": "Extended",
                     "visible": false,
                     "position": [
-                        -0.0153455,
-                        0.0149114,
-                        0.030087
+                        0.0231778,
+                        -0.0176565,
+                        0.0576708
                     ],
                     "direction": [
-                        -0.0364327,
-                        0.8004714,
-                        0.5982626
+                        0.9996684,
+                        -0.0252057,
+                        0.0052675
                     ],
-                    "scale": 0.02,
+                    "scale": 0.0077591,
                     "color": [
-                        0.87,
-                        0,
-                        0
+                        0.7921569,
+                        0.4078431,
+                        0.8941176
                     ]
                 },
                 {
-                    "id": "io8rrJSTOXrW",
+                    "id": "vE0bQGYcY3lQ",
                     "titles": {
-                        "EN": "Point of interest"
+                        "EN": "Black"
                     },
                     "leads": {
                         "EN": ""
                     },
                     "taglist": {
                         "EN": [
-                            "POI Bottom"
+                            "Domain 1"
                         ]
                     },
+                    "style": "Extended",
                     "visible": false,
                     "position": [
-                        -0.0003162,
-                        0.029147,
-                        -0.0241629
+                        0.0231817,
+                        -0.0183469,
+                        0.053434
                     ],
                     "direction": [
-                        0.192408,
-                        0.9641736,
-                        0.1826152
+                        0.9996684,
+                        -0.0252057,
+                        0.0052675
                     ],
-                    "scale": 0.02,
+                    "scale": 0.0077591,
                     "color": [
-                        0.87,
-                        0,
-                        0
+                        0.7955664,
+                        0.4108972,
+                        0.8942325
                     ]
                 },
                 {
-                    "id": "j3hXRGSa2NRr",
+                    "id": "wXV1euGuzV9K",
                     "titles": {
-                        "EN": "Point of interest"
+                        "EN": "White"
                     },
                     "leads": {
                         "EN": ""
                     },
                     "taglist": {
                         "EN": [
-                            "POI Bottom"
+                            "Domain 2"
                         ]
                     },
+                    "style": "Extended",
                     "visible": false,
                     "position": [
-                        0.0124839,
-                        0.0304133,
-                        -0.0236702
-                    ],
-                    "direction": [
-                        -0.2299079,
-                        0.9508171,
-                        -0.2075792
-                    ],
-                    "scale": 0.02,
-                    "color": [
-                        0.87,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    "id": "c2OJUJmIsbuu",
-                    "titles": {
-                        "EN": "Point of interest"
-                    },
-                    "leads": {
-                        "EN": ""
-                    },
-                    "taglist": {
-                        "EN": [
-                            "POI Top"
-                        ]
-                    },
-                    "visible": false,
-                    "position": [
-                        0.0102251,
-                        -0.0236039,
-                        0.0040775
-                    ],
-                    "direction": [
-                        -0.0233931,
-                        -0.9990972,
-                        -0.0354617
-                    ],
-                    "scale": 0.02,
-                    "color": [
-                        0.87,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    "id": "Vxtr3PcOXIGu",
-                    "titles": {
-                        "EN": "white"
-                    },
-                    "leads": {
-                        "EN": ""
-                    },
-                    "taglist": {
-                        "EN": [
-                            "POI Domain"
-                        ]
-                    },
-                    "position": [
-                        0.0236103,
-                        0.0303108,
-                        -0.0290015
+                        0.0236112,
+                        0.0305341,
+                        -0.0288372
                     ],
                     "direction": [
                         0.9999706,
                         -0.003241,
                         0.0069471
                     ],
-                    "scale": 0.03,
+                    "scale": 0.0077591,
                     "color": [
-                        0,
-                        0.0235294,
-                        0.8666667
+                        0.9779182,
+                        0.9450421,
+                        0.699775
                     ]
                 },
                 {
-                    "id": "bG37EdnUkeTr",
+                    "id": "1SEpsdepSUw5",
                     "titles": {
-                        "EN": "black"
+                        "EN": "Black"
                     },
                     "leads": {
                         "EN": ""
                     },
                     "taglist": {
                         "EN": [
-                            "POI Domain"
+                            "Domain 2"
                         ]
                     },
+                    "style": "Extended",
+                    "visible": false,
                     "position": [
-                        0.0235752,
-                        0.0146952,
-                        -0.0463891
+                        0.0235618,
+                        0.0148978,
+                        -0.0456866
                     ],
                     "direction": [
                         0.9994876,
                         -0.0213099,
                         0.0238813
                     ],
-                    "scale": 0.02,
+                    "scale": 0.0077591,
                     "color": [
-                        0,
-                        0.0270276,
-                        0.87
+                        0.9779182,
+                        0.9450421,
+                        0.699775
                     ]
                 },
                 {
-                    "id": "QX5VLFBFJdXO",
-                    "titles": {
-                        "EN": "black"
-                    },
-                    "leads": {
-                        "EN": ""
-                    },
-                    "taglist": {
-                        "EN": [
-                            "POI Domain"
-                        ]
-                    },
-                    "position": [
-                        0.0231752,
-                        -0.0183481,
-                        0.054922
-                    ],
-                    "direction": [
-                        0.9996684,
-                        -0.0252057,
-                        0.0052675
-                    ],
-                    "scale": 0.02,
-                    "color": [
-                        0.5803922,
-                        0,
-                        0.8666667
-                    ]
-                },
-                {
-                    "id": "zaPyKoGDy5ll",
-                    "titles": {
-                        "EN": "white"
-                    },
-                    "leads": {
-                        "EN": ""
-                    },
-                    "taglist": {
-                        "EN": [
-                            "POI Domain"
-                        ]
-                    },
-                    "position": [
-                        0.0231787,
-                        -0.0192299,
-                        0.0500721
-                    ],
-                    "direction": [
-                        0.9996684,
-                        -0.0252057,
-                        0.0052675
-                    ],
-                    "scale": 0.02,
-                    "color": [
-                        0.5813756,
-                        0,
-                        0.8666667
-                    ]
-                },
-                {
-                    "id": "Nju3d9sQ2JX9",
+                    "id": "HkaCS51t0aLn",
                     "titles": {
                         "EN": "Point of interest"
                     },
@@ -614,61 +432,159 @@
                     },
                     "taglist": {
                         "EN": [
-                            "POI Top"
+                            "Top"
                         ]
                     },
-                    "visible": false,
+                    "style": "Extended",
                     "position": [
-                        0.0110087,
-                        -0.0226425,
-                        0.0565662
+                        0.0097842,
+                        -0.0236212,
+                        0.0057454
                     ],
                     "direction": [
-                        -0.2633714,
-                        -0.9646444,
-                        -0.0098277
+                        -0.1910391,
+                        -0.9801452,
+                        0.053097
                     ],
-                    "scale": 0.02,
+                    "scale": 0.0077591,
                     "color": [
-                        0.87,
-                        0,
-                        0
+                        0.7042739,
+                        0.7042739,
+                        0.7042739
                     ]
-                }
-            ]
-        },
-        {
-            "units": "cm",
-            "tags": "Granite BW",
-            "boundingBox": {
-                "min": [
-                    -0.028354,
-                    -0.0252327,
-                    -0.0665249
-                ],
-                "max": [
-                    0.0237206,
-                    0.0344356,
-                    0.069816
-                ]
-            },
-            "derivatives": [
+                },
                 {
-                    "usage": "Web3D",
-                    "quality": "Medium",
-                    "assets": [
-                        {
-                            "uri": "Main model black and white.glb",
-                            "type": "Model",
-                            "mimeType": "model/gltf-binary"
-                        }
+                    "id": "gQM5VrL1XJFS",
+                    "titles": {
+                        "EN": "Point of interest"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Top"
+                        ]
+                    },
+                    "style": "Extended",
+                    "position": [
+                        0.0093088,
+                        -0.0222939,
+                        0.0560386
+                    ],
+                    "direction": [
+                        -0.3681343,
+                        -0.9275167,
+                        -0.0647284
+                    ],
+                    "scale": 0.0077591,
+                    "color": [
+                        0.7042739,
+                        0.7042739,
+                        0.7042739
+                    ]
+                },
+                {
+                    "id": "43UoBII2is0W",
+                    "titles": {
+                        "EN": "Point of interest"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Bottom"
+                        ]
+                    },
+                    "style": "Extended",
+                    "visible": false,
+                    "position": [
+                        0.0129516,
+                        0.0305257,
+                        -0.0235882
+                    ],
+                    "direction": [
+                        -0.2013209,
+                        0.9598055,
+                        -0.1955588
+                    ],
+                    "scale": 0.0077591,
+                    "color": [
+                        0.7042739,
+                        0.7042739,
+                        0.7042739
+                    ]
+                },
+                {
+                    "id": "jGVJZXozy1Mr",
+                    "titles": {
+                        "EN": "Point of interest"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Bottom"
+                        ]
+                    },
+                    "style": "Extended",
+                    "visible": false,
+                    "position": [
+                        0.0001334,
+                        0.0289811,
+                        -0.0238042
+                    ],
+                    "direction": [
+                        0.0432452,
+                        0.9979151,
+                        0.047908
+                    ],
+                    "scale": 0.0077591,
+                    "color": [
+                        0.7042739,
+                        0.7042739,
+                        0.7042739
+                    ]
+                },
+                {
+                    "id": "4uCIphbNFAAt",
+                    "titles": {
+                        "EN": "Point of interest"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Bottom"
+                        ]
+                    },
+                    "style": "Extended",
+                    "visible": false,
+                    "position": [
+                        -0.01475,
+                        0.0142498,
+                        0.0317861
+                    ],
+                    "direction": [
+                        -0.0469502,
+                        0.9442764,
+                        0.3257877
+                    ],
+                    "scale": 0.0077591,
+                    "color": [
+                        0.7042739,
+                        0.7042739,
+                        0.7042739
                     ]
                 }
             ]
         },
         {
-            "units": "cm",
-            "tags": "XY scale",
+            "units": "m",
+            "tags": "XY",
             "boundingBox": {
                 "min": [
                     0.016,
@@ -687,7 +603,7 @@
                     "quality": "Medium",
                     "assets": [
                         {
-                            "uri": "XY scale.glb",
+                            "uri": "XY.glb",
                             "type": "Model",
                             "mimeType": "model/gltf-binary"
                         }
@@ -696,18 +612,18 @@
             ]
         },
         {
-            "units": "cm",
-            "tags": "Domain 1 2",
+            "units": "m",
+            "tags": "Frame",
             "boundingBox": {
                 "min": [
-                    0.0134612,
-                    -0.0354735,
-                    -0.0701032
+                    0.025,
+                    -0.0269156,
+                    -0.0197486
                 ],
                 "max": [
-                    0.024461,
-                    0.036088,
-                    0.0756986
+                    0.025,
+                    -0.0069156,
+                    0.0122514
                 ]
             },
             "derivatives": [
@@ -716,7 +632,7 @@
                     "quality": "Medium",
                     "assets": [
                         {
-                            "uri": "Domaine 12.glb",
+                            "uri": "Frame.glb",
                             "type": "Model",
                             "mimeType": "model/gltf-binary"
                         }
@@ -725,18 +641,18 @@
             ]
         },
         {
-            "units": "cm",
-            "tags": "Arrows",
+            "units": "m",
+            "tags": "Domain 1",
             "boundingBox": {
                 "min": [
-                    0.0228613,
-                    -0.0283591,
-                    -0.0550468
+                    -0.0316263,
+                    -0.0223283,
+                    -0.0700927
                 ],
                 "max": [
-                    0.0311015,
-                    0.0409988,
-                    0.0679355
+                    0.0291237,
+                    -0.01519,
+                    0.0758327
                 ]
             },
             "derivatives": [
@@ -745,7 +661,7 @@
                     "quality": "Medium",
                     "assets": [
                         {
-                            "uri": "Arrows.glb",
+                            "uri": "Domain 01.glb",
                             "type": "Model",
                             "mimeType": "model/gltf-binary"
                         }
@@ -754,18 +670,18 @@
             ]
         },
         {
-            "units": "cm",
-            "tags": " Domain insight",
+            "units": "m",
+            "tags": "Domain 2",
             "boundingBox": {
                 "min": [
-                    0.0212121,
-                    -0.0223297,
-                    -0.0587464
+                    -0.0316263,
+                    -0.017846,
+                    -0.0700927
                 ],
                 "max": [
-                    0.0238157,
+                    0.0291237,
                     0.030037,
-                    0.061915
+                    0.0758327
                 ]
             },
             "derivatives": [
@@ -774,7 +690,7 @@
                     "quality": "Medium",
                     "assets": [
                         {
-                            "uri": "Domain second.glb",
+                            "uri": "Domain 02.glb",
                             "type": "Model",
                             "mimeType": "model/gltf-binary"
                         }
@@ -783,7 +699,36 @@
             ]
         },
         {
-            "units": "cm",
+            "units": "m",
+            "tags": "Top",
+            "boundingBox": {
+                "min": [
+                    0.0011901,
+                    -0.0256695,
+                    -0.0139596
+                ],
+                "max": [
+                    0.0193829,
+                    -0.0213269,
+                    0.0667185
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "Medium",
+                    "assets": [
+                        {
+                            "uri": "Top.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "units": "m",
             "tags": "Bottom",
             "boundingBox": {
                 "min": [
@@ -810,71 +755,13 @@
                     ]
                 }
             ]
-        },
-        {
-            "units": "cm",
-            "tags": "Top",
-            "boundingBox": {
-                "min": [
-                    -0.006444,
-                    -0.0256695,
-                    -0.0139596
-                ],
-                "max": [
-                    0.0193829,
-                    -0.0213269,
-                    0.0667185
-                ]
-            },
-            "derivatives": [
-                {
-                    "usage": "Web3D",
-                    "quality": "Medium",
-                    "assets": [
-                        {
-                            "uri": "Top.glb",
-                            "type": "Model",
-                            "mimeType": "model/gltf-binary"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "units": "cm",
-            "tags": "Frame",
-            "boundingBox": {
-                "min": [
-                    0.025,
-                    -0.0269156,
-                    -0.0197486
-                ],
-                "max": [
-                    0.025,
-                    -0.0069156,
-                    0.0122514
-                ]
-            },
-            "derivatives": [
-                {
-                    "usage": "Web3D",
-                    "quality": "Medium",
-                    "assets": [
-                        {
-                            "uri": "Red frame.glb",
-                            "type": "Model",
-                            "mimeType": "model/gltf-binary"
-                        }
-                    ]
-                }
-            ]
         }
     ],
     "metas": [
         {
             "collection": {
                 "titles": {
-                    "EN": "Granite"
+                    "EN": "Granite Tektonit/Mylonit"
                 },
                 "intros": {
                     "EN": ""
@@ -882,18 +769,28 @@
             },
             "articles": [
                 {
-                    "id": "93C8hos87Zaa",
+                    "id": "7lHHrUB83Fvo",
                     "uris": {
-                        "EN": "articles/new-article-93C8hos87Zaa-EN.html"
+                        "EN": "articles/article.html"
                     },
                     "titles": {
-                        "EN": "GRANITE"
+                        "EN": "Granite Tektonit/Mylonit"
                     },
                     "leads": {
                         "EN": ""
                     }
                 }
             ]
+        },
+        {
+            "collection": {
+                "titles": {
+                    "EN": ""
+                },
+                "intros": {
+                    "EN": ""
+                }
+            }
         }
     ],
     "setups": [
@@ -901,47 +798,46 @@
             "units": "cm",
             "interface": {
                 "visible": true,
-                "logo": false,
+                "logo": true,
                 "menu": true,
                 "tools": true
             },
             "viewer": {
                 "shader": "Default",
                 "exposure": 1,
-                "toneMapping": false,
+                "toneMapping": true,
+                "activeTags": "Main",
                 "gamma": 2,
-                "isWallMountAR": false,
-                "arScale": 1,
-                "activeTags": "Granite, Domain 1 2, POI Domain"
+                "annotationsVisible": false
             },
             "reader": {
                 "enabled": false,
                 "position": "Overlay"
             },
             "navigation": {
+                "type": "Orbit",
                 "enabled": true,
                 "autoZoom": true,
-                "autoRotation": false,
                 "lightsFollowCamera": true,
-                "type": "Orbit",
+                "autoRotation": false,
                 "orbit": {
                     "orbit": [
-                        -5.3616109,
-                        -33.9516889,
+                        -24,
+                        -26,
                         0
                     ],
                     "offset": [
-                        0.0742563,
-                        0.3798548,
-                        24.8433452
+                        0,
+                        0,
+                        150
                     ],
                     "minOrbit": [
-                        -120,
+                        -110,
                         null,
                         null
                     ],
                     "maxOrbit": [
-                        120,
+                        110,
                         null,
                         null
                     ],
@@ -973,19 +869,18 @@
             "floor": {
                 "visible": false,
                 "position": [
-                    0.4949977,
-                    -8.8130216,
-                    0.3894545
+                    0,
+                    0,
+                    0
                 ],
-                "size": 19.4679575,
+                "size": 50,
                 "color": [
                     0.6,
                     0.75,
                     0.8
                 ],
                 "opacity": 0.5,
-                "receiveShadow": false,
-                "autoSize": true
+                "receiveShadow": false
             },
             "grid": {
                 "visible": false,
@@ -996,113 +891,106 @@
                 ]
             },
             "tape": {
-                "enabled": false
+                "enabled": false,
+                "startPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "startDirection": [
+                    0,
+                    0,
+                    0
+                ],
+                "endPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "endDirection": [
+                    0,
+                    0,
+                    0
+                ]
             },
             "slicer": {
                 "enabled": false,
                 "axis": "X",
-                "position": 0.5,
                 "inverted": false,
-                "color": [
-                    0,
-                    0.61,
-                    0.87
-                ]
+                "position": 0.5
             },
             "tours": [
                 {
                     "steps": [
                         {
-                            "id": "NUUOAy",
+                            "id": "cXp6k2",
                             "titles": {
-                                "EN": "Start"
+                                "EN": "XY"
                             },
                             "altTexts": {
-                                "EN": "undefined"
+                                "EN": "Missing content"
                             }
                         },
                         {
-                            "id": "o0dYwG",
+                            "id": "G6hgMZ",
                             "titles": {
-                                "EN": "Frame 2"
+                                "EN": "Main"
                             },
                             "altTexts": {
-                                "EN": "undefined"
+                                "EN": "Missing content"
                             }
                         },
                         {
-                            "id": "w8ceeq",
+                            "id": "fGdfXg",
                             "titles": {
-                                "EN": "Frame Zoom 2"
+                                "EN": "Frame"
                             },
                             "altTexts": {
-                                "EN": "undefined"
+                                "EN": "Missing content"
                             }
                         },
                         {
-                            "id": "ubPRFB",
+                            "id": "LWPKpT",
                             "titles": {
-                                "EN": "Domain 1 and 2 2"
+                                "EN": "Domain 1"
                             },
                             "altTexts": {
-                                "EN": "undefined"
+                                "EN": "Missing content"
                             }
                         },
                         {
-                            "id": "Y4ozWC",
+                            "id": "CHkioX",
                             "titles": {
-                                "EN": "Arrows 2"
+                                "EN": "Domain 2"
                             },
                             "altTexts": {
-                                "EN": "undefined"
+                                "EN": "Missing content"
                             }
                         },
                         {
-                            "id": "NNckF8",
+                            "id": "YdkHPx",
                             "titles": {
-                                "EN": "domain insight 02"
+                                "EN": "Top"
                             },
                             "altTexts": {
-                                "EN": "undefined"
+                                "EN": "Missing content"
                             }
                         },
                         {
-                            "id": "Bdv9ws",
+                            "id": "5ycahg",
                             "titles": {
-                                "EN": "Bottom 2"
+                                "EN": "Bottom"
                             },
                             "altTexts": {
-                                "EN": "undefined"
-                            }
-                        },
-                        {
-                            "id": "85yryW",
-                            "titles": {
-                                "EN": "Top 2"
-                            },
-                            "altTexts": {
-                                "EN": "undefined"
+                                "EN": "Missing content"
                             }
                         }
                     ],
                     "titles": {
-                        "EN": "Granite"
+                        "EN": "003"
                     },
                     "leads": {
                         "EN": ""
-                    },
-                    "taglist": {
-                        "EN": [
-                            "Granite",
-                            "Granite BW",
-                            "XY scale",
-                            "Domain 1 2",
-                            "Arrows",
-                            "Domain insight",
-                            "Bottom",
-                            "Top",
-                            "Frame"
-                        ]
                     }
                 }
             ],
@@ -1127,223 +1015,215 @@
                 ],
                 "states": [
                     {
-                        "id": "NUUOAy",
+                        "id": "cXp6k2",
                         "values": [
                             false,
                             0,
+                            "7lHHrUB83Fvo",
+                            true,
                             "",
-                            false,
-                            "",
-                            "XY scale, Granite",
+                            "Main, XY",
                             0,
                             0,
                             1,
                             [
-                                -0.0141141,
-                                -0.0184714,
+                                3.1720633,
+                                -39.8750621,
                                 0
                             ],
                             [
-                                0.0742563,
-                                0.3798548,
-                                18.6135131
+                                -8.6121405,
+                                4.3652347,
+                                215.3415584
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "o0dYwG",
+                        "id": "G6hgMZ",
                         "values": [
                             false,
                             0,
-                            "",
+                            "7lHHrUB83Fvo",
                             true,
                             "",
-                            "Granite, Frame",
+                            "Main",
                             0,
                             0,
                             1,
                             [
-                                -0.0141141,
-                                -0.0184714,
+                                7.6725653,
+                                -1.9693769,
                                 0
                             ],
                             [
-                                0.0742563,
-                                0.3798548,
-                                18.6135131
+                                -1.9384365,
+                                5.2732833,
+                                165.32223
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "w8ceeq",
+                        "id": "fGdfXg",
                         "values": [
                             false,
                             0,
-                            "",
+                            "7lHHrUB83Fvo",
                             true,
                             "",
-                            "Frame, Granite",
+                            "Main, Frame",
                             0,
                             0,
                             1,
                             [
-                                -0.0141141,
-                                -0.0184714,
+                                2.0572917,
+                                -2.7424693,
                                 0
                             ],
                             [
-                                0.3756688,
-                                -1.6525459,
-                                8.7469812
+                                3.8367726,
+                                -15.9179737,
+                                69.8089539
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "ubPRFB",
+                        "id": "LWPKpT",
                         "values": [
                             false,
                             0,
-                            "",
+                            "7lHHrUB83Fvo",
                             true,
                             "",
-                            "Granite, Domain 1 2",
+                            "Main, Domain 1",
                             0,
                             0,
                             1,
                             [
-                                -0.0141141,
-                                -0.0184714,
+                                15.6381777,
+                                -41.1520451,
                                 0
                             ],
                             [
-                                0.0742563,
-                                0.3798548,
-                                22.8023539
+                                -13.187562,
+                                -2.3259597,
+                                166.1460036
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "Y4ozWC",
+                        "id": "CHkioX",
                         "values": [
                             false,
                             0,
-                            "",
+                            "7lHHrUB83Fvo",
                             true,
                             "",
-                            "Granite, Domain 1 2, POI Domain",
+                            "Main, Domain 2",
                             0,
                             0,
                             1,
                             [
-                                -0.0141141,
-                                -0.0184714,
+                                -0.0793108,
+                                -6.9268694,
                                 0
                             ],
                             [
-                                0.0742563,
-                                0.3798548,
-                                22.8023539
+                                -0.8948001,
+                                4.6863942,
+                                168.0460623
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "NNckF8",
+                        "id": "YdkHPx",
                         "values": [
                             false,
                             0,
-                            "",
+                            "7lHHrUB83Fvo",
                             true,
                             "",
-                            "Domain 1 2, Granite BW, Domain insight",
+                            "Main, Top",
                             0,
                             0,
                             1,
                             [
-                                -1.1896468,
-                                -28.7548072,
+                                94.9907399,
+                                -179.887108,
                                 0
                             ],
                             [
-                                -0.2781853,
-                                0.0762248,
-                                19.6251193
+                                0.9654193,
+                                1.0131392,
+                                169.5521363
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "Bdv9ws",
+                        "id": "5ycahg",
                         "values": [
                             false,
                             0,
-                            "",
+                            "7lHHrUB83Fvo",
                             true,
                             "",
-                            "Granite, Bottom, POI Bottom",
+                            "Main, Bottom",
                             0,
                             0,
                             1,
                             [
-                                -88.035704,
-                                178.958374,
+                                -90.6448676,
+                                -181.7987446,
                                 0
                             ],
                             [
-                                0.5096437,
-                                0.2577201,
-                                18.7886531
+                                0.3023635,
+                                1.0788601,
+                                150.4847098
                             ]
                         ],
                         "curve": "EaseOutQuad",
                         "duration": 1.5
                     },
                     {
-                        "id": "85yryW",
+                        "id": "scene-default",
                         "values": [
                             false,
                             0,
                             "",
-                            true,
+                            false,
                             "",
-                            "Granite, Top, POI Top",
+                            "Main",
                             0,
                             0,
                             1,
                             [
-                                88.6168143,
-                                179.9539874,
+                                -24,
+                                -26,
                                 0
                             ],
                             [
-                                0.3884007,
-                                0.0530771,
-                                18.6901932
+                                -2.4971423,
+                                4.7599418,
+                                213.6436182
                             ]
                         ],
                         "curve": "EaseOutQuad",
-                        "duration": 1.5
+                        "duration": 1,
+                        "threshold": 0
                     }
                 ]
-            },
-            "environment": {
-                "index": 0
-            },
-            "language": {
-                "language": "EN"
-            },
-            "audio": {
-                "narrationId": ""
             }
         }
     ]
