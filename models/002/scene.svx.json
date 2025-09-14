@@ -230,7 +230,9 @@
     "metas": [
         {
             "collection": {
-                "titles": {},
+                "titles": {
+                    "EN": "Runzelschieferung"
+                },
                 "intros": {
                     "EN": ""
                 }
